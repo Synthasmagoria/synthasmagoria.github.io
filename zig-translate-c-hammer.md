@@ -1,3 +1,7 @@
+# A solution to translate-c's current missing features
+When you try adding C code to your Zig project that uses bit fields then it will result in an opaque struct. Such was the case when I tried using ZPL. The base node class `zpl_adt_node` had a bit field and so I couldn't actually access its members in Zig. The solution is to mimick the memory layout of the opaque C struct in Zig and then cast the opaque type to it. Here's how I discovered this:
+
+## Trying to parse JSON5 out of all things
 When I started looking into JSON5 parsing in Zig one thing quickly became obvious: None of the parsers have up-to-date support of the JSON5 standard.
 - std.json doesn't support JSON5
 - [Himujjal's zig-json5](https://github.com/Himujjal/zig-json5/tree/master) can't parse the example snippet from json5.org
@@ -11,21 +15,21 @@ ZPL can be used as a single header library. In fact that's the recommended way t
 curl -L https://zpl.pw/ > zpl.h
 ```
 How to go about including this library in the project wasn't immediately obvious though. I tried just adding the header file as a C source, and doing a @cImport. And although it seemed to work at first it resulted in two problems.
-1) Only ZPL declarations were added to the project, not implementations.
-2) `zpl_adt_node` - which is a generic struct used for various data structure things in the ZPL library - was made opaque. The reason being that translate-c doesn't support the conversion of C bitfields.
+1. Only ZPL declarations were added to the project, not implementations.
+2. `zpl_adt_node` - which is a generic struct used for various data structure things in the ZPL library - was made opaque. The reason being that translate-c doesn't support the conversion of C bitfields.
 
-#### Adding the implementations
+### Adding the implementations
 Issue '1' is caused by the ZPL_IMPLEMENTATION not being defined. Which means that the compiler has no way to include the implementations in the file, they'd be preprocessor-macrod out. There are two ways to fix this.
-1) `zig translate-c` with a `-D` flag that defines ZPL_IMPLEMENTATION
-2) Create zpl.c, define ZPL_IMPLEMENTATION, include zpl.h, and add it as a C source file in build.zig
+1. `zig translate-c` with a `-D` flag that defines ZPL_IMPLEMENTATION
+2. Create zpl.c, define ZPL_IMPLEMENTATION, include zpl.h, and add it as a C source file in build.zig
 The latter is preferred over the former because it would run `translate-c` on the zpl implementation code. Which is unnecessary because it creates more generated code in the project and `translate-c` is apparently not meant to translate complicated implementation code. (I read this somewhere, but I don't have the link anymore).
 
-#### Testing if ZPL actually works for me
+### Testing if ZPL actually works for me
 At this point issue '2' was bugging me. I could immediately spend my time replicating the memory layout of `zpl_adt_node` is Zig, however I wanted to make sure that ZPL JSON5 can actually parse a YYP file.
 Yeah sure, I may not be able to allocate an instance of `zpl_adt_node` in order to receieve data from `zpl_json_parse`. However, I could just allocate a buffer, cast the pointer, and pass it as if it were a `zpl_adt_node`. As I'm not well versed in low level programming, stuff like this is not always immediately obvious. At this level it is certainly cool to be able to think of everything in terms of memory, instead of having to deal with abstract data structures.
 
 So I wrote the following code:
-```ts
+```zig
 const std = @import("std");
 const Allocator = std.mem.Allocator;
 const c = @cImport({@cInclude("zpl.h");});
@@ -57,11 +61,6 @@ Writes the number 4096, meaning that it most likely allocated 4096 bytes behind 
 
 ## Idea: just recreate the struct
 The solution I came up with for tackling the issue of `zpl_adt_node` not being translated by `translate-c` was to just create it myself. Zig has bitfields and packed structs, so I should theoretically be able to recreate the C struct exactly, right?
-
-Reading list:
-- packed struct
-- bitfields
-- extern struct
 
 To start out with I added the struct a C file and sizeof'd it. The result was 32.
 ```c
@@ -98,7 +97,7 @@ union {
 }; = 8 bytes
 ```
 Recreating this in Zig was a matter of using a combination of extern/packed structs/unions.
-```ts
+```zig
 const ZplAdtNode = extern struct {
     name: [*:0]u8,
     parent: *ZplAdtNode,
@@ -117,7 +116,7 @@ const ZplAdtNode = extern struct {
 };
 ```
 With this I was able to parse the first two nodes of my JSON5 sample code
-```ts
+```zig
 var json5 =
     \\{
     \\  "foo": [
@@ -143,3 +142,7 @@ pub fn main() !void {
 
 With this working I could start using zpl for real to create the program I wanted.
 *Sidenote: zpl_array_count() blew my mind when I found out how it works*
+
+#### Then I went on to make these two tools:
+- [Gamemaker Path Corrector](https://github.com/Synthasmagoria/gamemaker-path-corrector)
+- [Gamemaker Project Cleaner](https://github.com/Synthasmagoria/gamemaker-project-cleaner)
