@@ -8,8 +8,16 @@ That's what this page is here for.
 You can find my games on itch.io: https://synthasmagoria.itch.io/
 The source code for most games is also available from there.
 
+## Videos / presentations
+I'll sometimes make videos on various topics.
+They should all be on my youtube channel.
+Here are the best ones:
+- [Improving Gamemaker Studio 1 compile times with GMCollage](https://www.youtube.com/watch?v=9xO-IdB6qrk)
+- [Bringing Signals to Gamemaker](https://www.youtube.com/watch?v=B_rbNxNllgA)
+- [P2 Technical dev commentary](https://www.youtube.com/watch?v=6BTvtxywboQ)
+
 ## Writing
-[Making up for Zig's translate-c unimplemented features](zig-translate-c-hammer.md)
+- [Making up for Zig's translate-c unimplemented features](zig-translate-c-hammer.md)
 
 ## Tools
 - [GMCollage](https://synthasmagoria.itch.io/gmcollage)
