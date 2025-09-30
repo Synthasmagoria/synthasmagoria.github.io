@@ -12,7 +12,7 @@ The source code for most games is also available from there.
 I'll sometimes make videos on various topics.
 They should all be on my youtube channel.
 Here are the best ones:
-![GMCollage](img/video-gmcollage-bar.jpg "Improving Gamemaker Studio 1 compile times with GMCollage")
+[Improving Gamemaker Studio 1 compile times with GMCollage](![GMCollage](img/video-gmcollage-bar.jpg "Improving Gamemaker Studio 1 compile times with GMCollage"))
 - [Bringing Signals to Gamemaker](https://www.youtube.com/watch?v=B_rbNxNllgA)
 - [P2 Technical dev commentary](https://www.youtube.com/watch?v=6BTvtxywboQ)
 
