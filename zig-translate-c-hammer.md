@@ -18,13 +18,13 @@ How to go about including this library in the project wasn't immediately obvious
 1. Only ZPL declarations were added to the project, not implementations.
 2. `zpl_adt_node` - which is a generic struct used for various data structure things in the ZPL library - was made opaque. The reason being that translate-c doesn't support the conversion of C bitfields.
 
-### Adding the implementations
+## Adding the implementations
 Issue '1' is caused by the ZPL_IMPLEMENTATION not being defined. Which means that the compiler has no way to include the implementations in the file, they'd be preprocessor-macrod out. There are two ways to fix this.
 1. `zig translate-c` with a `-D` flag that defines ZPL_IMPLEMENTATION
 2. Create zpl.c, define ZPL_IMPLEMENTATION, include zpl.h, and add it as a C source file in build.zig
 The latter is preferred over the former because it would run `translate-c` on the zpl implementation code. Which is unnecessary because it creates more generated code in the project and `translate-c` is apparently not meant to translate complicated implementation code. (I read this somewhere, but I don't have the link anymore).
 
-### Testing if ZPL actually works for me
+## Testing if ZPL actually works for me
 At this point issue '2' was bugging me. I could immediately spend my time replicating the memory layout of `zpl_adt_node` is Zig, however I wanted to make sure that ZPL JSON5 can actually parse a YYP file.
 Yeah sure, I may not be able to allocate an instance of `zpl_adt_node` in order to receieve data from `zpl_json_parse`. However, I could just allocate a buffer, cast the pointer, and pass it as if it were a `zpl_adt_node`. As I'm not well versed in low level programming, stuff like this is not always immediately obvious. At this level it is certainly cool to be able to think of everything in terms of memory, instead of having to deal with abstract data structures.
 
@@ -143,6 +143,6 @@ pub fn main() !void {
 With this working I could start using zpl for real to create the program I wanted.
 *Sidenote: zpl_array_count() blew my mind when I found out how it works*
 
-#### Then I went on to make these two tools:
+## Then I went on to make these two tools:
 - [Gamemaker Path Corrector](https://github.com/Synthasmagoria/gamemaker-path-corrector)
 - [Gamemaker Project Cleaner](https://github.com/Synthasmagoria/gamemaker-project-cleaner)
