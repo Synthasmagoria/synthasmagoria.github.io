@@ -1,0 +1,261 @@
+<!doctype html>
+<head>
+    <title>Synthasmablogia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+    <h1 id="a-solution-to-translate-c-s-current-missing-features">
+        A solution to translate-c&#39;s current missing features
+    </h1>
+    <p>
+        When you try adding C code to your Zig project that uses bit fields then
+        it will result in an opaque struct. Such was the case when I tried using
+        ZPL. The base node class <code>zpl_adt_node</code> had a bit field and
+        so I couldn&#39;t actually access its members in Zig. The solution is to
+        mimick the memory layout of the opaque C struct in Zig and then cast the
+        opaque type to it. Here&#39;s how I discovered this:
+    </p>
+    <h2 id="trying-to-parse-json5-out-of-all-things">
+        Trying to parse JSON5 out of all things
+    </h2>
+    <p>
+        When I started looking into JSON5 parsing in Zig one thing quickly
+        became obvious: None of the parsers have up-to-date support of the JSON5
+        standard.
+    </p>
+    <ul>
+        <li>std.json doesn&#39;t support JSON5</li>
+        <li>
+            <a href="https://github.com/Himujjal/zig-json5/tree/master"
+                >Himujjal&#39;s zig-json5</a
+            >
+            can&#39;t parse the example snippet from json5.org
+        </li>
+        <li>
+            <a href="https://github.com/berdon/zig-json"
+                >berdon&#39;s zig-json</a
+            >
+            only supports the JSON5 1.0.0 spec from 2018
+        </li>
+    </ul>
+    <p>
+        Then I remembered that Zig has interoperability with C. So I broadened
+        my search to include C libraries. And I quickly found ZPL, and its JSON5
+        parser.
+    </p>
+    <h2 id="getting-zpl-to-work-in-zig">Getting ZPL to work in Zig</h2>
+    <p>
+        ZPL can be used as a single header library. In fact that&#39;s the
+        recommended way to use it as listed on their github.
+    </p>
+    <pre><code>curl -L <span class="hljs-string">https:</span><span class="hljs-comment">//zpl.pw/ &gt; zpl.h</span>
+</code></pre>
+    <p>
+        How to go about including this library in the project wasn&#39;t
+        immediately obvious though. I tried just adding the header file as a C
+        source, and doing a @cImport. And although it seemed to work at first it
+        resulted in two problems.
+    </p>
+    <ol>
+        <li>
+            Only ZPL declarations were added to the project, not
+            implementations.
+        </li>
+        <li>
+            <code>zpl_adt_node</code> - which is a generic struct used for
+            various data structure things in the ZPL library - was made opaque.
+            The reason being that translate-c doesn&#39;t support the conversion
+            of C bitfields.
+        </li>
+    </ol>
+    <h2 id="adding-the-implementations">Adding the implementations</h2>
+    <p>
+        Issue &#39;1&#39; is caused by the ZPL_IMPLEMENTATION not being defined.
+        Which means that the compiler has no way to include the implementations
+        in the file, they&#39;d be preprocessor-macrod out. There are two ways
+        to fix this.
+    </p>
+    <ol>
+        <li>
+            <code>zig translate-c</code> with a <code>-D</code> flag that
+            defines ZPL_IMPLEMENTATION
+        </li>
+        <li>
+            Create zpl.c, define ZPL_IMPLEMENTATION, include zpl.h, and add it
+            as a C source file in build.zig The latter is preferred over the
+            former because it would run <code>translate-c</code> on the zpl
+            implementation code. Which is unnecessary because it creates more
+            generated code in the project and <code>translate-c</code> is
+            apparently not meant to translate complicated implementation code.
+            (I read this somewhere, but I don&#39;t have the link anymore).
+        </li>
+    </ol>
+    <h2 id="testing-if-zpl-actually-works-for-me">
+        Testing if ZPL actually works for me
+    </h2>
+    <p>
+        At this point issue &#39;2&#39; was bugging me. I could immediately
+        spend my time replicating the memory layout of
+        <code>zpl_adt_node</code> is Zig, however I wanted to make sure that ZPL
+        JSON5 can actually parse a YYP file. Yeah sure, I may not be able to
+        allocate an instance of <code>zpl_adt_node</code> in order to receieve
+        data from <code>zpl_json_parse</code>. However, I could just allocate a
+        buffer, cast the pointer, and pass it as if it were a
+        <code>zpl_adt_node</code>. As I&#39;m not well versed in low level
+        programming, stuff like this is not always immediately obvious. At this
+        level it is certainly cool to be able to think of everything in terms of
+        memory, instead of having to deal with abstract data structures.
+    </p>
+    <p>So I wrote the following code:</p>
+    <pre><code class="lang-zig"><span class="hljs-keyword">const</span> std = <span class="hljs-meta">@import</span>(<span class="hljs-string">"std"</span>);
+<span class="hljs-keyword">const</span> Allocator = std.mem.Allocator;
+<span class="hljs-keyword">const</span> c = <span class="hljs-meta">@cImport</span>({<span class="hljs-meta">@cInclude</span>(<span class="hljs-string">"zpl.h"</span>);});
+<span class="hljs-keyword">const</span> <span class="hljs-built_in">print</span> = std.debug.<span class="hljs-built_in">print</span>;
+
+fn file_read_to_end_alloc(path: []<span class="hljs-keyword">const</span> u8, alloc: Allocator) ![:<span class="hljs-number">0</span>]<span class="hljs-keyword">const</span> u8 {
+    <span class="hljs-keyword">const</span> f = <span class="hljs-keyword">try</span> std.fs.cwd().openFile(path, .{});
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">try</span> f.readToEndAllocOptions(alloc, std.math.maxInt(usize), <span class="hljs-keyword">null</span>, <span class="hljs-meta">@alignOf</span>(u8), <span class="hljs-number">0</span>);
+}
+
+pub fn main() !<span class="hljs-keyword">void</span> {
+    <span class="hljs-keyword">const</span> a = std.heap.page_allocator;
+    <span class="hljs-keyword">const</span> k3plus_string = <span class="hljs-keyword">try</span> file_read_to_end_alloc(<span class="hljs-string">"k3plus.yyp"</span>, a);
+    <span class="hljs-keyword">const</span> node_buffer = <span class="hljs-keyword">try</span> a.alloc(u8, <span class="hljs-number">32</span>);
+    <span class="hljs-keyword">const</span> zpl_a = c.zpl_heap_allocator();
+    <span class="hljs-keyword">const</span> err = c.zpl_json_parse(
+        <span class="hljs-meta">@ptrCast</span>(node_buffer.ptr),
+        <span class="hljs-meta">@constCast</span>(<span class="hljs-meta">@ptrCast</span>(k3plus_string.ptr)),
+        zpl_a);
+    <span class="hljs-built_in">print</span>(<span class="hljs-string">"{d}\n"</span>, .{err});
+}
+</code></pre>
+    <p>
+        And indeed, the error code was 0, aka. ZPL_JSON_NO_ERROR Well, it was
+        zero no matter how little memory I allocated for the buffer. Which is a
+        little concerning considering its probably writing into other parts of
+        memory beyond my buffer without triggering a segmentation fault. My
+        theory is that the page_allocator probably asks for more than 32 bits of
+        memory, even though I only ask for that much. And running the following
+        command in the terminal:
+    </p>
+    <pre><code class="lang-shell"><span class="hljs-attribute">getconf</span> PAGE_SIZE
+</code></pre>
+    <p>
+        Writes the number 4096, meaning that it most likely allocated 4096 bytes
+        behind the scenes. Though that&#39;s only an assumption for now.
+    </p>
+    <h2 id="idea-just-recreate-the-struct">Idea: just recreate the struct</h2>
+    <p>
+        The solution I came up with for tackling the issue of
+        <code>zpl_adt_node</code> not being translated by
+        <code>translate-c</code> was to just create it myself. Zig has bitfields
+        and packed structs, so I should theoretically be able to recreate the C
+        struct exactly, right?
+    </p>
+    <p>
+        To start out with I added the struct a C file and sizeof&#39;d it. The
+        result was 32.
+    </p>
+    <pre><code class="lang-c">typedef <span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">zpl_adt_node</span> {</span>
+    char const *name;
+    <span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">zpl_adt_node</span> *<span class="hljs-title">parent</span>;</span>
+    uint8_t <span class="hljs-keyword">type</span>        :<span class="hljs-number">4</span>;
+    uint8_t props       :<span class="hljs-number">4</span>;
+    <span class="hljs-class"><span class="hljs-keyword">union</span> {</span>
+        char const *string;
+        <span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">zpl_adt_node</span> *<span class="hljs-title">nodes</span>;</span>
+        <span class="hljs-class"><span class="hljs-keyword">struct</span> {</span>
+            <span class="hljs-class"><span class="hljs-keyword">union</span> {</span>
+                double real;
+                double integer;
+            };
+        };
+    };
+} zpl_adt_node;
+</code></pre>
+    <p>This makes sense when compiling for 64bit:</p>
+    <pre><code><span class="hljs-built_in">char</span> <span class="hljs-keyword">const</span>* = <span class="hljs-number">8</span> bytes
+
+<span class="hljs-keyword">struct</span> zpl_adt_node* = <span class="hljs-number">8</span> bytes
+
+uint8_t :<span class="hljs-number">4</span>;
+uint8_t :<span class="hljs-number">4</span>; = <span class="hljs-number">1</span> <span class="hljs-keyword">byte</span> + <span class="hljs-number">7</span> bytes offset to <span class="hljs-keyword">align</span>
+
+<span class="hljs-keyword">union</span> {
+    <span class="hljs-built_in">char</span> <span class="hljs-keyword">const</span>*
+    <span class="hljs-keyword">struct</span> zpl_adt_node*
+    <span class="hljs-keyword">struct</span> {<span class="hljs-keyword">union</span> {<span class="hljs-built_in">double</span> <span class="hljs-built_in">real</span>; <span class="hljs-built_in">double</span> integer;};};
+}; = <span class="hljs-number">8</span> bytes
+</code></pre>
+    <p>
+        Recreating this in Zig was a matter of using a combination of
+        extern/packed structs/unions.
+    </p>
+    <pre><code class="lang-zig">const ZplAdtNode = extern <span class="hljs-class"><span class="hljs-keyword">struct</span> {</span>
+    <span class="hljs-symbol">name:</span> [*:<span class="hljs-number">0</span>]u8,
+    <span class="hljs-symbol">parent:</span> *ZplAdtNode,
+    <span class="hljs-symbol">properties:</span> packed <span class="hljs-class"><span class="hljs-keyword">struct</span> {</span>
+        <span class="hljs-symbol">type:</span> u4,
+        <span class="hljs-symbol">props:</span> u4,
+    },
+    <span class="hljs-symbol">data:</span> extern <span class="hljs-class"><span class="hljs-keyword">union</span> {</span>
+        <span class="hljs-symbol">string:</span> [*:<span class="hljs-number">0</span>]u8,
+        <span class="hljs-symbol">nodes:</span> [*]ZplAdtNode,
+        <span class="hljs-symbol">value:</span> extern <span class="hljs-class"><span class="hljs-keyword">union</span> {</span>
+            <span class="hljs-symbol">real:</span> f64,
+            <span class="hljs-symbol">integer:</span> f64
+        }
+    }
+};
+</code></pre>
+    <p>
+        With this I was able to parse the first two nodes of my JSON5 sample
+        code
+    </p>
+    <pre><code class="lang-zig"><span class="hljs-keyword">var</span> json5 =
+    <span class="hljs-string">\\{</span>
+    <span class="hljs-string">\\</span>  <span class="hljs-string">"foo"</span>: [
+    <span class="hljs-string">\\</span>    <span class="hljs-literal">null</span>,
+    <span class="hljs-string">\\</span>    <span class="hljs-literal">true</span>,
+    <span class="hljs-string">\\</span>    <span class="hljs-literal">false</span>,
+    <span class="hljs-string">\\</span>    <span class="hljs-string">"bar"</span>,
+    <span class="hljs-string">\\</span>    {
+    <span class="hljs-string">\\</span>      <span class="hljs-string">"baz"</span>: -<span class="hljs-number">13e+37</span>
+    <span class="hljs-string">\\</span>    }
+    <span class="hljs-string">\\</span>  ]
+    <span class="hljs-string">\\}</span>
+.*;
+
+pub fn main() !<span class="hljs-literal">void</span> {
+    <span class="hljs-keyword">var</span> node: ZplAdtNode = <span class="hljs-literal">undefined</span>;
+    <span class="hljs-keyword">const</span> node_ptr: *c.zpl_adt_node = @ptrCast(&amp;node);
+    <span class="hljs-keyword">const</span> a = c.zpl_heap_allocator();
+    _ = c.zpl_json_parse(node_ptr, &amp;json5[<span class="hljs-number">0</span>], a);
+    _ = @as([*]ZplAdtNode, @ptrCast(node.data.nodes))[<span class="hljs-number">0</span>];
+}
+</code></pre>
+    <p>
+        With this working I could start using zpl for real to create the program
+        I wanted.
+        <em
+            >Sidenote: zpl_array_count() blew my mind when I found out how it
+            works</em
+        >
+    </p>
+    <h2 id="then-i-went-on-to-make-these-two-tools-">
+        Then I went on to make these two tools:
+    </h2>
+    <ul>
+        <li>
+            <a href="https://github.com/Synthasmagoria/gamemaker-path-corrector"
+                >Gamemaker Path Corrector</a
+            >
+        </li>
+        <li>
+            <a
+                href="https://github.com/Synthasmagoria/gamemaker-project-cleaner"
+                >Gamemaker Project Cleaner</a
+            >
+        </li>
+    </ul>
+</body>
