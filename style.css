@@ -9,8 +9,12 @@
     background: #00000040;
 }
 
+.outlined-image {
+    border: 1px solid #fff;
+}
+
 .article-content img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
