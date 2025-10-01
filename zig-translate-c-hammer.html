@@ -2,10 +2,12 @@
 <head>
     <title>Synthasmablogia</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="style.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+    <link href="style.css" rel="stylesheet" />
 </head>
 <body>
+    <canvas id="background"></canvas>
+    <script src="app.js"></script>
     <h1 id="a-solution-to-translate-c-s-current-missing-features">
         A solution to translate-c&#39;s current missing features
     </h1>
@@ -122,7 +124,12 @@ const print = std.debug.print;
 
 fn file_read_to_end_alloc(path: []const u8, alloc: Allocator) ![:0]const u8 {
     const f = try std.fs.cwd().openFile(path, .{});
-    return try f.readToEndAllocOptions(alloc, std.math.maxInt(usize), null, @alignOf(u8), 0);
+    return try f.readToEndAllocOptions(
+        alloc,
+        std.math.maxInt(usize),
+        null,
+        @alignOf(u8), 0
+    );
 }
 
 pub fn main() !void {
