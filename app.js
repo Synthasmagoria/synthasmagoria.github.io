@@ -37,11 +37,14 @@ const fsSource = `
   }
 
   #define ZOOM 360.0
+  #define BLOCK_SIZE 12.0
 
   void main() {
-      vec2 mult = vec2(ZOOM / 32.0);
-      vec2 pos = floor(fragPosition * ZOOM / mult) * mult;
+      float ratio = resolution.x / resolution.y;
+      vec2 block = ZOOM / vec2(BLOCK_SIZE * ratio, BLOCK_SIZE);
+      vec2 pos = floor(fragPosition * ZOOM / block) * block;
       vec2 uv = pos / ZOOM;
+      uv.x *= ratio;
 
       uv += 0.5;
       vec2 uv2 = uv * make_rotation_matrix(0.4) - 0.5;
@@ -86,9 +89,7 @@ function createProgram(vsSource, fsSource) {
 const program = createProgram(vsSource, fsSource);
 gl.useProgram(program);
 
-const vertices = new Float32Array([
-  -1.0, -1.0, 1.0, -1.0, -1.0, 1.0, -1.0, 1.0, 1.0, -1.0, 1.0, 1.0,
-]);
+const vertices = new Float32Array([-1.0, -1.0, 1.0, -1.0, -1.0, 1.0, -1.0, 1.0, 1.0, -1.0, 1.0, 1.0]);
 
 const positionBuffer = gl.createBuffer();
 gl.bindBuffer(gl.ARRAY_BUFFER, positionBuffer);
@@ -97,11 +98,6 @@ gl.bufferData(gl.ARRAY_BUFFER, vertices, gl.STATIC_DRAW);
 const positionLoc = gl.getAttribLocation(program, "a_position");
 gl.enableVertexAttribArray(positionLoc);
 gl.vertexAttribPointer(positionLoc, 2, gl.FLOAT, false, 0, 0);
-
-const timeLoc = gl.getUniformLocation(program, "time");
-const resolutionLoc = gl.getUniformLocation(program, "resolution");
-const colorALoc = gl.getUniformLocation(program, "colorA");
-const colorBLoc = gl.getUniformLocation(program, "colorB");
 
 const FPS = 30;
 const FRAME_DURATION = 1000 / FPS;
@@ -119,10 +115,10 @@ function render(time) {
 function draw(time) {
   gl.viewport(0, 0, canvas.width, canvas.height);
   gl.clear(gl.COLOR_BUFFER_BIT);
-  gl.uniform1f(timeLoc, time * 0.001);
-  gl.uniform2f(resolutionLoc, canvas.width, canvas.height);
-  gl.uniform4f(colorALoc, 0.0, 0.0, 2.0 / 255.0, 1.0);
-  gl.uniform4f(colorBLoc, 16.0 / 255.0, 0.0, 60.0 / 255.0, 1.0);
+  gl.uniform1f(gl.getUniformLocation(program, "time"), time * 0.001);
+  gl.uniform2f(gl.getUniformLocation(program, "resolution"), canvas.width, canvas.height);
+  gl.uniform4f(gl.getUniformLocation(program, "colorA"), 12.0 / 255.0, 0.0, 4.0 / 255.0, 1.0);
+  gl.uniform4f(gl.getUniformLocation(program, "colorB"), 16.0 / 255.0, 0.0, 80.0 / 255.0, 1.0);
   gl.drawArrays(gl.TRIANGLES, 0, 6);
 }
 
@@ -134,4 +130,4 @@ function onResizeCanvas() {
 }
 
 window.addEventListener("resize", onResizeCanvas);
-onResizeCanvas();
+render();
