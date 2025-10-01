@@ -111,18 +111,27 @@ let lastFrameTime = 0;
 function render(time) {
   if (time - lastFrameTime >= FRAME_DURATION) {
     lastFrameTime = time;
-    gl.viewport(0, 0, canvas.width, canvas.height);
-    gl.clear(gl.COLOR_BUFFER_BIT);
-
-    gl.uniform1f(timeLoc, time * 0.001);
-    gl.uniform2f(resolutionLoc, canvas.width, canvas.height);
-    gl.uniform4f(colorALoc, 0.0, 0.0, 2.0 / 255.0, 1.0);
-    gl.uniform4f(colorBLoc, 16.0 / 255.0, 0.0, 60.0 / 255.0, 1.0);
-
-    gl.drawArrays(gl.TRIANGLES, 0, 6);
+    draw(time);
   }
-
   requestAnimationFrame(render);
 }
 
-requestAnimationFrame(render);
+function draw(time) {
+  gl.viewport(0, 0, canvas.width, canvas.height);
+  gl.clear(gl.COLOR_BUFFER_BIT);
+  gl.uniform1f(timeLoc, time * 0.001);
+  gl.uniform2f(resolutionLoc, canvas.width, canvas.height);
+  gl.uniform4f(colorALoc, 0.0, 0.0, 2.0 / 255.0, 1.0);
+  gl.uniform4f(colorBLoc, 16.0 / 255.0, 0.0, 60.0 / 255.0, 1.0);
+  gl.drawArrays(gl.TRIANGLES, 0, 6);
+}
+
+function onResizeCanvas() {
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+  gl.viewport(0, 0, gl.drawingBufferWidth, gl.drawingBufferHeight);
+  draw(performance.now());
+}
+
+window.addEventListener("resize", onResizeCanvas);
+onResizeCanvas();

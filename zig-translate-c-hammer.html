@@ -192,12 +192,16 @@ union {
 } zpl_adt_node;
         </pre>
         <p>This makes sense when compiling for 64bit:</p>
-        <code
-            >char const* = 8 bytes struct zpl_adt_node* = 8 bytes uint8_t :4;
-            uint8_t :4; = 1 byte + 7 bytes offset to align union { char const*
-            struct zpl_adt_node* struct {union {double real; double integer;};};
-            }; = 8 bytes</code
-        >
+        <pre>
+char const* = 8 bytes
+struct zpl_adt_node* = 8 bytes
+uint8_t :4;
+uint8_t :4; = 1 byte + 7 bytes offset to align
+union {
+    char const*
+    struct zpl_adt_node* struct {union {double real; double integer;};};
+}; = 8 bytes
+        </pre>
         <p>
             Recreating this in Zig was a matter of using a combination of
             extern/packed structs/unions.

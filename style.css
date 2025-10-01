@@ -1,11 +1,12 @@
 .article-content {
-    max-width: 800px;
+    max-width: 1200px;
     padding-left: 1em;
     padding-right: 1em;
     margin: auto;
     line-height: 1.6;
-    color: #d5d5d5;
-    background: none;
+    color: #dddddd;
+    font-size: 14pt;
+    background: #00000040;
 }
 
 .article-content img {
@@ -47,7 +48,7 @@ a:hover {
 
 /*! Color themes for Google Code Prettify | MIT License | github.com/jmblog/color-themes-for-google-code-prettify */
 .prettyprint {
-    background: #1d1f21a0;
+    background: #1d1f2140;
     font-family:
         Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas,
         monospace;
@@ -76,7 +77,7 @@ li.L7,
 li.L8,
 li.L9 {
     padding-left: 1em;
-    background-color: #1d1f21a0;
+    background-color: #1d1f2140;
     list-style-type: decimal;
 }
 
