@@ -8,112 +8,100 @@
 <body>
     <canvas id="background"></canvas>
     <script src="app.js"></script>
-    <h1 id="a-solution-to-translate-c-s-current-missing-features">
-        A solution to translate-c&#39;s current missing features
-    </h1>
+    <h1 id="a-solution-to-translate-c-s-current-missing-features">Zig -> C Memory matching</h1>
+    <h3>Or, how to deal with translate-c's inability to work with bitfields</h3>
     <div class="article-content">
+        <em>
+            <p>Disclaimer: Any libraries and technologies discussed in this article may have since gotten updates</p>
+        </em>
         <p>
-            When you try adding C code to your Zig project that uses bit fields
-            then it will result in an opaque struct. Such was the case when I
-            tried using ZPL. The base node class <code>zpl_adt_node</code> had a
-            bit field and so I couldn&#39;t actually access its members in Zig.
-            The solution is to mimick the memory layout of the opaque C struct
-            in Zig and then cast the opaque type to it. Here&#39;s how I
-            discovered this:
+            tldr; When you try adding a C struct to your Zig project that uses bit fields, it will result in an opaque
+            struct. Such was the case when I tried using ZPL for JSON5 parsing. The base node class
+            <code>zpl_adt_node</code> had a bit field, so I couldn't actually access its members in Zig. The solution is
+            to mimick the memory layout of the original C struct using a combination of the <code>packed</code> and
+            <code>export</code> keywords. Here's a quick writeup as to how I discovered this.
         </p>
-        <h2 id="trying-to-parse-json5-out-of-all-things">
-            Trying to parse JSON5 out of all things
-        </h2>
+        <h2>JSON5 sure does exist, huh?</h2>
         <p>
-            When I started looking into JSON5 parsing in Zig one thing quickly
-            became obvious: None of the parsers have up-to-date support of the
-            JSON5 standard.
+            I was looking into ways to parse JSON5 in order to write some tools for GameMaker. Since the project file
+            format and resource format that the engine uses is JSON5 I had no choice but to find a parser that could
+            handle it. Another hidden requirement was that it needed to be able to parse the specific version of JSON5
+            that GameMaker was using too. So I went looking and found that:
         </p>
         <ul>
-            <li>std.json doesn&#39;t support JSON5</li>
+            <li>std.json doesn't support JSON5 (understandably so)</li>
             <li>
-                <a href="https://github.com/Himujjal/zig-json5/tree/master"
-                    >Himujjal&#39;s zig-json5</a
-                >
-                can&#39;t parse the example snippet from json5.org
+                <a href="https://github.com/Himujjal/zig-json5/tree/master">Himujjal's zig-json5</a>
+                can't parse the example snippet from json5.org
             </li>
             <li>
-                <a href="https://github.com/berdon/zig-json"
-                    >berdon&#39;s zig-json</a
-                >
+                <a href="https://github.com/berdon/zig-json">berdon's zig-json</a>
                 only supports the JSON5 1.0.0 spec from 2018
             </li>
         </ul>
         <p>
-            Then I remembered that Zig has interoperability with C. So I
-            broadened my search to include C libraries. And I quickly found ZPL,
-            and its JSON5 parser.
+            There weren't any Zig libraries that I could find that met my requirements. But that shouldn't be a problem,
+            after all Zig has C interoperability and I won't even need to make the bindings myself. So I broadened my
+            search to include C libraries. It didn't take long before I stumbled into ZPL, and its JSON5 parser.
         </p>
         <h2 id="getting-zpl-to-work-in-zig">Getting ZPL to work in Zig</h2>
         <p>
-            ZPL can be used as a single header library. In fact that&#39;s the
-            recommended way to use it as listed on their github.
+            ZPL can be used as a single header library. In fact that's the recommended way to use it as listed on their
+            github.
         </p>
-        <pre class="prettyprint lang-zig linenums">
-curl -L https://zpl.pw/ &gt; zpl.h</pre
-        >
+        <pre class="prettyprint lang-shell">curl -L https://zpl.pw/ &gt; zpl.h</pre>
         <p>
-            How to go about including this library in the project wasn&#39;t
-            immediately obvious though. I tried just adding the header file as a
-            C source, and doing a @cImport. And although it seemed to work at
-            first it resulted in two problems.
+            Including this library in the project wasn't immediately obvious to me though. I tried just adding the
+            header file as a C source like so:
         </p>
+        <pre class="prettyprint lang-zig linenums:56">
+// in build.zig
+if (target.result.os.tag == .windows) {
+    exe.root_module.linkSystemLibrary("ws2_32", .{.needed = true});
+}
+exe.root_module.addIncludePath(
+    .{.src_path = .{.sub_path = "src/lib/zpl", .owner = b}});
+exe.root_module.addCSourceFile(
+    .{.file = .{.src_path = .{.sub_path = "src/lib/zpl/zpl.c", .owner = b}}});</pre
+        >
+        <p>And then doing a @cImport. Although this seemed to work at first, it resulted in two problems:</p>
         <ol>
+            <li>Only ZPL declarations were added to the project, not implementations.</li>
             <li>
-                Only ZPL declarations were added to the project, not
-                implementations.
-            </li>
-            <li>
-                <code>zpl_adt_node</code> - which is a generic struct used for
-                various data structure things in the ZPL library - was made
-                opaque. The reason being that translate-c doesn&#39;t support
-                the conversion of C bitfields.
+                <code>zpl_adt_node</code> - which is a generic struct used for various data structure things in the ZPL
+                library - was made opaque. The reason being that translate-c doesn't support the conversion of C
+                bitfields.
             </li>
         </ol>
         <h2 id="adding-the-implementations">Adding the implementations</h2>
         <p>
-            Issue &#39;1&#39; is caused by the ZPL_IMPLEMENTATION not being
-            defined. Which means that the compiler has no way to include the
-            implementations in the file, they&#39;d be preprocessor-macrod out.
-            There are two ways to fix this.
+            Issue '1' is caused by the ZPL_IMPLEMENTATION not being defined. Which means that the compiler has no way to
+            include the implementations in the file, they'd be preprocessor-macrod out. There are two ways to fix this.
         </p>
         <ol>
-            <li>
-                <code>zig translate-c</code> with a <code>-D</code> flag that
-                defines ZPL_IMPLEMENTATION
-            </li>
-            <li>
-                Create zpl.c, define ZPL_IMPLEMENTATION, include zpl.h, and add
-                it as a C source file in build.zig The latter is preferred over
-                the former because it would run <code>translate-c</code> on the
-                zpl implementation code. Which is unnecessary because it creates
-                more generated code in the project and
-                <code>translate-c</code> is apparently not meant to translate
-                complicated implementation code. (I read this somewhere, but I
-                don&#39;t have the link anymore).
-            </li>
+            <li><code>zig translate-c</code> with a <code>-D</code> flag that defines ZPL_IMPLEMENTATION</li>
+            <li>Create zpl.c, define ZPL_IMPLEMENTATION, include zpl.h, and add it as a C source file in build.zig</li>
         </ol>
-        <h2 id="testing-if-zpl-actually-works-for-me">
-            Testing if ZPL actually works for me
-        </h2>
         <p>
-            At this point issue &#39;2&#39; was bugging me. I could immediately
-            spend my time replicating the memory layout of
-            <code>zpl_adt_node</code> is Zig, however I wanted to make sure that
-            ZPL JSON5 can actually parse a YYP file. Yeah sure, I may not be
-            able to allocate an instance of <code>zpl_adt_node</code> in order
-            to receieve data from <code>zpl_json_parse</code>. However, I could
-            just allocate a buffer, cast the pointer, and pass it as if it were
-            a <code>zpl_adt_node</code>. As I&#39;m not well versed in low level
-            programming, stuff like this is not always immediately obvious. At
-            this level it is certainly cool to be able to think of everything in
-            terms of memory, instead of having to deal with abstract data
-            structures.
+            The latter is preferred over the former because the former would would run <code>translate-c</code> on the
+            entire ZPL code. Which is unnecessary since all we need are the bindings.<br /><br />
+            Anyway, the solution is very simple:
+        </p>
+        <pre class="prettyprint lang-c linenums">
+// zpl.c
+#define ZPL_IMPLEMENTATION
+#define ZPL_PARSER_DISABLE_ANALYSIS
+#include "zpl.h"</pre
+        >
+        <h2 id="testing-if-zpl-actually-works-for-me">Testing if ZPL actually works for me</h2>
+        <p>
+            At this point issue '2' was bugging me. I could immediately spend my time replicating the memory layout of
+            <code>zpl_adt_node</code> in Zig, however I wanted to make sure that ZPL JSON5 can actually parse a YYP
+            file. Yeah sure, I may not be able to allocate an instance of <code>zpl_adt_node</code> in order to receieve
+            data from <code>zpl_json_parse</code>. However, I could just allocate a buffer, cast the pointer, and pass
+            it as if it were a <code>zpl_adt_node</code>. As I'm somewhat fresh to these conscepts, things like these
+            are not always immediately obvious to me. At this level it is certainly cool to be able to think of
+            everything in terms of memory, instead of having to deal with abstract data structures.
         </p>
         <p>So I wrote the following code:</p>
         <pre class="prettyprint lang-zig linenums">
@@ -134,6 +122,7 @@ fn file_read_to_end_alloc(path: []const u8, alloc: Allocator) ![:0]const u8 {
 
 pub fn main() !void {
     const a = std.heap.page_allocator;
+    // gamemaker project file containing JSON5
     const k3plus_string = try file_read_to_end_alloc("k3plus.yyp", a);
     const node_buffer = try a.alloc(u8, 32);
     const zpl_a = c.zpl_heap_allocator();
@@ -145,34 +134,28 @@ pub fn main() !void {
 }</pre
         >
         <p>
-            And indeed, the error code was 0, aka. ZPL_JSON_NO_ERROR Well, it
-            was zero no matter how little memory I allocated for the buffer.
-            Which is a little concerning considering its probably writing into
-            other parts of memory beyond my buffer without triggering a
-            segmentation fault. My theory is that the page_allocator probably
-            asks for more than 32 bits of memory, even though I only ask for
-            that much. And running the following command in the terminal:
+            And indeed, the error code was 0, aka. ZPL_JSON_NO_ERROR Well, it was zero no matter how little memory I
+            allocated for <code>node_buffer</code>. Which is a little concerning considering its probably writing into
+            other parts of memory beyond my buffer without triggering a segmentation fault. My theory was that the
+            page_allocator probably asks for more than 32 bits of memory, even though I only ask for that much. And
+            running the following command in the terminal:
         </p>
         <code>getconf PAGE_SIZE</code>
         <p>
-            Writes the number 4096, meaning that it most likely allocated 4096
-            bytes behind the scenes. Though that&#39;s only an assumption for
-            now.
+            Writes the number 4096, meaning that it most likely allocated 4096 bytes behind the scenes. Which would make
+            sense given that it's literally called page_allocator.
         </p>
-        <h2 id="idea-just-recreate-the-struct">
-            Idea: just recreate the struct
-        </h2>
+        <h2 id="idea-just-recreate-the-struct">Idea: just recreate the struct</h2>
         <p>
             The solution I came up with for tackling the issue of
-            <code>zpl_adt_note</code> not being translated by
-            <code>translate-c</code> was to just create it myself. Zig has
-            bitfields and packed structs, so I should theoretically be able to
-            recreate the C struct exactly, right?
+            <code>zpl_adt_note</code> not being translated by <code>translate-c</code> was to just create it myself. Zig
+            has bitfields and packed structs, so I should theoretically be able to recreate the C struct exactly,
+            right?<br />
+            <a href="https://ziglang.org/documentation/0.15.1/#extern-struct"
+                >https://ziglang.org/documentation/0.15.1/#extern-struct</a
+            >
         </p>
-        <p>
-            To start out with I added the struct a C file and sizeof&#39;d it.
-            The result was 32.
-        </p>
+        <p>To start out with I added the struct a C file and sizeof'd it:</p>
         <pre class="prettyprint lang-c linenums">
 typedef struct zpl_adt_node {
 char const *name;
@@ -191,21 +174,18 @@ union {
 };
 } zpl_adt_node;
         </pre>
-        <p>This makes sense when compiling for 64bit:</p>
+        <p>The result in the console was 32, which makes sense when compiling for 64bit:</p>
         <pre>
 char const* = 8 bytes
 struct zpl_adt_node* = 8 bytes
 uint8_t :4;
-uint8_t :4; = 1 byte + 7 bytes offset to align
+uint8_t :4; = 1 byte + 7 bytes offset to align (8 bytes)
 union {
     char const*
     struct zpl_adt_node* struct {union {double real; double integer;};};
 }; = 8 bytes
         </pre>
-        <p>
-            Recreating this in Zig was a matter of using a combination of
-            extern/packed structs/unions.
-        </p>
+        <p>Recreating this in Zig was a matter of using a combination of extern/packed structs/unions.</p>
         <pre class="prettyprint lang-zig linenums">
 const ZplAdtNode = extern struct {
     name: [*:0]u8,
@@ -224,10 +204,7 @@ const ZplAdtNode = extern struct {
     }
 };</pre
         >
-        <p>
-            With this I was able to parse the first two nodes of my JSON5 sample
-            code
-        </p>
+        <p>With this I was able to parse the first two nodes of my JSON5 sample code</p>
         <pre class="prettyprint lang-zig linenums">
 var json5 =
     \\{
@@ -252,28 +229,28 @@ pub fn main() !void {
 }</pre
         >
         <p>
-            With this working I could start using zpl for real to create the
-            program I wanted.<br /><br />
-            <em
-                >Sidenote: zpl_array_count() blew my mind when I found out how
-                it works</em
-            >
+            And I was successfully able to view the contents of <code>zpl_adt_node</code> in Zig. It was enlightening to
+            deal with the glue directly. Having this experience taught me some things about how programming languages
+            are built to communicate with one another. With this working I could finally start using ZPL for real to
+            create the program I wanted. <br /><br />
+            <em>Sidenote: zpl_array_count() blew my mind when I found out how it works</em>
         </p>
-        <h2 id="then-i-went-on-to-make-these-two-tools-">
-            Then I went on to make these two tools:
-        </h2>
+        <p>
+            Thanks for reading. I bet people who are more experienced with this sort of thing are rolling their eyes at
+            how basic this all was. But I found it very exciting to delve into. Learning Zig has been insanely rewarding
+            and it's all thanks to great documentation and readable standard library source code. The latter, has not
+            only inspired me to look deeper into the underlying details but has also taught me various patterns that I
+            would have otherwise learn slowly through trial and error. Kudos to Andrew and the Zig community for that!
+            And that is possibly the most important takeaway: <b>Read source code!!!</b> (but only if it's actually
+            good)
+        </p>
+        <h2 id="then-i-went-on-to-make-these-two-tools-">Then I went on to make these two tools:</h2>
         <ul>
             <li>
-                <a
-                    href="https://github.com/Synthasmagoria/gamemaker-path-corrector"
-                    >Gamemaker Path Corrector</a
-                >
+                <a href="https://github.com/Synthasmagoria/gamemaker-path-corrector">Gamemaker Path Corrector</a>
             </li>
             <li>
-                <a
-                    href="https://github.com/Synthasmagoria/gamemaker-project-cleaner"
-                    >Gamemaker Project Cleaner</a
-                >
+                <a href="https://github.com/Synthasmagoria/gamemaker-project-cleaner">Gamemaker Project Cleaner</a>
             </li>
         </ul>
     </div>
