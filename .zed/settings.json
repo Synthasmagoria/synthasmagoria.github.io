@@ -1,13 +1,16 @@
 {
-  "languages": {
-    "HTML": {
-      "preferred_line_length": 120
+    "languages": {
+        "HTML": {
+            "preferred_line_length": 120,
+        },
+        "JavaScript": {
+            "preferred_line_length": 120,
+        },
+        "CSS": {
+            "preferred_line_length": 120,
+        },
+        "Odin": {
+            "preferred_line_length": 160,
+        },
     },
-    "JavaScript": {
-      "preferred_line_length": 120
-    },
-    "CSS": {
-      "preferred_line_length": 120
-    }
-  }
 }
