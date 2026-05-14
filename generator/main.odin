@@ -75,11 +75,12 @@ program :: proc(src_dir, dest_dir: string) -> ProgramError {
 			continue
 		}
 		article_data := os.read_entire_file(info.fullpath, context.allocator) or_return
-		article := cmark.parse_document(raw_data(article_data), len(article_data), cmark.Options{})
+		article_string, _ := strings.replace_all(string(article_data), "\t", "    ")
+		article := cmark.parse_document(raw_data(article_string), len(article_string), cmark.Options{})
 		body := cmark.render_html(article, {})
 		defer cmark.node_free(article)
 
-		languages := md_extract_code_block_languages(string(article_data))
+		languages := md_extract_code_block_languages(article_string)
 
 		strings.write_string(&html_builder, HEADER)
 		strings.write_string(&html_builder, strings.clone_from_cstring(body))

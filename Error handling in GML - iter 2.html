@@ -22,45 +22,45 @@
 <p>My issue with the latter, and why I don't use it in my code is because it is too implicit. Exceptions in dynamically typed languages like GML, JavaScript and Python are of the &quot;unchecked&quot; variant, meaning there is no way to explicitly indicate that a function might throw an exception.</p>
 <p>When you define a function in Java that might throw an exception you can say <code>throws &lt;exception&gt;</code> in the function signature.</p>
 <pre><code class="language-java">public static void function(String message) throws IOException {
-	// implementation
+    // implementation
 }
 </code></pre>
 <p>GML has no way of doing this, so the user is left looking over the code to find out whether it can fail or not. This slows down development at best and causes unexpected errors at worst. Preferably I'd like to not use either approach.</p>
 <h2>Errors as values</h2>
 <p>Errors as values is the simple idea of returning the error from your function alongside the value that you were hoping to retrieve. Languages do this in different ways. For example: Odin has multiple return values for its functions and uses that to return errors.</p>
 <pre><code class="language-odin">function_that_can_fail :: proc() -&gt; (value: int, err: os.Error) {
-	// implementation
-	return 1, os.Error.None
+    // implementation
+    return 1, os.Error.None
 }
 
 value, err := function_that_can_fail()
 if err != os.Error.None {
-	// handle error
+    // handle error
 }
 </code></pre>
 <p>But since GML cannot return multiple values like that we'll be using structs. This is often called result objects.</p>
 <pre><code class="language-gml">enum FooError {
-	Bad,
-	OtherBad,
+    Bad,
+    OtherBad,
 }
 ///@param {Real} value
 ///@param {Real} error
 function FooResult(value, error) constructor {
-	self.value = value;
-	self.error = error;
+    self.value = value;
+    self.error = error;
 }
 ///@return {Result}
 function foo() {
-	if (something_went_wrong) {
-		return new FooResult(-1, FooError.Bad);
-	}
-	return new FooResult(42, -1);
+    if (something_went_wrong) {
+        return new FooResult(-1, FooError.Bad);
+    }
+    return new FooResult(42, -1);
 }
 </code></pre>
 <p>Unlike returning <code>-1</code> on fail. This can have multiple different error values, and unlike exceptions the user now made aware that there might be an error directly by the return type of the function. Errors like this can easily be handled by just checking the error value after calling the function.</p>
 <pre><code class="language-gml">var _result = foo();
 if (_result.error != -1) {
-	show_debug_message(&quot;foo failed with error: &quot; + string(_result.error));
+    show_debug_message(&quot;foo failed with error: &quot; + string(_result.error));
 }
 </code></pre>
 <p>I would say I like this approach in GML if not for its numerous shortcomings:</p>
@@ -93,19 +93,19 @@ enum CoolError {Bad, Bad2, Bad3}
 enum Enum { CoolError, _Count }
 global._ENUM_NAMES = [ &quot;CoolError&quot;, ];
 global._ENUM_MEMBER_NAMES = [
-	[&quot;Bad&quot;, &quot;Bad2&quot;, &quot;Bad3&quot;],
+    [&quot;Bad&quot;, &quot;Bad2&quot;, &quot;Bad3&quot;],
 ];
 function enum_get_name(index) {
-	return global._ENUM_NAMES[index];
+    return global._ENUM_NAMES[index];
 } 
 function enum_get_member_name(index, member) {
-	return global._ENUM_MEMBER_NAMES[index][member];
+    return global._ENUM_MEMBER_NAMES[index][member];
 }
 function enum_get_member_names(index) {
-	return global._ENUM_MEMBER_NAMES[index];
+    return global._ENUM_MEMBER_NAMES[index];
 }
 function enum_get_member_name_full(index, member) {
-	return $&quot;{global._ENUM_NAMES[index]}.{global._ENUM_MEMBER_NAMES[index][member]}&quot;;
+    return $&quot;{global._ENUM_NAMES[index]}.{global._ENUM_MEMBER_NAMES[index][member]}&quot;;
 }
 </code></pre>
 <p>I don't know if I should be abusing poor ol' <code>gml_pragma</code> like this, but seeing as it doesn't do anything when the string parameter doesn't result in a valid option, I thought it'd be fine.</p>
@@ -117,11 +117,11 @@ show_debug_message(_name)
 <p>Will print <code>CoolError.Bad2</code> to the console. This is a lot more descriptive than what it would otherwise be: <code>1</code></p>
 <p>Furthermore, now that there is an enum for enums in the project, enum error values can be combined by including that information as well:</p>
 <pre><code class="language-gml">function Error(type, value) constructor {
-	self.type = type;
-	self.value = value;
-	static toString() {
-		return enum_get_member_name_full(type, value);
-	}
+    self.type = type;
+    self.value = value;
+    static toString() {
+        return enum_get_member_name_full(type, value);
+    }
 }
 </code></pre>
 <p>Then errors can be created and logged like so:</p>
@@ -137,40 +137,40 @@ show_debug_message(&quot;Error: &quot;_error);
         return -1;
     }
     
-	if (_current_version == target_version) {
-		return data;
-	} else if (_current_version &gt; target_version) {
-		return -1;
-	}
-	
-	while (_current_version != target_version) {
-		if (_current_version &lt; 0 || _current_version &gt;= SavedataVersion._Count) {
-			return -1;
-		}
-		data = _conversion.conversion_function(data);
-		if (!variable_compare_deep(
-			data,
-			new _conversion.comparison_constructor())) {
-			return -1;
-		}
-		current_version = _conversion.to_version;
-	}
-	return data;
+    if (_current_version == target_version) {
+        return data;
+    } else if (_current_version &gt; target_version) {
+        return -1;
+    }
+    
+    while (_current_version != target_version) {
+        if (_current_version &lt; 0 || _current_version &gt;= SavedataVersion._Count) {
+            return -1;
+        }
+        data = _conversion.conversion_function(data);
+        if (!variable_compare_deep(
+            data,
+            new _conversion.comparison_constructor())) {
+            return -1;
+        }
+        current_version = _conversion.to_version;
+    }
+    return data;
 }
 </code></pre>
 <p>There are several ways that the function can fail: some of which stem from another function called <code>savedata_get_version</code>. But error handling should not be the job of this function, so I want to pass errors from both this function, and <code>savedata_get_version</code> onto the caller, so that we don't end up having error handling in only one place.</p>
 <p>So lets add an error enum with reflection, as well as a result object.</p>
 <pre><code class="language-gml">gml_pragma(&quot;enum_reflection&quot;);
 enum SavedataConvertToError {
-	CurrentHigherThanTarget,
-	EndedInInvalidVersion,
-	SaveDataBlockFormatMismatch,
+    CurrentHigherThanTarget,
+    EndedInInvalidVersion,
+    SaveDataBlockFormatMismatch,
 }
 ///@param {Struct} data
 ///@param {Error|Real} error
 function SavedataConvertToResult(data, error) constructor {
-	self.data = data;
-	self.error = error;
+    self.data = data;
+    self.error = error;
 }
 ///@param {Struct} data
 ///@param {Real} target_version
@@ -180,39 +180,39 @@ function savedata_convert_to(data, target_version) {
         return SavedataConvertToResult(-1, _current_version);
     }
     
-	if (_current_version == target_version) {
-		return new SavedataConvertToResult(data, -1);
-	} else if (_current_version &gt; target_version) {
-		var _error = new Error(
-			Enum.SavedataConvertToError,
-			SavedataConvertToError.CurrentHigherThanTarget);
-		return new SavedataConvertToResult(data, _error);
-	}
-	
-	while (_current_version != target_version) {
-		if (_current_version &lt; 0 || _current_version &gt;= SavedataVersion._Count) {
-			var _error = new Error(
-				Enum.SavedataConvertToError,
-				SavedataConvertToError.EndedInInvalidVersion);
-			return new SavedataConvertToResult(data, _error);
-		}
-		data = _conversion.conversion_function(data);
-		var _comparison_struct = new _conversion.comparison_constructor();
-		if (!variable_compare_deep(data, _comparison_struct)) {
-			var _error = new Error(
-				Enum.SavedataConvertToError,
-				SavedataConvertToError.SaveDataBlockFormatMismatch);
-			return new SavedataConvertToResult(data, _error);
-		}
-		current_version = _conversion.to_version;
-	}
-	return data;
+    if (_current_version == target_version) {
+        return new SavedataConvertToResult(data, -1);
+    } else if (_current_version &gt; target_version) {
+        var _error = new Error(
+            Enum.SavedataConvertToError,
+            SavedataConvertToError.CurrentHigherThanTarget);
+        return new SavedataConvertToResult(data, _error);
+    }
+    
+    while (_current_version != target_version) {
+        if (_current_version &lt; 0 || _current_version &gt;= SavedataVersion._Count) {
+            var _error = new Error(
+                Enum.SavedataConvertToError,
+                SavedataConvertToError.EndedInInvalidVersion);
+            return new SavedataConvertToResult(data, _error);
+        }
+        data = _conversion.conversion_function(data);
+        var _comparison_struct = new _conversion.comparison_constructor();
+        if (!variable_compare_deep(data, _comparison_struct)) {
+            var _error = new Error(
+                Enum.SavedataConvertToError,
+                SavedataConvertToError.SaveDataBlockFormatMismatch);
+            return new SavedataConvertToResult(data, _error);
+        }
+        current_version = _conversion.to_version;
+    }
+    return data;
 }
 </code></pre>
 <p>The error can be handled in the exact same way as before.</p>
 <pre><code class="language-gml">var _conversion_result = savedata_convert_to(data);
 if (_conversion_result.error != -1) {
-	show_debug_message(&quot;Conversion failed with error: &quot; + string(_conversion_result_error));
+    show_debug_message(&quot;Conversion failed with error: &quot; + string(_conversion_result_error));
 }
 </code></pre>
 <p>But now we have information on exactly what went wrong, from many different functions return different errors. It could return <code>SavedataConvertToError.EndedInInvalidVersion</code> or it could return <code>SavedataGetVersionError.NotExist</code>. And we have all the necessary information to handle these errors.</p>
