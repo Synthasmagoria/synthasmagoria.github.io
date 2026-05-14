@@ -8,9 +8,11 @@
         },
         "CSS": {
             "preferred_line_length": 120,
+            "format_on_save": "off",
         },
         "Odin": {
             "preferred_line_length": 160,
+            "format_on_save": "off",
         },
     },
 }

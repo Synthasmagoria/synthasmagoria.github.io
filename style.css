@@ -50,12 +50,30 @@ a:hover {
     text-decoration: underline;
 }
 
+.language-gml {
+    .imp {font-weight: bold; color: red;}
+    .ln-xtra {color: #cc0; background-color: #ffc;}
+    li {font-family: 'Courier New', Courier, monospace; color: black; font-weight: normal; font-style: normal;}
+    li.li2 {font-weight: bold;}
+    .kw1 {font-weight: bold; color: #000080;}
+    .kw2 {color: #A00000;}
+    .kw3 {color: #A00000;}
+    .kw4 {color: #A00000;}
+    .kw5 {color: #8000A0;}
+    .kw6 {color: #0080AA;}
+    .co1 {font-style: italic; color: green;}
+    .coMULTI {font-style: italic; color: green;}
+    .es0 {color: #000099; font-weight: bold;}
+    .br0 {color: #000000;}
+    .st0 {color: #0000ff;}
+    .nu0 {color: #0000ff;}
+    .me1 {color: #202020;}
+}
+
 /*! Color themes for Google Code Prettify | MIT License | github.com/jmblog/color-themes-for-google-code-prettify */
 .prettyprint {
     background: #1d1f2140;
-    font-family:
-        Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas,
-        monospace;
+    font-family: Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas, monospace;
     border: 0 !important;
 }
 
