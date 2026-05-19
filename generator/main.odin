@@ -10,7 +10,7 @@ import "core:encoding/entity"
 import "core:net"
 
 print_help_message :: proc() {
-	fmt.println("--- Static site generator ---")
+	fmt.println("--- Static site generator ---", flush = false)
 	fmt.println("Usage: <program> <src_dir> <dest_dir>")
 }
 
