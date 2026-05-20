@@ -1,1 +1,0 @@
-odin run generator -- articles .
