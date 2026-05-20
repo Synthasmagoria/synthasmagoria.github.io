@@ -24,9 +24,9 @@ main :: proc() {
 	case 3:
 		src_dir := os.args[1]
 		dest_dir := os.args[2]
-		err := program(src_dir, dest_dir)
-		if err != nil {
-			fmt.println("Error:", err)
+		result := program(src_dir, dest_dir)
+		if result.error != nil {
+			fmt.println("Error:", result.error, result.msg)
 		} else {
 			fmt.println("Wrote generated static site in", dest_dir)
 		}
@@ -35,29 +35,36 @@ main :: proc() {
 	}
 }
 
-ProgramError :: enum {
+StaticWebsiteGeneratorError :: enum {
 	SourceDirDoesntExist,
 	DestDirDoesntExist,
 	HighlightJsLanguageNotExist,
 }
 
-Error :: union {
+ProgramError :: union {
 	os.Error,
 	mem.Allocator_Error,
-	ProgramError
+	StaticWebsiteGeneratorError,
 }
 
-program :: proc(src_dir, dest_dir: string) -> Error {
+Result :: struct {
+	error: ProgramError,
+	msg: string,
+}
+
+program :: proc(src_dir, dest_dir: string) -> Result {
 	if !os.is_dir(src_dir) {
-		return .SourceDirDoesntExist
+		return {.SourceDirDoesntExist, src_dir}
 	}
 	if !os.is_dir(dest_dir) {
-		return .DestDirDoesntExist
+		return {.DestDirDoesntExist, dest_dir}
 	}
 
-	delete_recursive(dest_dir) or_return
+	if err := delete_recursive(dest_dir); err != nil {
+		return {err, strings.concatenate({"Failed to delete something in ", dest_dir})}
+	}
 
-	abs_src_dir := os.get_absolute_path(src_dir, context.allocator) or_return
+	abs_src_dir, _ := os.get_absolute_path(src_dir, context.allocator)
 	walker := os.walker_create(src_dir)
 	html := strings.builder_make()
 	for info, ok := os.walker_walk(&walker); ok; info, ok  = os.walker_walk(&walker) {
@@ -68,18 +75,18 @@ program :: proc(src_dir, dest_dir: string) -> Error {
 			continue
 		}
 		if info.type == .Directory {
-			dest := os.join_path({dest_dir, info.fullpath[len(abs_src_dir):]}, context.allocator) or_return
+			dest, _ := os.join_path({dest_dir, info.fullpath[len(abs_src_dir):]}, context.allocator)
 			os.make_directory(dest)
 			continue
 		}
 		name, ext := os.split_filename(info.name)
 		if ext != "md" {
-			dest := os.join_path({dest_dir, info.fullpath[len(abs_src_dir):]}, context.allocator) or_return
-			os.copy_file(dest, info.fullpath) or_return
+			dest, _ := os.join_path({dest_dir, info.fullpath[len(abs_src_dir):]}, context.allocator)
+			os.copy_file(dest, info.fullpath)
 			continue
 		}
 
-		article := os.read_entire_file(info.fullpath, context.allocator) or_return
+		article, _ := os.read_entire_file(info.fullpath, context.allocator)
 		article_escaped, _ := entity.escape_html(string(article))
 
 		defer strings.builder_reset(&html)
@@ -88,10 +95,10 @@ program :: proc(src_dir, dest_dir: string) -> Error {
 		article_result := handle_article(&html, string(article_escaped))
 		for language in article_result.languages {
 			website_path := strings.concatenate({HIGHLIGHTJS_DIR + "languages/", language, ".min.js"})
-			os_path := os.join_path({dest_dir, website_path}, context.allocator) or_return
+			os_path, _ := os.join_path({dest_dir, website_path}, context.allocator)
 			if !os.exists(os_path) {
 				fmt.println(os_path)
-				return .HighlightJsLanguageNotExist
+				return {.HighlightJsLanguageNotExist, strings.concatenate({os_path})}
 			}
 			fmt.sbprint(&html, "<script src=\"", website_path, "\"></script>", sep = "")
 		}
@@ -100,11 +107,13 @@ program :: proc(src_dir, dest_dir: string) -> Error {
 
 		html_string := strings.to_string(html)
 		path, _ := os.split_filename(info.fullpath[len(abs_src_dir):])
-		path = os.join_path({dest_dir, path}, context.allocator) or_return
-		path = os.join_filename(path, "html", context.allocator) or_return
-		os.write_entire_file(path, html_string) or_return
+		path, _ = os.join_path({dest_dir, path}, context.allocator)
+		path, _ = os.join_filename(path, "html", context.allocator)
+		if err := os.write_entire_file(path, html_string); err != nil {
+			return {err, strings.concatenate({"Failed to write file at ", path})}
+		}
 	}
-	return nil
+	return {nil, ""}
 }
 
 @(rodata)
@@ -207,7 +216,7 @@ handle_article :: proc(b: ^strings.Builder, article: string) -> HandleArticleRes
 				url := strings.clone_from_cstring(cmark.node_get_url(node))
 				scheme, host, path, queries, fragment := net.split_url(url)
 				path_split, _ := strings.split(host, ".")
-				if path_split[1] == "youtube" {
+				if len(path_split) > 1 && path_split[1] == "youtube" {
 					fmt.sbprint(b,
 						"</br><iframe width=\"560\" height=\"315\" " +
 						"src=\"https://www.youtube.com/embed/", queries["v"], "\" " +
