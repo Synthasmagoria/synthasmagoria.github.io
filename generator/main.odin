@@ -74,14 +74,20 @@ program :: proc(src_dir, dest_dir: string) -> Result {
 			}
 			continue
 		}
+
+		abs_path := info.fullpath
+		if !os.is_absolute_path(abs_path) {
+			abs_path, _ = os.get_absolute_path(abs_path, context.allocator)
+		}
+
 		if info.type == .Directory {
-			dest, _ := os.join_path({dest_dir, info.fullpath[len(abs_src_dir):]}, context.allocator)
+			dest, _ := os.join_path({dest_dir, abs_path[len(abs_src_dir):]}, context.allocator)
 			os.make_directory(dest)
 			continue
 		}
 		name, ext := os.split_filename(info.name)
 		if ext != "md" {
-			dest, _ := os.join_path({dest_dir, info.fullpath[len(abs_src_dir):]}, context.allocator)
+			dest, _ := os.join_path({dest_dir, abs_path[len(abs_src_dir):]}, context.allocator)
 			os.copy_file(dest, info.fullpath)
 			continue
 		}
@@ -106,7 +112,7 @@ program :: proc(src_dir, dest_dir: string) -> Result {
 		fmt.sbprint(&html, HTML_FOOTER)
 
 		html_string := strings.to_string(html)
-		path, _ := os.split_filename(info.fullpath[len(abs_src_dir):])
+		path, _ := os.split_filename(abs_path[len(abs_src_dir):])
 		path, _ = os.join_path({dest_dir, path}, context.allocator)
 		path, _ = os.join_filename(path, "html", context.allocator)
 		if err := os.write_entire_file(path, html_string); err != nil {
