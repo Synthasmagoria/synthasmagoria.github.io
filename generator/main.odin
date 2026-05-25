@@ -168,7 +168,15 @@ HTML_HEADER ::
 "	<canvas id=\"background\"></canvas>\n" +
 "	<script src=\"/graphics.js\"></script>\n" +
 "	<script src=\"" + HIGHLIGHTJS_DIR + "highlight.min.js\"></script>\n" +
-"	<div class=\"article-content\">"
+"	<div class=\"article-content\">\n" +
+"		<h1 id=\"master-header\">Synthasmablogia</h1>\n" +
+"		<ul class=\"menu\">\n" +
+"			<li><a href=\"/\">Home</a></li>\n" +
+"			<li><a href=\"/articles/\">Articles</a></li>\n" +
+"			<li><a href=\"https://synthasmagoria.itch.io/\">Games</a></li>\n" +
+"			<li><a href=\"https://github.com/Synthasmagoria\">GitHub</a></li>\n" +
+"			<li><a href=\"https://offgrd.xyz/git/Synthasmagoria/\">Offgrd (Source forge)</a></li>\n" +
+"		</ul>\n"
 
 HTML_FOOTER ::
 "	</div>\n" +

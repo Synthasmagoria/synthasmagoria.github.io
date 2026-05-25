@@ -1,4 +1,10 @@
 # Materials in GameMaker
+This article is going to go through how you can use the newly added [ImGUI dbg_](https://manual.gamemaker.io/lts/en/#t=GameMaker_Language%2FGML_Reference%2FDebugging%2FThe_Debug_Overlay.htm&ux=search) functions in GameMaker to make your shader parameters editable while your game is running. This approach is currently being used in the development of [K3+](https://redbatnick.itch.io/iwktk3plus).
+
+![](macaron.gif)
+
+## What are "Materials"?
+
 If you're familiar with using shaders then you've probably seen the following pattern plenty of times.
 
 ```gml
@@ -8,7 +14,6 @@ shader_set_uniform_f(shader_get_uniform(shader, "<variable name>"), val);
 draw_self(); // or some other drawing function that's supposed to have the shader effect applied
 shader_reset();
 ```
-I have written this code out so many times that I've built up muscle memory for it.
 
 This is standard for GameMaker, but other game engines handle this process very differently. Instead of setting uniforms directly, you'll often change the variables in a "material", either using code, or with slider's, color pickers etc. in the editor.
 
@@ -226,4 +231,9 @@ The workflow stays exactly the same as before for using the material with `varia
 
 This makes it so much easier to actually get the parameters looking right.
 Source code for a drag'n'drop version of the material can be found here: 
+
 [https://offgrd.xyz/git/Synthasmagoria/gamemaker_material](https://offgrd.xyz/git/Synthasmagoria/gamemaker_material)
+
+Nick also wrote a blog post on recent progress briefly touching upon the way we're using materials in development:
+
+[https://redbatnick.github.io/rosie_times_ahead/Rosie%20Times%20Ahead.html](https://redbatnick.github.io/rosie_times_ahead/Rosie%20Times%20Ahead.html)

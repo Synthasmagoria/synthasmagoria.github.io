@@ -2,11 +2,27 @@
     max-width: 1000px;
     padding-left: 1em;
     padding-right: 1em;
+    padding-bottom: 1em;
     margin: auto;
     line-height: 1.6;
     color: #dddddd;
     font-size: 14pt;
-    background: #00000040;
+    background: #00000080;
+}
+
+.menu {
+    margin: 1em 0 0 0;
+    padding: 0;
+}
+.menu li {
+    list-style-type: none;
+    display: inline;
+    color: #ccc;
+}
+.menu li:not(:first-child):before {
+    padding: 0.5em;
+    content: " | ";
+    color: #ccc;
 }
 
 code {
@@ -36,6 +52,11 @@ h6 {
     text-align: center;
     margin-top: 1.5rem;
     margin-bottom: 1rem;
+}
+
+h1#master-header {
+    font-weight: bold;
+    text-align: left;
 }
 
 canvas#background {
