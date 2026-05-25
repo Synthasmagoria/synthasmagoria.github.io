@@ -97,8 +97,16 @@ program :: proc(src_dir, dest_dir: string) -> Result {
 
 		defer strings.builder_reset(&html)
 
-		fmt.sbprint(&html, HTML_HEADER)
-		article_result := handle_article(&html, string(article_escaped))
+		article_result := handle_article(string(article_escaped))
+
+		fmt.sbprint(&html, HTML_HEADER_START)
+		if len(article_result.header) > 0 {
+			fmt.sbprint(&html, "<title>", article_result.header, "</title>", sep = "")
+		} else {
+			fmt.sbprint(&html, "<title>", HTML_DEFAULT_TITLE ,"</title>", sep = "")
+		}
+		fmt.sbprint(&html, HTML_HEADER_END)
+		fmt.sbprint(&html, article_result.html)
 		for language in article_result.languages {
 			website_path := strings.concatenate({HIGHLIGHTJS_DIR + "languages/", language, ".min.js"})
 			os_path, _ := os.join_path({dest_dir, website_path}, context.allocator)
@@ -156,10 +164,11 @@ delete_recursive :: proc(dir: string) -> os.Error {
 }
 
 HIGHLIGHTJS_DIR :: "/highlightjs/"
-HTML_HEADER ::
+HTML_DEFAULT_TITLE :: "Synthasmablogia"
+HTML_HEADER_START ::
 "<!doctype html>\n" +
-"<head>\n" +
-"   <title>Synthasmablogia</title>\n" +
+"<head>\n"
+HTML_HEADER_END ::
 "   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n" +
 "   <link href=\"/style.css\" rel=\"stylesheet\" />\n" +
 "	<link href=\"" + HIGHLIGHTJS_DIR + "styles/gml.min.css\" rel=\"stylesheet\" />\n" +
@@ -183,15 +192,19 @@ HTML_FOOTER ::
 "</body>\n"
 
 HandleArticleResult :: struct {
-	languages: map[string]bool
+	languages: map[string]bool,
+	header: string,
+	html: string,
 }
 
-handle_article :: proc(b: ^strings.Builder, article: string) -> HandleArticleResult {
+handle_article :: proc(article: string) -> HandleArticleResult {
+	first_header: bool
 	root := cmark.parse_document(raw_data(article), len(article), {})
 	iter := cmark.iter_new(root)
 	tags := make([dynamic]string)
 	result := HandleArticleResult{languages = make(map[string]bool)}
 	node_index := -1
+	b := strings.builder_make()
 
 	for ev := cmark.iter_next(iter); ev != .Done; ev = cmark.iter_next(iter) {
 		node_index += 1
@@ -213,65 +226,74 @@ handle_article :: proc(b: ^strings.Builder, article: string) -> HandleArticleRes
 				_, ext := os.split_filename(path)
 				switch ext {
 				case "mp4":
-					fmt.sbprint(b, "<video controls><source src=\"", path, "\" type=\"video/mp4\"></source></video>", sep = "")
+					fmt.sbprint(&b, "<video controls><source src=\"", path, "\" type=\"video/mp4\"></source></video>", sep = "")
 				case:
-					fmt.sbprint(b, "<img src=\"", path, "\"></img>", sep = "")
+					fmt.sbprint(&b, "<img src=\"", path, "\"></img>", sep = "")
 				}
 			case .Heading:
 				level := cmark.node_get_heading_level(node)
 				buf: [1]byte
 				str := strconv.write_int(buf[:], i64(level), 10)
 				tag := strings.concatenate({"h", str})
+				if len(result.header) == 0 && level == 1 {
+					first_header = true
+				}
 				append(&tags, tag)
-				fmt.sbprint(b, "<", tag, ">", sep = "")
+				fmt.sbprint(&b, "<", tag, ">", sep = "")
 
 			case .Link:
 				url := strings.clone_from_cstring(cmark.node_get_url(node))
 				scheme, host, path, queries, fragment := net.split_url(url)
 				path_split, _ := strings.split(host, ".")
 				if len(path_split) > 1 && path_split[1] == "youtube" {
-					fmt.sbprint(b,
+					fmt.sbprint(&b,
 						"</br><iframe width=\"560\" height=\"315\" " +
 						"src=\"https://www.youtube.com/embed/", queries["v"], "\" " +
 						"title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; " +
 						"gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>", sep = "")
 					append(&tags, "br")
 				} else {
-					fmt.sbprint(b, "<a href=\"", url, "\">")
+					fmt.sbprint(&b, "<a href=\"", url, "\">")
 					append(&tags, "a")
 				}
 			case .List:
-				fmt.sbprint(b, "<ul>", sep = "")
+				fmt.sbprint(&b, "<ul>", sep = "")
 				append(&tags, "ul")
 			case .Item:
-				fmt.sbprint(b, "<li>", sep = "")
+				fmt.sbprint(&b, "<li>", sep = "")
 				append(&tags, "li")
 			case .Code:
-				fmt.sbprint(b, "<code>", strings.clone_from_cstring(cmark.node_get_literal(node)), "</code>", sep = "")
+				fmt.sbprint(&b, "<code>", strings.clone_from_cstring(cmark.node_get_literal(node)), "</code>", sep = "")
 			case .Code_Block:
 				literal := strings.clone_from_cstring(cmark.node_get_literal(node))
 				literal, _ = strings.replace_all(literal, "\t", "    ")
 				if language := cmark.node_get_fence_info(node); len(language) > 0 {
 					language := strings.clone_from_cstring(language)
 					result.languages[language] = true
-					fmt.sbprint(b, "<pre><code class=\"language-", language, "\">", literal, "</pre></code>", sep = "")
+					fmt.sbprint(&b, "<pre><code class=\"language-", language, "\">", literal, "</pre></code>", sep = "")
 				} else {
-					fmt.sbprint(b, "<pre><code>", literal, "\"</pre></code>", sep = "")
+					fmt.sbprint(&b, "<pre><code>", literal, "\"</pre></code>", sep = "")
 				}
 			case .Paragraph:
 				append(&tags, "p")
-				fmt.sbprint(b, "<p>", sep = "")
+				fmt.sbprint(&b, "<p>", sep = "")
 			case .Text:
-				fmt.sbprint(b, strings.clone_from_cstring(cmark.node_get_literal(node)), sep = "")
+				text := strings.clone_from_cstring(cmark.node_get_literal(node))
+				if first_header {
+					result.header = text
+					first_header = false
+				}
+				fmt.sbprint(&b, text, sep = "")
 			}
 		case .Exit:
 			#partial switch node_type {
 			case .Heading, .Paragraph, .List, .Item, .Link:
-				fmt.sbprint(b, "</", pop(&tags), ">", sep = "")
+				fmt.sbprint(&b, "</", pop(&tags), ">", sep = "")
 			}
 			continue
 		}
 	}
 
+	result.html = strings.to_string(b)
 	return result
 }

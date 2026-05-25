@@ -1,4 +1,4 @@
-# Contact
+## Contact
 - Email: `jarklu [at] protonmail [dot] com`
 ## Videos
 ### [GMS1 Compiler optimization hacking](https://youtu.be/9xO-IdB6qrk?si=CAvWzWtVH4Lz0LQS)
