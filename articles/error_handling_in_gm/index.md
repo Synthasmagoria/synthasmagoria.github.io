@@ -83,8 +83,7 @@ global.COOL_ERROR_NAME = "CoolError";
 ```
 This gets annoying to maintain very fast since I need to manually make sure that my enum names are typed correctly, as well as maintaining the order.
 
-Instead I wrote a small Odin program that does this job for me:
-https://offgrd.xyz/git/Synthasmagoria/gamemaker_enum_reflection_gen
+Instead I wrote a small Odin program that does this job for me: [https://offgrd.xyz/git/Synthasmagoria/gamemaker_enum_reflection_gen](https://offgrd.xyz/git/Synthasmagoria/gamemaker_enum_reflection_gen)
 ```
 --- GameMaker enum reflection ---
 Usage: <program> <project dir> <output gml>
@@ -240,9 +239,6 @@ if (_conversion_result.error != -1) {
 But now we have information on exactly what went wrong, from many different functions return different errors. It could return `SavedataConvertToError.EndedInInvalidVersion` or it could return `SavedataGetVersionError.NotExist`. And we have all the necessary information to handle these errors.
 
 ## Conclusion
-If any of this got you thinking then I can recommend this youtube video by rats159 on error handling in different languages:
+If any of this got you thinking then I can recommend this video by rats159 on error handling in different languages:
 [](https://www.youtube.com/watch?v=zOUsVf1LsKg)
 That, as well as learning programming in a few different languages set me on the path of thinking more deeply about error handling.
-
-Check out the project I'm currently helping develop on. There are periodic updates.
-[https://redbatnick.itch.io/iwktk3plus](https://redbatnick.itch.io/iwktk3plus)
