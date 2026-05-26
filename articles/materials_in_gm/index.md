@@ -1,5 +1,5 @@
 # Materials in GameMaker
-This article is going to go through how you can use the newly added [ImGUI dbg_](https://manual.gamemaker.io/lts/en/#t=GameMaker_Language%2FGML_Reference%2FDebugging%2FThe_Debug_Overlay.htm&ux=search) functions in GameMaker to make your shader parameters editable while your game is running. This approach is currently being used in the development of [K3+](https://redbatnick.itch.io/iwktk3plus).
+This article is going to go through how you can use the newly added [ImGUI dbg_](https://manual.gamemaker.io/lts/en/#t=GameMaker_Language%2FGML_Reference%2FDebugging%2FThe_Debug_Overlay.htm&ux=search) functions in GameMaker to make your shader parameters editable while your game is running. This approach is currently being used in the development of [K3+](https://redbatnick.itch.io/iwktk3plus). And is discussed in the [latest devlog](https://redbatnick.github.io/Rosie_Times_Ahead/)
 
 ![](macaron.gif)
 
