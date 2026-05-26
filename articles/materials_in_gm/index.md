@@ -230,7 +230,7 @@ The workflow stays exactly the same as before for using the material with `varia
 ![](materials_showcase.mp4)
 
 This makes it so much easier to actually get the parameters looking right.
-Source code for a drag'n'drop version of the material can be found here: 
+Source code the simple material can be found here: 
 
 [https://offgrd.xyz/git/Synthasmagoria/gamemaker_material](https://offgrd.xyz/git/Synthasmagoria/gamemaker_material)
 
