@@ -7,11 +7,14 @@ What I had not anticipated was that in pursuit of decent error handling I'd find
 
 ## Error handling in the official APIs
 GameMaker has two patterns it uses for telling the user something went wrong in code:
-### Sentinel values
+- Sentinel values
+
 Example: functions that return a value indicating that it failed. For example `file_text_open_read` returning `-1` when the file couldn't be opened.
-### Unchecked exceptions
+- Unchecked exceptions
+
 Example: `json_parse` giving you an error message detailing what went wrong if you don't use `try/catch` (and optionally `finally`) syntax around the call somewhere.
-### My opinions on Sentinel Values and Unchecked exceptions
+
+## My opinions on Sentinel Values and Unchecked exceptions
 My issue with the former is that it doesn't have enough information about what happened. `file_text_open_read` could have failed because another program was reading that file, or it could have simply not existed. But I will never be able to know that for certain. And therefore my game cannot tell the player that that is what happened.
 
 My issue with the latter, and why I don't use it in my code is because it is too implicit. Exceptions in dynamically typed languages like GML, JavaScript and Python are of the "unchecked" variant, meaning there is no way to explicitly indicate that a function might throw an exception.

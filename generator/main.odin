@@ -198,7 +198,8 @@ HandleArticleResult :: struct {
 }
 
 handle_article :: proc(article: string) -> HandleArticleResult {
-	first_header: bool
+	header_is_article_title: bool
+	header_index: int
 	root := cmark.parse_document(raw_data(article), len(article), {})
 	iter := cmark.iter_new(root)
 	tags := make([dynamic]string)
@@ -235,11 +236,23 @@ handle_article :: proc(article: string) -> HandleArticleResult {
 				buf: [1]byte
 				str := strconv.write_int(buf[:], i64(level), 10)
 				tag := strings.concatenate({"h", str})
-				if len(result.header) == 0 && level == 1 {
-					first_header = true
+				switch level {
+				case 1:
+					if header_index == 0 {
+						header_is_article_title = true
+					}
+					fmt.sbprint(&b, "<", tag, " id=\"header-", header_index, "\">", sep = "")
+					append(&tags, tag)
+					fmt.sbprint(&b, "<a href=\"#header-", header_index, "\">", sep = "")
+					append(&tags, "a")
+				case 2, 3, 4, 5, 6:
+					fmt.sbprint(&b, "<", tag, " id=\"header-", header_index, "\">", sep = "")
+					append(&tags, tag)
+					fmt.sbprint(&b, "<a href=\"#header-", header_index, "\">", sep = "")
+					append(&tags, "a")
+					break
 				}
-				append(&tags, tag)
-				fmt.sbprint(&b, "<", tag, ">", sep = "")
+				header_index += 1
 
 			case .Link:
 				url := strings.clone_from_cstring(cmark.node_get_url(node))
@@ -279,15 +292,18 @@ handle_article :: proc(article: string) -> HandleArticleResult {
 				fmt.sbprint(&b, "<p>", sep = "")
 			case .Text:
 				text := strings.clone_from_cstring(cmark.node_get_literal(node))
-				if first_header {
+				if header_is_article_title {
 					result.header = text
-					first_header = false
+					header_is_article_title = false
 				}
 				fmt.sbprint(&b, text, sep = "")
 			}
 		case .Exit:
 			#partial switch node_type {
-			case .Heading, .Paragraph, .List, .Item, .Link:
+			case .Heading:
+				fmt.sbprint(&b, "</", pop(&tags), ">", sep = "")
+				fmt.sbprint(&b, "</", pop(&tags), ">", sep = "")
+			case .Paragraph, .List, .Item, .Link:
 				fmt.sbprint(&b, "</", pop(&tags), ">", sep = "")
 			}
 			continue
