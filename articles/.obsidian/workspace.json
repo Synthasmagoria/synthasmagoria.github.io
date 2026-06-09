@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "extensions_and_complexity/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -185,9 +185,13 @@
   },
   "active": "8771c5fa436f7989",
   "lastOpenFiles": [
+    "extensions_and_complexity/index.md",
+    "extensions_and_complexity/loc-final.png",
+    "extensions_and_complexity/loc-yoyoyo+tweengms.png",
+    "index.md",
+    "extensions_and_complexity",
     "materials_in_gm/colorize.gif",
     "articles/index.md",
-    "index.md",
     "articles",
     "materials_in_gm/index.md",
     "materials_in_gm/macaron.gif",
@@ -201,9 +205,6 @@
     "error_handling_in_gm/header.png",
     "header.png",
     "materials_in_gm/materials_in_gm.md",
-    "materials_in_gm/thumbnail.png",
-    "materials_in_gm/profiler.png",
-    "materials_in_gm/imgui bindings.png",
     "materials_in_gm",
     "error_handling_in_gm",
     "simple.md"
