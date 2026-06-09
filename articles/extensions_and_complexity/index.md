@@ -1,7 +1,9 @@
 # Extensions and Complexity
 
 ## The case for and against TweenGMS
-I have used TweenGMS for a decently long time. It's a really cool extension that does exactly what I need it to. It turns animations such as these into really one-liners:
+I have used TweenGMS for a decently long time. It's a really cool extension that does exactly what I need it to. It turns making animations such as these into quick one-liners:
+
+![](tweens.gif)
 
 *This is pseudocode*
 ```gml
@@ -9,8 +11,6 @@ TweenFire(square, EaseInOutBounce, TweenMode.Repeat, true, 0, 2, "image_angle", 
 TweenFire(circle, EaseInOutSine, TweenMode.Repeat, true, 0, 2, "y", ystart + 64, ystart - 64);
 TweenFire(triangle, EaseInOutQuad, TweenMode.Repeat, true, 0, 2, "scale", 1, 2);
 ```
-
-![](tweens.gif)
 
 Though, most of the time all I use is two functions: [TweenFire](https://stephenloney.com/_/TweenGMS/120/TGMS_Script_Reference.html#TweenFire) - to quickly animate a variable - and [TweenAddCallback](https://stephenloney.com/_/TweenGMS/120/TGMS_Script_Reference.html#TweenAddCallback) - to make something happen once the tween has finished.
 
