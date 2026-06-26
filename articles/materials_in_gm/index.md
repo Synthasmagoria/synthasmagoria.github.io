@@ -1,5 +1,5 @@
 # Materials in GameMaker
-This article is going to go through how you can use the newly added [ImGUI dbg_](https://manual.gamemaker.io/lts/en/#t=GameMaker_Language%2FGML_Reference%2FDebugging%2FThe_Debug_Overlay.htm&ux=search) functions in GameMaker to make your shader parameters editable while your game is running. This approach is currently being used in the development of [K3+](https://redbatnick.itch.io/iwktk3plus).
+This article is going to go through how you can use the newly added [ImGUI dbg_](https://manual.gamemaker.io/lts/en/#t=GameMaker_Language%2FGML_Reference%2FDebugging%2FThe_Debug_Overlay.htm&ux=search) functions in GameMaker to make your shader parameters editable while your game is running. This approach is currently being used in the development of [K3+](https://redbatnick.itch.io/iwktk3plus). And is discussed in the [latest devlog](https://redbatnick.github.io/Rosie_Times_Ahead/).
 
 ![](macaron.gif)
 
@@ -230,10 +230,10 @@ The workflow stays exactly the same as before for using the material with `varia
 ![](materials_showcase.mp4)
 
 This makes it so much easier to actually get the parameters looking right.
-Source code for a drag'n'drop version of the material can be found here: 
+Source code the simple material can be found here: 
 
 [https://offgrd.xyz/git/Synthasmagoria/gamemaker_material](https://offgrd.xyz/git/Synthasmagoria/gamemaker_material)
 
 Nick also wrote a blog post on recent progress briefly touching upon the way we're using materials in development:
 
-[https://redbatnick.github.io/rosie_times_ahead/Rosie%20Times%20Ahead.html](https://redbatnick.github.io/rosie_times_ahead/Rosie%20Times%20Ahead.html)
+[https://redbatnick.github.io/Rosie_Times_Ahead/](https://redbatnick.github.io/Rosie_Times_Ahead/)

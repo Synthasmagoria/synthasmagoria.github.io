@@ -222,6 +222,12 @@ handle_article :: proc(article: string) -> HandleArticleResult {
 			case .None:
 				fmt.println("Info: Encountered", node_type, "node")
 			case .Document:
+			case .Emph:
+				fmt.sbprint(&b, "<em>")
+				append(&tags, "em")
+			case .Strong:
+				fmt.sbprint(&b, "<strong>")
+				append(&tags, "strong")
 			case .Image:
 				path := strings.clone_from_cstring(cmark.node_get_url(node))
 				_, ext := os.split_filename(path)
@@ -303,7 +309,7 @@ handle_article :: proc(article: string) -> HandleArticleResult {
 			case .Heading:
 				fmt.sbprint(&b, "</", pop(&tags), ">", sep = "")
 				fmt.sbprint(&b, "</", pop(&tags), ">", sep = "")
-			case .Paragraph, .List, .Item, .Link:
+			case .Paragraph, .List, .Item, .Link, .Emph, .Strong:
 				fmt.sbprint(&b, "</", pop(&tags), ">", sep = "")
 			}
 			continue

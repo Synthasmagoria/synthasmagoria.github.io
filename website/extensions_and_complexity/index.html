@@ -1,0 +1,62 @@
+<!doctype html>
+<head>
+<title>Extensions and Complexity</title>   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <link href="/style.css" rel="stylesheet" />
+	<link href="/highlightjs/styles/gml.min.css" rel="stylesheet" />
+</head>
+<body>
+	<canvas id="background"></canvas>
+	<script src="/graphics.js"></script>
+	<script src="/highlightjs/highlight.min.js"></script>
+	<div class="article-content">
+		<h1 id="master-header">Synthasmablogia</h1>
+		<ul class="menu">
+			<li><a href="/">Home</a></li>
+			<li><a href="/articles/">Articles</a></li>
+			<li><a href="https://synthasmagoria.itch.io/">Games</a></li>
+			<li><a href="https://github.com/Synthasmagoria">GitHub</a></li>
+			<li><a href="https://offgrd.xyz/git/Synthasmagoria/">Offgrd (Source forge)</a></li>
+		</ul>
+<h1 id="header-0"><a href="#header-0">Extensions and Complexity</a></h1><h2 id="header-1"><a href="#header-1">The case for and against TweenGMS</a></h2><p>I have used TweenGMS for a decently long time. It's a really cool extension that does exactly what I need it to. It turns making animations such as these into quick one-liners:</p><p><img src="tweens.gif"></img></p><p><em>This is pseudocode</em></p><pre><code class="language-gml">TweenFire(square, EaseInOutBounce, TweenMode.Repeat, true, 0, 2, &#34;image_angle&#34;, 0, 360);
+TweenFire(circle, EaseInOutSine, TweenMode.Repeat, true, 0, 2, &#34;y&#34;, ystart + 64, ystart - 64);
+TweenFire(triangle, EaseInOutQuad, TweenMode.Repeat, true, 0, 2, &#34;scale&#34;, 1, 2);
+</pre></code><p>Though, most of the time all I use is two functions: <a href=" https://stephenloney.com/_/TweenGMS/120/TGMS_Script_Reference.html#TweenFire ">TweenFire</a> - to quickly animate a variable - and <a href=" https://stephenloney.com/_/TweenGMS/120/TGMS_Script_Reference.html#TweenAddCallback ">TweenAddCallback</a> - to make something happen once the tween has finished.</p><p>As a result of having a lot of extra functionality the extension is pretty huge, sitting at about 8000 lines of GML. The reason I know this is because when I was developing <a href=" https://github.com/Synthasmagoria/iwbtp2-source ">P2</a> - a stage of platforming for a collaborative project - I used an LOC counting program. These were the results:</p><p><img src="loc-yoyoyo+tweengms.png"></img><em>This is the LOC count I started with (base assets for the project + TweenGMS)</em></p><p><img src="loc-final.png"></img><em>This is the final LOC count for the project</em></p><p>Which means TweenGMS takes up about 40% of my project's code base on its own.</p><p><code>8000 / 20000 = 0.4</code></p><p>When you're contributing to a GMS1 project, adding anything extraneous is bound to add a consequential amount of compilation time. Which makes the project harder to maintain over time (not least because the GMS1 compiler doesn't cache things very well). So it is hard not to say that it would benefit the project to get rid of at least some of this code. Though, I had already gone past my deadline so I didn't have the time to make a lightweight replacement.</p><p>Later, during the development of a project in GM8.2 I found that it would be a pain to port TweenGMS. I wanted my beloved <code>TweenFire</code> back.</p><p>The question became: how long would I spend porting TweenGMS vs. how long would it take me to remake the base functionality of TweenGMS that I use? I decided to give the latter a shot and in about an hour I had an object that looked something like this:</p><ul><li><p>Create event:</p></li></ul><pre><code class="language-gml">target = noone;
+easing = MCEaseLinear;
+variable_name = &#34;&#34;;
+duration = 0;
+startValue = 0;
+endValue = 0;
+signal_init();
+signal_add(&#34;end&#34;);
+
+progress = 0;
+time = 0;
+value = 0;
+</pre></code><ul><li><p>Step event:</p></li></ul><pre><code class="language-gml">if (!instance_exists(target)) {
+    instance_destroy();
+    exit;
+}
+time += 1.0 / room_speed;
+fraction = time / duration;
+if (fraction &gt;= 1.0) {
+    value = endValue;
+    variable_instance_set(target, variable_name, endValue);
+    signal_emit(&#34;end&#34;);
+    instance_destroy();
+} else {
+    value = (endValue - startValue) * script_execute(easing, fraction) + startValue;
+    variable_instance_set(target, variable_name, value);
+}
+</pre></code><p>Combined with some easing functions which were easily recreated in GML by referencing this website: <a href=" https://easings.net/ ">https://easings.net/</a>. And a helper function with which to create the tween:</p><pre><code class="language-gml">///MCTweenFire(target, easing, varname, duration, start, end)
+var _tween;
+_tween = instance_create(0, 0, MCTween);
+_tween.target = argument0;
+_tween.easing = argument1;
+_tween.variable_name = argument2;
+_tween.duration = argument3;
+_tween.startValue = argument4;
+_tween.endValue = argument5;
+variable_instance_set(argument0, argument2, argument4);
+return _tween;
+</pre></code><p>And voila, I could tween to my heart's content (or at least within the limits of my system). This got me 90% of the way to what I wanted, and I could make up for the other 10% by just coding a bit differently.</p><p>I feel like I have made the case for why you would want to consider writing your own lightweight version of a system for GMS1, but we're now mostly using modern GameMaker (with the exception of <a href=" https://cwpat.me/fangames-intro/ ">certain communities</a>). Where GMS1 would work at the pace of a dead snail, modern GM opens your game relatively quickly. So what is even the point of making your own systems, and optimize for code size and minimal complexity?</p><h2 id="header-2"><a href="#header-2">You can make small systems</a></h2><p>Consider these cases:</p><h3 id="header-3"><a href="#header-3">"I need SDF fonts and a typewriter effect":</a></h3><ul><li><p>You could use <a href=" https://github.com/JujuAdams/Scribble/tree/master ">Scribble</a> (20_000+ LOC)</p></li></ul><p><strong>or</strong></p><ul><li><p>Or you could use <a href=" https://youtu.be/uxLVOwBd63o?si=qkDt_BeMHPznR41Z ">GameMaker SDF font functions</a> + using string functions to create a typewriter (about 50 lines of code)</p></li></ul><h3 id="header-4"><a href="#header-4">"I need signals / an observer pattern implementation":</a></h3><ul><li><p>You could use <a href=" https://refreshertowel.itch.io/pulse ">Pulse</a></p></li></ul><p><strong>or</strong></p><ul><li><p>You could implement the <a href=" https://youtu.be/B_rbNxNllgA?si=VLcNFucvRhzEtpDQ ">pattern yourself for free in 50 lines of code</a></p></li></ul><h3 id="header-5"><a href="#header-5">"I need an in-game developer console":</a></h3><ul><li><p>You could use <a href=" https://github.com/daikon-games/rt-shell ">rt-shell</a></p></li></ul><p><strong>or</strong></p><ul><li><p>You could use <a href=" https://manual.gamemaker.io/monthly/en/index.htm#t=GameMaker_Language%2FGML_Reference%2FGame_Input%2FKeyboard_Input%2Fkeyboard_string.htm&ux=search ">keyboard_string</a> and <a href=" https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Strings/string_split.htm ">string_split</a> to implement an input field where the first typed word looks for a function to execute in a <a href=" https://manual.gamemaker.io/monthly/en/index.htm#t=GameMaker_Language%2FGML_Reference%2FData_Structures%2FDS_Maps%2FDS_Maps.htm ">ds_map</a> (about 100 lines of code)</p></li></ul><h2 id="header-6"><a href="#header-6">The case for autonomy</a></h2><p>As a developer it is important to be able to read source code for the sake of understanding what it does. Not necessarily to be able to modify it - especially in the case of extensions - but to be able to understand the rammifications to using a large system.</p><p>A good example of what I'm talking about is <a href=" https://github.com/JujuAdams/Scribble/tree/master ">Scribble</a>'s cache. You're expected to learn how to use the extension's functions in an efficient manner as to not overburden the hidden cache - which could lead to performance problems. And the two ways to learn about this is to:</p><ul><li><p>Option A: Read the documentation</p></li><li><p>Option B: Read the source code</p></li></ul><p>Option A has limited information, while option B takes a lot of time. So unless you really needed scribbles features it is definitely worth asking: is the time spnet to understand scribble worth sacrificing?</p><p>Carefully considering the pros and cons of using extensions has given me more autonomy than I would otherwise have. For <a href=" https://redbatnick.itch.io/iwktk3plus ">K3+</a> I have made numerous little systems that might have otherwise entered the project as an extension:</p><ul><li><p>A timeline replacement that streamlines skipping functionality (discussed in <a href=" https://redbatnick.github.io/Rosie_Times_Ahead/ ">this article</a>) - 200 lines of code.</p></li><li><p>A buffer-based string builder - 30 lines of code.</p></li><li><p>A CSV parser - 50 lines of code</p></li><li><p><a href=" https://synthasmagoria.github.io/materials_in_gm/ ">Materials</a> - 100 lines of code for minimal implementation. 300 lines of code after modification in K3+</p></li><li><p>... the list goes on</p></li></ul><p>All of the above things have been made before by people who are more dedicated and capable than I am. But, considering the time it took to make each of these components and the autonomy gained as a result, it was well worth it to "reinvent the wheel". When the time comes to make changes to these little systems there will be very little doubt or hesitation for whether we <em>can</em>, or whether we should check the bug tracker of an external project. We own lots of these little components, and the complextiy cost is small.</p><p><img src="systems.png"></img></p><p><em>Scripts containing small systems in K3+</em></p><h2 id="header-7"><a href="#header-7">Conclusion</a></h2><p>Now I'm not about to say that artists should start thinking like programmers, and not use extensions for things that can be easily recreated by an experienced programmer. But for people who are predominantly programmers: please consider this as an option. Your project is most likely going to be better of if you consider what you need versus the cost of using large extensions - namely: adding a lot of code and possibly complexity to your project.</p><script src="/highlightjs/languages/gml.min.js"></script><script>hljs.highlightAll()</script>	</div>
+</body>
