@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "shooter - devlog 01/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -185,11 +185,19 @@
   },
   "active": "8771c5fa436f7989",
   "lastOpenFiles": [
+    "shooter - devlog 01/seeker.mp4",
+    "shooter - devlog 01/index.md",
+    "shooter - devlog 01/screenbuffer.mp4",
+    "shooter - devlog 01/entities-bug.mp4",
+    "shooter - devlog 01/entities bug.mp4",
+    "shooter - devlog 01/recording_2026-06-19_23-29-36.mp4",
+    "shooter - devlog 01/2026-06-18 16-32-58.mp4",
+    "shooter - devlog 01",
+    "materials_in_gm/index.md",
+    "index.md",
     "materials_in_gm/colorize.gif",
     "articles/index.md",
-    "index.md",
     "articles",
-    "materials_in_gm/index.md",
     "materials_in_gm/macaron.gif",
     "error_handling_in_gm/index.md",
     "materials_in_gm/materials_showcase.mp4",
@@ -203,9 +211,6 @@
     "materials_in_gm/materials_in_gm.md",
     "materials_in_gm/thumbnail.png",
     "materials_in_gm/profiler.png",
-    "materials_in_gm/imgui bindings.png",
-    "materials_in_gm",
-    "error_handling_in_gm",
     "simple.md"
   ]
 }
