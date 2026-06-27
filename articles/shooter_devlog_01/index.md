@@ -1,25 +1,25 @@
 # Shooter Devlog 01
 Over a game of poker after my good friends asked about my financial situation I puzzlingly told them that I'd be able to finish and distribute a game on Steam within a month if I lock in 100%. Doing so would do nothing to address my lack of money, it would actually take away precious time from looking for jobs and worrying about responsible adult things. However, after showing them my willingness to commit - and weirdly they didn't stop me there - my good homie Jorge decided to help with the project management aspect and newly made acquaintance; Ollie said he might be able to help with sound design. That got me excited to commit.
 
-The next day I met up with Jorge. I explained to him that my idea was to make a [THOTH](https://store.steampowered.com/app/510620/THOTH/)-inspired twin stick shooter with a wacky way gimmick to increase the difficulty. After discussing the concept in detail we agreed that this game idea would be very doable to finish developing within the given time period. Now, 2 weeks in, and I've almost got a game loop to show for it.
+The next day I met up with Jorge. I explained to him that my idea was to make a [THOTH](https://store.steampowered.com/app/510620/THOTH/)-inspired twin stick shooter with a wacky gimmick to increase the difficulty. After discussing the concept in detail we agreed that this game idea would be very doable to finish developing within the given time period. Now, 2 weeks in, and I've almost got a game loop to show for it.
 
-2 weeks for a game loop is not that great of a speed considering people create finished games in 2 days at game jams. But I don't get much joy from taking all of the shortcuts. My goal is always to learn something from the experience while making something that is of high quality. And to me that means culling anything I deem to be unnecessary from the code base (to a reasonable degree). As such, I've chosen to make the game using [Raylib](https://www.raylib.com/) and [Odin](https://odin-lang.org/). The modern famous combo for indie code-nerd solo devs.
+2 weeks for a game loop is not that great of a speed considering people create finished games in 2 days at game jams. But I don't get much joy from taking all of the shortcuts. My goal is to learn from the experience while making something that is of high quality. And to me that - in part - means culling anything I deem to be unnecessary from the code base. As such, I've chosen to make the game using [Raylib](https://www.raylib.com/) and [Odin](https://odin-lang.org/). The modern famous combo for indie code-nerd solo devs.
 
 ## The idea for the game
 A while ago I experimented with some wobbly physics based movement for a game I made in collaboration with PrinceOfLight.
 ![](seeker.mp4)
-It's somewhat hard to spot from the footage alone, but the player is a solid shape consisting of several points that affect each other. In an attempt to keep its own structural integrity it ends up wobbling around violently causing the player to have to balance speed and control.
+It's somewhat hard to spot from the footage alone, but the player is a polygon consisting of several points affected by physics. In an attempt to keep its own structural integrity it ends up wobbling around violently challenging the player to a dance of speed and control.
 
-For "Shooter" - game working title - I'm going to implement the same thing, and apply it gradually as the player progresses. The idea is that the player will start with completely tight control at the beginning of the game, and be completely loose by the end - if they manage to make it far. All the while having to fend of murderous shapes and an ever-morphing level layout.
+For "Shooter" (working title) I'm going to implement the same thing, and apply it gradually as the player progresses. The idea is that the player will start a run with completely tight control over the player, and become gradually more loose as they score more points. All the while having to fend of murderous shapes and an ever-morphing level layout.
 
 The goal is to aim for the high score by defeating as many enemies as possible. Here's what a test build of the game looks like so far:
 
 ![](game.mp4)
 
-The idea is very simple: You enter an arena with a few enemies. You shoot those enemies down while avoiding them and the walls surrounding you. And then you move onto the next level. You get one point per enemy you defeat.
-One thing I want to implement to set the game apart from its contemporaries is that the new levels should phase in over the old ones. This gives the player a limited preview of the next level allowing them to position themselves favorably before the next level activates.
+The idea is very simple: You enter an arena with a few enemies. You kill them while avoiding them and the deadly walls surrounding you. And then, the next level phases in. You get one point per enemy you defeat.
+One thing I want to implement to set the game apart from its contemporaries, is having new levels phase in over the old ones in order to give the player a limited preview of the next level, allowing them to position themselves favorably before the next level activates.
 
-There are a lot of other aspects that I'm planning on adding to the game to make it a lot more interesting. But for now I just want to focus on nailing the design of the basic formula. I might go into detail about those ideas in a future blog post.
+There are a lot of other gimmicks that I'm planning on adding to the game but, for now I just want to focus on nailing the design of the basic formula. I might go into detail about those ideas in a future blog post.
 
 ## Technical things
 I was inspired by interviews and videos about data driven systems such as this video of Anton livecoding a "system of things" on the Wookash podcast
