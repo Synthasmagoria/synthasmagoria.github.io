@@ -1,0 +1,47 @@
+<!doctype html>
+<head>
+<title>Shooter Devlog 01</title>   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <link href="/style.css" rel="stylesheet" />
+	<link href="/highlightjs/styles/gml.min.css" rel="stylesheet" />
+</head>
+<body>
+	<canvas id="background"></canvas>
+	<script src="/graphics.js"></script>
+	<script src="/highlightjs/highlight.min.js"></script>
+	<div class="article-content">
+		<h1 id="master-header">Synthasmablogia</h1>
+		<ul class="menu">
+			<li><a href="/">Home</a></li>
+			<li><a href="/articles/">Articles</a></li>
+			<li><a href="https://synthasmagoria.itch.io/">Games</a></li>
+			<li><a href="https://github.com/Synthasmagoria">GitHub</a></li>
+			<li><a href="https://offgrd.xyz/git/Synthasmagoria/">Offgrd (Source forge)</a></li>
+		</ul>
+<h1 id="header-0"><a href="#header-0">Shooter Devlog 01</a></h1><p>Over a game of poker after my good friends asked about my financial situation I puzzlingly told them that I'd be able to finish and distribute a game on Steam within a month if I lock in 100%. Doing so would do nothing to address my lack of money, it would actually take away precious time from looking for jobs and worrying about responsible adult things. However, after showing them my willingness to commit - and weirdly they didn't stop me there - my good homie Jorge decided to help with the project management aspect and newly made acquaintance; Ollie said he might be able to help with sound design. That got me excited to commit.</p><p>The next day I met up with Jorge. I explained to him that my idea was to make a <a href=" https://store.steampowered.com/app/510620/THOTH/ ">THOTH</a>-inspired twin stick shooter with a wacky way gimmick to increase the difficulty. After discussing the concept in detail we agreed that this game idea would be very doable to finish developing within the given time period. Now, 2 weeks in, and I've almost got a game loop to show for it.</p><p>2 weeks for a game loop is not that great of a speed considering people create finished games in 2 days at game jams. But I don't get much joy from taking all of the shortcuts. My goal is always to learn something from the experience while making something that is of high quality. And to me that means culling anything I deem to be unnecessary from the code base (to a reasonable degree). As such, I've chosen to make the game using <a href=" https://www.raylib.com/ ">Raylib</a> and <a href=" https://odin-lang.org/ ">Odin</a>. The modern famous combo for indie code-nerd solo devs.</p><h2 id="header-1"><a href="#header-1">The idea for the game</a></h2><p>A while ago I experimented with some wobbly physics based movement for a game I made in collaboration with PrinceOfLight.<video controls><source src="seeker.mp4" type="video/mp4"></source></video>It's somewhat hard to spot from the footage alone, but the player is a solid shape consisting of several points that affect each other. In an attempt to keep its own structural integrity it ends up wobbling around violently causing the player to have to balance speed and control.</p><p>For "Shooter" - game working title - I'm going to implement the same thing, and apply it gradually as the player progresses. The idea is that the player will start with completely tight control at the beginning of the game, and be completely loose by the end - if they manage to make it far. All the while having to fend of murderous shapes and an ever-morphing level layout.</p><p>The goal is to aim for the high score by defeating as many enemies as possible. Here's what a test build of the game looks like so far:</p><p><video controls><source src="game.mp4" type="video/mp4"></source></video></p><p>The idea is very simple: You enter an arena with a few enemies. You shoot those enemies down while avoiding them and the walls surrounding you. And then you move onto the next level. You get one point per enemy you defeat.One thing I want to implement to set the game apart from its contemporaries is that the new levels should phase in over the old ones. This gives the player a limited preview of the next level allowing them to position themselves favorably before the next level activates.</p><p>There are a lot of other aspects that I'm planning on adding to the game to make it a lot more interesting. But for now I just want to focus on nailing the design of the basic formula. I might go into detail about those ideas in a future blog post.</p><h2 id="header-2"><a href="#header-2">Technical things</a></h2><p>I was inspired by interviews and videos about data driven systems such as this video of Anton livecoding a "system of things" on the Wookash podcast</br><iframe width="560" height="315" src="https://www.youtube.com/embed/ShSGHb65f3M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></br>Therefore, I decided to make everything in the game based around a single entity fat-struct with traits and type fields. The idea is that I wont have to balance a bunch of different types. It reduces complexity at the cost of introducing some redundancy in the data and a little bit of bug-proneness like in the lantern example given in Casey's interview of Mahk le Blanc.</br><iframe width="560" height="315" src="https://www.youtube.com/embed/73Do0OScoOU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></br>Mahk describes how the lantern used the <code>hp</code> field of the common entity for fuel. And since it is common behavior for things to lose <code>hp</code> when thrown at a wall the engine would consider the lantern as having been <em>killed</em> upon hitting the wall at low fuel, making it disappear outright.I'm not worried about the redundancy nor the "lack of sophistication" of fat structs since the game wont ever have a terribly high amount of entities and entity types/traits. Here's the current Entity struct:</p><pre><code class="language-odin">Entity :: struct {
+    state: EntityState,
+    type: EntityType,
+    traits: bit_set[EntityTrait],
+    id: int,
+    owner: ^Entity,
+    level_instance: ^LevelInstance,
+    position, velocity: v2,
+    target: v2,
+    size: v2,
+    speed: f32,
+    hp, hp_max: f32,
+    hp_regeneration_rate: f32,
+    point_count: int,
+}
+</pre></code><p>The current entity struct is 88 bytes in size which means I can fit around 760 of them in 64kb which google tells me is a common L1 cache size. So I'm not too worried about running performance problems on the account of the sheer amount of entities.</p><p>This approach has been working out beautifully so far. It is flexible and simple. This will most likely hold up for the duration of the development of the game.</p><h2 id="header-3"><a href="#header-3">Bug blooper reel</a></h2><p>I accidentally gave the player's projectile pool the wrong entities. So whenever I wanted to fire projectiles it would use the level's walls and enemies instead.<video controls><source src="entities_bug.mp4" type="video/mp4"></source></video>This is what happens when you forget to clear the framebuffer. (classic)<video controls><source src="screenbuffer.mp4" type="video/mp4"></source></video></p><h2 id="header-4"><a href="#header-4">Code status</a></h2><pre><code>-------------------------------------------------------------------------------
+Language                     files          blank        comment           code
+-------------------------------------------------------------------------------
+Odin                            10            351             14           2639
+GLSL                            11             67              0            425
+JSON                             2              0              0             36
+Bourne Shell                     1              0              0              1
+Markdown                         1              0              0              1
+-------------------------------------------------------------------------------
+SUM:                            25            418             14           3102
+-------------------------------------------------------------------------------
+"</pre></code><p><em>jesus christ its JSON Bourne Shell</em></p><script src="/highlightjs/languages/odin.min.js"></script><script>hljs.highlightAll()</script>	</div>
+</body>
