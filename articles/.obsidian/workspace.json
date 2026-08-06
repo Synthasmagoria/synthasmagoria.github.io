@@ -14,8 +14,8 @@
               "type": "markdown",
               "state": {
                 "file": "xoark_discovery_arc/index.md",
-                "mode": "source",
-                "source": false
+                "mode": "preview",
+                "source": true
               },
               "icon": "lucide-file",
               "title": "index"
@@ -187,6 +187,7 @@
   },
   "active": "8771c5fa436f7989",
   "lastOpenFiles": [
+    "xoark_discovery_arc/img/tailflamed.jpg",
     "xoark_discovery_arc/index.md.tmp.24889.ef46f8823e95",
     "xoark_discovery_arc/index.md.tmp.24889.8cd1df88e7ae",
     "xoark_discovery_arc/index.md.tmp.21106.f7e614f2c57c",
@@ -197,7 +198,6 @@
     "xoark_discovery_arc/index.md.tmp.16848.a2d4c3efd27e",
     "xoark_discovery_arc/index.md.tmp.16848.9f7ac8561614",
     "xoark_discovery_arc/index.md.tmp.16848.33bd1d4fc867",
-    "xoark_discovery_arc/index.md.tmp.16848.5b17c3425ede",
     "shooter_devlog_01/index.md",
     "index.md",
     "xoark_discovery_arc/img/1sky.jpg",

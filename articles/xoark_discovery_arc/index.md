@@ -14,7 +14,7 @@ The page and 3x3 will be updated for as long as I'm actively listening to XoArK.
   style="width:100%; height:100%; object-fit:cover; display:block;"></a></div>
     <div style="overflow:hidden; background:#222;"><a href="https://lego6.bandcamp.com/album/1sky"><img src="img/1sky.jpg" 
   style="width:100%; height:100%; object-fit:cover; display:block;"></a></div>
-    <div style="overflow:hidden; background:#222;"><a href="https://xoark.bandcamp.com/album/marble-bird-resistor-ep"><img src="img/marble bird resistor.jpg" 
+    <div style="overflow:hidden; background:#222;"><a href="https://xoark.bandcamp.com/album/tailflamed"><img src="img/tailflamed.jpg" 
   style="width:100%; height:100%; object-fit:cover; display:block;"></a></div>
     <div style="overflow:hidden; background:#222;"><a href="https://suimoe.bandcamp.com/album/see2"><img src="img/see2.jpg" 
   style="width:100%; height:100%; object-fit:cover; display:block;"></a></div>
@@ -33,7 +33,7 @@ The page and 3x3 will be updated for as long as I'm actively listening to XoArK.
 1) [Tiryclui](https://xoark.bandcamp.com/album/tiryclui) - Interesting IDM. Second track has a cool sound. And it seemlessly morphs hecticism.
 2) [Parfait Retrieval](https://xoark.bandcamp.com/album/parfait-retrieval) - Mostly DnB. Has some interesting sound design and satisfying track progressions.
 3) [1sky](https://lego6.bandcamp.com/album/1sky) - Variety. Never heard offbeat piano turn into a DnB track before.
-4) [Marble Bird Resistor EP](https://xoark.bandcamp.com/album/marble-bird-resistor-ep) - First track has some banger breaks. Album is consistent.
+4) [Tailflamed](https://xoark.bandcamp.com/album/tailflamed) - Most consistently energetic breakcore / dnb album I've heard from XoArK to date. A vibe all throughout.
 5) [See2](https://suimoe.bandcamp.com/album/see2) - V.A. with a bunch of interesting artists. Ends up being pretty experimental.
 6) [Satellits: Descriptor](https://xoark.bandcamp.com/album/satellits-descriptor) - Desolate IDM
 7) [Nssrwnt](https://xoark.bandcamp.com/album/nssrwnt) - Eerie ambient journey through a big dataplex.
@@ -222,6 +222,16 @@ th, td {
             <td class="rating">★★☆☆☆</td>
             <td class="rating">Album</td>
             <td>21min01sec</td>
+        </tr>
+        <tr>
+            <td class="rating">2026.08.06</td>
+            <td class="rating">2024.11.16</td>
+            <td><a href="https://xoark.bandcamp.com/album/tailflamed">Tailflamed</a></td>
+            <td>IDM</td>
+            <td class="rating">01:01:25</td>
+            <td class="rating">★★★★☆</td>
+            <td class="rating">Album</td>
+            <td>Antennak</td>
         </tr>
     </tbody>
 </table>
