@@ -1,5 +1,6 @@
 package main
 
+import "core:crypto/_edwards25519/tools"
 import cmark "vendor:commonmark"
 import "core:fmt"
 import "core:mem"
@@ -276,8 +277,16 @@ handle_article :: proc(article: string) -> HandleArticleResult {
 					append(&tags, "a")
 				}
 			case .List:
-				fmt.sbprint(&b, "<ul>", sep = "")
-				append(&tags, "ul")
+				#partial switch cmark.node_get_list_type(node) {
+				case .Bullet:
+					fmt.sbprint(&b, "<ul>", sep = "")
+					append(&tags, "ul")
+				case .Ordered:
+					fmt.sbprint(&b, "<ol>", sep =  "")
+					append(&tags, "ol")
+				case:
+					fmt.panicf("List type '%s' not implemented", cmark.node_get_list_type(node))
+				}
 			case .Item:
 				fmt.sbprint(&b, "<li>", sep = "")
 				append(&tags, "li")
