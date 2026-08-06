@@ -170,6 +170,7 @@ HTML_HEADER_START ::
 "<!doctype html>\n" +
 "<head>\n"
 HTML_HEADER_END ::
+"	<meta charset=\"UTF-8\" />\n" +
 "   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n" +
 "   <link href=\"/style.css\" rel=\"stylesheet\" />\n" +
 "	<link href=\"" + HIGHLIGHTJS_DIR + "styles/gml.min.css\" rel=\"stylesheet\" />\n" +

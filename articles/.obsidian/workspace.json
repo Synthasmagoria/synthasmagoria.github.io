@@ -15,7 +15,7 @@
               "state": {
                 "file": "xoark_discovery_arc/index.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "index"
@@ -187,12 +187,18 @@
   },
   "active": "8771c5fa436f7989",
   "lastOpenFiles": [
-    "shooter_devlog_01/seeker.mp4",
-    "shooter_devlog_01/screenbuffer.mp4",
+    "xoark_discovery_arc/index.md.tmp.16848.1b3a24a46bb0",
+    "xoark_discovery_arc/index.md.tmp.16848.1a7dc4981c0f",
+    "xoark_discovery_arc/index.md.tmp.16848.9f30c6ce082e",
+    "xoark_discovery_arc/index.md.tmp.16848.a1e3651f8ff8",
+    "xoark_discovery_arc/index.md.tmp.16848.a2d4c3efd27e",
+    "xoark_discovery_arc/index.md.tmp.16848.9f7ac8561614",
+    "xoark_discovery_arc/index.md.tmp.16848.33bd1d4fc867",
+    "xoark_discovery_arc/index.md.tmp.16848.5b17c3425ede",
+    "xoark_discovery_arc/index.md.tmp.16848.e5b893ec9bc5",
+    "xoark_discovery_arc/index.md.tmp.16848.f7acff39f17a",
+    "xoark_discovery_arc/index.md.tmp.16848.067a72d5342a",
     "shooter_devlog_01/index.md",
-    "shooter_devlog_01/game.mp4",
-    "shooter_devlog_01/entities_bug.mp4",
-    "shooter_devlog_01",
     "index.md",
     "xoark_discovery_arc/img/1sky.jpg",
     "xoark_discovery_arc/img/marble bird resistor.jpg",
@@ -204,17 +210,11 @@
     "xoark_discovery_arc/img/parfait retrieval.jpg",
     "xoark_discovery_arc/img/nssrwnt.jpg",
     "xoark_discovery_arc/img/nemnge.jpg",
-    "xoark_discovery_arc/img",
     "extensions_and_complexity/index.md",
-    "xoark_discovery_arc",
     "extensions_and_complexity/loc-final.png",
-    "extensions_and_complexity",
     "articles/index.md",
-    "articles",
     "materials_in_gm/index.md",
     "error_handling_in_gm/index.md",
-    "materials_in_gm/materials_showcase.mp4",
-    "materials_in_gm/giripossible.mp4",
     "materials_in_gm/materials_in_gm.md",
     "simple.md"
   ]
