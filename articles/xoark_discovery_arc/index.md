@@ -2,7 +2,7 @@
 
 Sorry my descriptors are so vague. I haven't spent a lot of time with any of this music yet.
 
-1) [Tiryclui](https://xoark.bandcamp.com/album/parfait-retrieval) - Interesting IDM. Second track has a cool sound. And it seemlessly morphs hecticism.
+1) [Tiryclui](https://xoark.bandcamp.com/album/tiryclui) - Interesting IDM. Second track has a cool sound. And it seemlessly morphs hecticism.
 2) [Parfait Retrieval](https://xoark.bandcamp.com/album/parfait-retrieval) - Mostly DnB. Has some interesting sound design and satisfying track progressions.
 3) [1sky](https://lego6.bandcamp.com/album/1sky) - Variety. Never heard offbeat piano turn into a DnB track before.
 4) [Marble Bird Resistor EP](https://xoark.bandcamp.com/album/marble-bird-resistor-ep) - First track has some banger breaks. Album is consistent.
@@ -14,24 +14,24 @@ Sorry my descriptors are so vague. I haven't spent a lot of time with any of thi
 
 <div style="display:grid; grid-template-columns:repeat(3, 1fr); 
   grid-template-rows:repeat(3, 1fr); gap:8px; width:100%; height:100%;">
-    <div style="overflow:hidden; background:#222;"><img src="img/tiryclui.jpg" 
-  style="width:100%; height:100%; object-fit:cover; display:block;"></div>
-    <div style="overflow:hidden; background:#222;"><img src="img/parfait retrieval.jpg" 
-  style="width:100%; height:100%; object-fit:cover; display:block;"></div>
-    <div style="overflow:hidden; background:#222;"><img src="img/1sky.jpg" 
-  style="width:100%; height:100%; object-fit:cover; display:block;"></div>
-    <div style="overflow:hidden; background:#222;"><img src="img/marble bird resistor.jpg" 
-  style="width:100%; height:100%; object-fit:cover; display:block;"></div>
-    <div style="overflow:hidden; background:#222;"><img src="img/see2.jpg" 
-  style="width:100%; height:100%; object-fit:cover; display:block;"></div>
-    <div style="overflow:hidden; background:#222;"><img src="img/satellits descriptor.jpg" 
-  style="width:100%; height:100%; object-fit:cover; display:block;"></div>
-    <div style="overflow:hidden; background:#222;"><img src="img/nssrwnt.jpg" 
-  style="width:100%; height:100%; object-fit:cover; display:block;"></div>
-    <div style="overflow:hidden; background:#222;"><img src="img/nemnge.jpg" 
-  style="width:100%; height:100%; object-fit:cover; display:block;"></div>
-    <div style="overflow:hidden; background:#222;"><img src="img/talprcrii.jpg" 
-  style="width:100%; height:100%; object-fit:cover; display:block;"></div>
+    <div style="overflow:hidden; background:#222;"><a href="https://xoark.bandcamp.com/album/tiryclui"><img src="img/tiryclui.jpg" 
+  style="width:100%; height:100%; object-fit:cover; display:block;"></a></div>
+    <div style="overflow:hidden; background:#222;"><a href="https://xoark.bandcamp.com/album/parfait-retrieval"><img src="img/parfait retrieval.jpg" 
+  style="width:100%; height:100%; object-fit:cover; display:block;"></a></div>
+    <div style="overflow:hidden; background:#222;"><a href="https://lego6.bandcamp.com/album/1sky"><img src="img/1sky.jpg" 
+  style="width:100%; height:100%; object-fit:cover; display:block;"></a></div>
+    <div style="overflow:hidden; background:#222;"><a href="https://xoark.bandcamp.com/album/marble-bird-resistor-ep"><img src="img/marble bird resistor.jpg" 
+  style="width:100%; height:100%; object-fit:cover; display:block;"></a></div>
+    <div style="overflow:hidden; background:#222;"><a href="https://suimoe.bandcamp.com/album/see2"><img src="img/see2.jpg" 
+  style="width:100%; height:100%; object-fit:cover; display:block;"></a></div>
+    <div style="overflow:hidden; background:#222;"><a href="https://xoark.bandcamp.com/album/satellits-descriptor"><img src="img/satellits descriptor.jpg" 
+  style="width:100%; height:100%; object-fit:cover; display:block;"></a></div>
+    <div style="overflow:hidden; background:#222;"><a href="https://xoark.bandcamp.com/album/nssrwnt"><img src="img/nssrwnt.jpg" 
+  style="width:100%; height:100%; object-fit:cover; display:block;"></a></div>
+    <div style="overflow:hidden; background:#222;"><a href="https://xoark.bandcamp.com/album/nemnge"><img src="img/nemnge.jpg" 
+  style="width:100%; height:100%; object-fit:cover; display:block;"></a></div>
+    <div style="overflow:hidden; background:#222;"><a href="https://xoark.bandcamp.com/album/talprcrii"><img src="img/talprcrii.jpg" 
+  style="width:100%; height:100%; object-fit:cover; display:block;"></a></div>
   </div>
 
 ## The initial discovery era (early August 2026)
@@ -82,7 +82,7 @@ Next I figured out that IDM goes extremely well for when you're programming. So 
         <tr>
             <td>2026.08.03</td>
             <td>2025.06.08</td>
-            <td><a href="https://xoark.bandcamp.com/album/parfait-retrieval">Tiryclui</a></td>
+            <td><a href="https://xoark.bandcamp.com/album/tiryclui">Tiryclui</a></td>
             <td>IDM</td>
             <td>01:23:33</td>
             <td>★★★★☆</td>
