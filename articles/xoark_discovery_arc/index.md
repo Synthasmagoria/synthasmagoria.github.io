@@ -1,16 +1,10 @@
 # XoArK
 
+I started digging through XoArK's discography, and decided to chronicle it.
 Sorry my descriptors are so vague. I haven't spent a lot of time with any of this music yet.
+The page and 3x3 will be updated for as long as I'm actively listening to XoArK.
 
-1) [Tiryclui](https://xoark.bandcamp.com/album/tiryclui) - Interesting IDM. Second track has a cool sound. And it seemlessly morphs hecticism.
-2) [Parfait Retrieval](https://xoark.bandcamp.com/album/parfait-retrieval) - Mostly DnB. Has some interesting sound design and satisfying track progressions.
-3) [1sky](https://lego6.bandcamp.com/album/1sky) - Variety. Never heard offbeat piano turn into a DnB track before.
-4) [Marble Bird Resistor EP](https://xoark.bandcamp.com/album/marble-bird-resistor-ep) - First track has some banger breaks. Album is consistent.
-5) [See2](https://suimoe.bandcamp.com/album/see2) - V.A. with a bunch of interesting artists. Ends up being pretty experimental.
-6) [Satellits: Descriptor](https://xoark.bandcamp.com/album/satellits-descriptor) - Desolate IDM
-7) [Nssrwnt](https://xoark.bandcamp.com/album/nssrwnt) - Eerie ambient journey through a big dataplex.
-8) [nemnge](https://xoark.bandcamp.com/album/nemnge) - Cool IDM ambient
-9) [talprcrii](https://xoark.bandcamp.com/album/talprcrii) - Hectic IDM
+[Check out this absolutely photogenic bandcamp page](https://xoark.bandcamp.com/music)
 
 <div style="display:grid; grid-template-columns:repeat(3, 1fr); 
   grid-template-rows:repeat(3, 1fr); gap:8px; width:100%; height:100%;">
@@ -34,14 +28,17 @@ Sorry my descriptors are so vague. I haven't spent a lot of time with any of thi
   style="width:100%; height:100%; object-fit:cover; display:block;"></a></div>
   </div>
 
-## The initial discovery era (early August 2026)
-I found out about XoArK because Ilkae will purchase an album every now and then. See2 was my first listen because I thought it was a XoArK album. So my first impression was "damn this guy has many styles". Tiryclui was in interesting listen right after. It had been in my BC wishlist for a long time prior. That was my introduction to XoArK's IDM style. Which is probably the material I most enjoy listening to (even if I've come to learn that it can be a bit samey across the catalogue).
+*albums not ordered by favorite. here's the albums on the 3x3 from left to right, top to bottom*
 
-Parfait Retrieval and Tea Flange are interesting right next to one another because even though they are similar in style and length they made very different impressions on me. Parfait Retrieval is my first proper XoArK breakcore experience. I thought it was solid throughout, and I appreciated the progressions of the long 7 tracks the album has. Tea Flange was the opposite. I thought it was rather boring, and none of the tracks stood out to me. Maybe this will change on future listens.
-
-1sky was another interesting collaborative album that I found around the time that I realized that there are several BC pages featuring XoArK's work - all of them more collaborative in nature, functioning more like labels than personal art projects (though, framing it like this makes it seem like XoArK is behind the organization of everything which I don't actually know whether is true and I don't want to make that assumption). Among them are [Yldinceaflifigemrgungestymbrdldingenssetearergannittcostenen](https://yldincelism.bandcamp.com/), [lego6](https://lego6.bandcamp.com/), and [Annamite striped rabbit](https://annamite.bandcamp.com/). As for 1sky, I found the variety in that album to be a refresher and I will be checking out [micro cue](https://friction4.bandcamp.com/music)'s music in the future. Speaking of which, I recognize the album art for [Reverse Pancake](https://lego6.bandcamp.com/album/reverse-pancake). Probably another one of Ilkae's fan account purchases.
-
-Next I figured out that IDM goes extremely well for when you're programming. So I decided to seek out more XoArK brand IDM. Starting with Satellits: Descriptor and \#92b1e4, before later discovering Nssrwnt, nemnge, Ice Aqautics and Talprcrii. For me it was a mixed bag. Some struck a note, others not so much. Specifically Satellits: Descriptor with its really abrasive sounds in Spacewire 01 was not much to my liking. But hey, at least I didn't find it boring. I also noticed a danger in listening to these works at too loud a volume on speaker because some of them will suddenly flare up a lot making the loudness spike. I will not be deterred however and listen to more of XoArK's late at night while doing my research because it is such a vibe.
+1) [Tiryclui](https://xoark.bandcamp.com/album/tiryclui) - Interesting IDM. Second track has a cool sound. And it seemlessly morphs hecticism.
+2) [Parfait Retrieval](https://xoark.bandcamp.com/album/parfait-retrieval) - Mostly DnB. Has some interesting sound design and satisfying track progressions.
+3) [1sky](https://lego6.bandcamp.com/album/1sky) - Variety. Never heard offbeat piano turn into a DnB track before.
+4) [Marble Bird Resistor EP](https://xoark.bandcamp.com/album/marble-bird-resistor-ep) - First track has some banger breaks. Album is consistent.
+5) [See2](https://suimoe.bandcamp.com/album/see2) - V.A. with a bunch of interesting artists. Ends up being pretty experimental.
+6) [Satellits: Descriptor](https://xoark.bandcamp.com/album/satellits-descriptor) - Desolate IDM
+7) [Nssrwnt](https://xoark.bandcamp.com/album/nssrwnt) - Eerie ambient journey through a big dataplex.
+8) [nemnge](https://xoark.bandcamp.com/album/nemnge) - Cool IDM ambient
+9) [talprcrii](https://xoark.bandcamp.com/album/talprcrii) - Hectic IDM
 
 <div>
 <style>
@@ -206,6 +203,42 @@ th, td {
             <td class="rating">Album</td>
             <td>01</td>
         </tr>
+        <tr>
+            <td class="rating">2026.08.06</td>
+            <td class="rating">2025.07.06</td>
+            <td><a href="https://xoark.bandcamp.com/album/extracted-75699">Extracted (-75699)</a></td>
+            <td>IDM</td>
+            <td class="rating">01:04:33</td>
+            <td class="rating">★★☆☆☆</td>
+            <td class="rating">Album</td>
+            <td>44428</td>
+        </tr>
+        <tr>
+            <td class="rating">2026.08.06</td>
+            <td class="rating">2025.01.16</td>
+            <td><a href="https://xoark.bandcamp.com/album/2-tracks-01-14-33">2 tracks, 01:14:33</a></td>
+            <td>IDM</td>
+            <td class="rating">01:14:33</td>
+            <td class="rating">★★☆☆☆</td>
+            <td class="rating">Album</td>
+            <td>21min01sec</td>
+        </tr>
     </tbody>
 </table>
 </div>
+
+## The initial discovery era. (2026.08.02 - 2026.08.06)
+I found out about XoArK because I'm following [Ilkae](https://bandcamp.com/ilkae)'s BC fan account. This means I'll see what music he buys, and every now and then I'll check some of it out. See2 was my first listen. It is a collaboration between several different artists. I thought it was a XoArK album. So my first impression was "damn, this guy has many styles". However, the variety came from the fact that there were different artists on each track. The album is on the [suicide.moe](https://suimoe.bandcamp.com/music) label. Which I believe is defunct now. Afterward I listened to Tiryclui. It had been in my BC wishlist for a long time prior, and it was my introduction to XoArK's IDM style. Which is probably what I enjoy most in their discography - even if I've come to learn that it can be a bit samey across their catalogue.
+
+Parfait Retrieval and Tea Flange are interesting right next to one another because even though they are similar in style and length they made very different impressions on me. Parfait Retrieval is my first proper XoArK breakcore experience. I thought it was solid throughout, and I appreciated the progressions of the long 7 tracks the album has. Tea Flange was the opposite. I thought it was rather boring, and none of the tracks stood out to me. Maybe this will change on future listens.
+
+1sky was another interesting collaborative album that I found around the time that I realized that there are several BC pages featuring XoArK's work - all of them more collaborative in nature, and functioning more like labels than personal art projects (though, framing it like this makes it seem like XoArK is behind the organization of everything which I don't actually know whether is true, and I don't want to make that assumption). Among them are [Yldinceaflifigemrgungestymbrdldingenssetearergannittcostenen](https://yldincelism.bandcamp.com/), [lego6](https://lego6.bandcamp.com/), and [Annamite striped rabbit](https://annamite.bandcamp.com/). As for 1sky, I found the variety in that album to be refreshing, and I will be checking out [micro cue](https://friction4.bandcamp.com/music)'s music in the future. Speaking of which, I recognize the album art for [Reverse Pancake](https://lego6.bandcamp.com/album/reverse-pancake). Probably another one of Ilkae's fan account purchases.
+
+Next I figured out that XoArK's IDM is an extremely good accompaniment for programming. So I decided to seek out more of it. Starting with, Satellits: Descriptor and \#92b1e4, before later discovering Nssrwnt, nemnge, Ice Aqautics and Talprcrii. It was a mixed bag. Some struck a note, others not so much. Specifically Satellits: Descriptor with its really abrasive sounds in Spacewire 01 was not much to my liking, though it never bored me (which would have been much more of a crime). I also noticed a danger in listening to these works at high volumes. Some of them will be quiet for a while and then flare up, suddenly becoming very loud. I will not be deterred however and listen to more of XoArK's late at night while doing my research because it is such a vibe.
+
+
+## Random thoughts (2026.08.06 - XXXX.XX.XX)
+
+- [2 tracks, 01:14:33](https://xoark.bandcamp.com/album/2-tracks-01-14-33)
+
+Just finished listening to it. I like the first track since it has a catchy consistent beat. Initially I was going to give this a 1/5 since the second nearly bored me to death. But around the halfway point it turned into something that sounded like I was stuck in a rusty factory. Loud bangs from the machinery reverberating throghout the complex. It was long since thought to be out of commision. But, at night the machines still continue their work as normal. This album could be very cool to experience live. Don't think I'm going to listen to it again any time soon.
