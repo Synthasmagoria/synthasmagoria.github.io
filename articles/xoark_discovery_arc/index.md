@@ -44,8 +44,15 @@ Parfait Retrieval and Tea Flange are interesting right next to one another becau
 Next I figured out that IDM goes extremely well for when you're programming. So I decided to seek out more XoArK brand IDM. Starting with Satellits: Descriptor and \#92b1e4, before later discovering Nssrwnt, nemnge, Ice Aqautics and Talprcrii. For me it was a mixed bag. Some struck a note, others not so much. Specifically Satellits: Descriptor with its really abrasive sounds in Spacewire 01 was not much to my liking. But hey, at least I didn't find it boring. I also noticed a danger in listening to these works at too loud a volume on speaker because some of them will suddenly flare up a lot making the loudness spike. I will not be deterred however and listen to more of XoArK's late at night while doing my research because it is such a vibe.
 
 <div>
-<style>table, th, td {border:1px solid gray;}</style>
-<table>
+<style>
+th, td {
+    border:1px solid gray;
+}
+.rating {
+    text-align: center;
+}
+</style>
+<table style="border:1px solid gray; width:100%; position:relative;">
 	<thead>
 	    <tr>
     		<th>Listened</th>
@@ -60,143 +67,143 @@ Next I figured out that IDM goes extremely well for when you're programming. So 
 	</thead>
 	<tbody>
         <tr>
-            <td>2026.08.02</td>
-            <td>2024.06.29</td>
+            <td class="rating">2026.08.02</td>
+            <td class="rating">2024.06.29</td>
             <td><a href="https://suimoe.bandcamp.com/album/see2">See2</a></td>
             <td>Breakcore</td>
-            <td>00:45:54</td>
-            <td>★★★★☆</td>
-            <td>V.A.</td>
+            <td class="rating">00:45:54</td>
+            <td class="rating">★★★★☆</td>
+            <td class="rating">V.A.</td>
             <td>y?</td>
         </tr>
         <tr>
-            <td>2026.08.02</td>
-            <td>2024.02.11</td>
+            <td class="rating">2026.08.02</td>
+            <td class="rating">2024.02.11</td>
             <td><a href="https://xoark.bandcamp.com/album/chrolps-nlockpyi">Chrolps / Nlockpyi</a></td>
             <td>Breakcore</td>
-            <td>00:11:44</td>
-            <td>★★☆☆☆</td>
-            <td>E.P.</td>
+            <td class="rating">00:11:44</td>
+            <td class="rating">★★☆☆☆</td>
+            <td class="rating">E.P.</td>
             <td></td>
         </tr>
         <tr>
-            <td>2026.08.03</td>
-            <td>2025.06.08</td>
+            <td class="rating">2026.08.03</td>
+            <td class="rating">2025.06.08</td>
             <td><a href="https://xoark.bandcamp.com/album/tiryclui">Tiryclui</a></td>
             <td>IDM</td>
-            <td>01:23:33</td>
-            <td>★★★★☆</td>
-            <td>Album</td>
+            <td class="rating">01:23:33</td>
+            <td class="rating">★★★★☆</td>
+            <td class="rating">Album</td>
             <td>02</td>
         </tr>
         <tr>
-            <td>2026.08.03</td>
-            <td>2026.05.30</td>
+            <td class="rating">2026.08.03</td>
+            <td class="rating">2026.05.30</td>
             <td><a href="https://xoark.bandcamp.com/album/parfait-retrieval">Parfait Retrieval</a></td>
             <td>DnB</td>
-            <td>01:12:50</td>
-            <td>★★★★☆</td>
-            <td>Album</td>
+            <td class="rating">01:12:50</td>
+            <td class="rating">★★★★☆</td>
+            <td class="rating">Album</td>
             <td>Morphedfeather</td>
         </tr>
         <tr>
-            <td>2026.08.04</td>
-            <td>2025.12.29</td>
+            <td class="rating">2026.08.04</td>
+            <td class="rating">2025.12.29</td>
             <td><a href="https://xoark.bandcamp.com/album/tea-flange">Tea Flange</a></td>
             <td>DnB</td>
-            <td>01:11:28</td>
-            <td>★★☆☆☆</td>
-            <td>Album</td>
+            <td class="rating">01:11:28</td>
+            <td class="rating">★★☆☆☆</td>
+            <td class="rating">Album</td>
             <td></td>
         </tr>
         <tr>
-            <td>2026.08.04</td>
-            <td>2024.11.27</td>
+            <td class="rating">2026.08.04</td>
+            <td class="rating">2024.11.27</td>
             <td><a href="https://lego6.bandcamp.com/album/1sky">1sky</a></td>
             <td>Breakcore</td>
-            <td>00:34:47</td>
-            <td>★★★★☆</td>
-            <td>Split</td>
+            <td class="rating">00:34:47</td>
+            <td class="rating">★★★★☆</td>
+            <td class="rating">Split</td>
             <td>Pstch_n46</td>
         </tr>
         <tr>
-            <td>2026.08.04</td>
-            <td>2025.07.21</td>
+            <td class="rating">2026.08.04</td>
+            <td class="rating">2025.07.21</td>
             <td><a href="https://xoark.bandcamp.com/album/satellits-descriptor">Satellits: Descriptor</a></td>
             <td>IDM</td>
-            <td>01:27:14</td>
-            <td>★★★☆☆</td>
-            <td>Album</td>
+            <td class="rating">01:27:14</td>
+            <td class="rating">★★★☆☆</td>
+            <td class="rating">Album</td>
             <td>Spacewire 02</td>
         </tr>
         <tr>
-            <td>2026.08.04</td>
-            <td>2025.07.25</td>
+            <td class="rating">2026.08.04</td>
+            <td class="rating">2025.07.25</td>
             <td><a href="https://xoark.bandcamp.com/album/92b1e4">#92b1e4</a></td>
             <td>IDM</td>
-            <td>00:35:32</td>
-            <td>★☆☆☆☆</td>
-            <td>Journey</td>
+            <td class="rating">00:35:32</td>
+            <td class="rating">★☆☆☆☆</td>
+            <td class="rating">Journey</td>
             <td></td>
         </tr>
         <tr>
-            <td>2026.08.05</td>
-            <td>2025.08.01</td>
+            <td class="rating">2026.08.05</td>
+            <td class="rating">2025.08.01</td>
             <td><a href="https://xoark.bandcamp.com/album/marble-bird-resistor-ep">Marble Bird Resistor</a></td>
             <td>Breakcore</td>
-            <td>00:39:08</td>
-            <td>★★★☆☆</td>
-            <td>E.P.</td>
+            <td class="rating">00:39:08</td>
+            <td class="rating">★★★☆☆</td>
+            <td class="rating">E.P.</td>
             <td>Submarine1</td>
         </tr>
         <tr>
-            <td>2026.08.05</td>
-            <td>2025.02.02</td>
+            <td class="rating">2026.08.05</td>
+            <td class="rating">2025.02.02</td>
             <td><a href="https://xoark.bandcamp.com/album/nssrwnt">Nssrwnt</a></td>
             <td>Ambient</td>
-            <td>01:09:30</td>
-            <td>★★★★☆</td>
-            <td>Album</td>
+            <td class="rating">01:09:30</td>
+            <td class="rating">★★★★☆</td>
+            <td class="rating">Album</td>
             <td>Navscr</td>
         </tr>
         <tr>
-            <td>2026.08.05</td>
-            <td>2026.08.01</td>
+            <td class="rating">2026.08.05</td>
+            <td class="rating">2026.08.01</td>
             <td><a href="https://xoark.bandcamp.com/album/silkbuffer-ep">Silkbuffer</a></td>
             <td>Breakcore</td>
-            <td>00:35:45</td>
-            <td>★★★☆☆</td>
-            <td>E.P.</td>
+            <td class="rating">00:35:45</td>
+            <td class="rating">★★★☆☆</td>
+            <td class="rating">E.P.</td>
             <td></td>
         </tr>
         <tr>
-            <td>2026.08.05</td>
-            <td>2024.08.27</td>
+            <td class="rating">2026.08.05</td>
+            <td class="rating">2024.08.27</td>
             <td><a href="https://xoark.bandcamp.com/album/nemnge">nemnge</a></td>
             <td>Ambient</td>
-            <td>01:05:38</td>
-            <td>★★★★☆</td>
-            <td>Album</td>
+            <td class="rating">01:05:38</td>
+            <td class="rating">★★★★☆</td>
+            <td class="rating">Album</td>
             <td>Nihsk</td>
         </tr>
         <tr>
-            <td>2026.08.06</td>
-            <td>2025.04.27</td>
+            <td class="rating">2026.08.06</td>
+            <td class="rating">2025.04.27</td>
             <td><a href="https://xoark.bandcamp.com/album/ice-aqautics">Ice Aqautics</a></td>
             <td>IDM</td>
-            <td>00:33:17</td>
-            <td>★★★☆☆</td>
-            <td>Journey</td>
+            <td class="rating">00:33:17</td>
+            <td class="rating">★★★☆☆</td>
+            <td class="rating">Journey</td>
             <td></td>
         </tr>
         <tr>
-            <td>2026.08.06</td>
-            <td>2025.02.04</td>
+            <td class="rating">2026.08.06</td>
+            <td class="rating">2025.02.04</td>
             <td><a href="https://xoark.bandcamp.com/album/talprcrii">Talprcrii</a></td>
             <td>IDM</td>
-            <td>00:53:31</td>
-            <td>★★★★☆</td>
-            <td>Album</td>
+            <td class="rating">00:53:31</td>
+            <td class="rating">★★★★☆</td>
+            <td class="rating">Album</td>
             <td>01</td>
         </tr>
     </tbody>

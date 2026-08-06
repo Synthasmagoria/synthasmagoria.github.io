@@ -80,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "3dc67cb7e6c50166",
@@ -187,6 +188,8 @@
   },
   "active": "8771c5fa436f7989",
   "lastOpenFiles": [
+    "xoark_discovery_arc/index.md.tmp.24889.ef46f8823e95",
+    "xoark_discovery_arc/index.md.tmp.24889.8cd1df88e7ae",
     "xoark_discovery_arc/index.md.tmp.21106.f7e614f2c57c",
     "xoark_discovery_arc/index.md.tmp.16848.1b3a24a46bb0",
     "xoark_discovery_arc/index.md.tmp.16848.1a7dc4981c0f",
@@ -196,8 +199,6 @@
     "xoark_discovery_arc/index.md.tmp.16848.9f7ac8561614",
     "xoark_discovery_arc/index.md.tmp.16848.33bd1d4fc867",
     "xoark_discovery_arc/index.md.tmp.16848.5b17c3425ede",
-    "xoark_discovery_arc/index.md.tmp.16848.e5b893ec9bc5",
-    "xoark_discovery_arc/index.md.tmp.16848.f7acff39f17a",
     "shooter_devlog_01/index.md",
     "index.md",
     "xoark_discovery_arc/img/1sky.jpg",
