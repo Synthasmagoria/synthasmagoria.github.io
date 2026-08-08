@@ -227,11 +227,21 @@ th, td {
             <td class="rating">2026.08.06</td>
             <td class="rating">2024.11.16</td>
             <td><a href="https://xoark.bandcamp.com/album/tailflamed">Tailflamed</a></td>
-            <td>IDM</td>
+            <td>Breakcore</td>
             <td class="rating">01:01:25</td>
             <td class="rating">★★★★☆</td>
             <td class="rating">Album</td>
             <td>Antennak</td>
+        </tr>
+        <tr>
+            <td class="rating">2026.08.06</td>
+            <td class="rating">2024.11.16</td>
+            <td><a href="https://xoark.bandcamp.com/album/nimnsk">Nimnsk</a></td>
+            <td>Breakcore</td>
+            <td class="rating">01:06:19</td>
+            <td class="rating">★★★★☆</td>
+            <td class="rating">Album</td>
+            <td>Macrhenkta</td>
         </tr>
     </tbody>
 </table>
@@ -252,3 +262,12 @@ Next I figured out that XoArK's IDM is an extremely good accompaniment for progr
 - [2 tracks, 01:14:33](https://xoark.bandcamp.com/album/2-tracks-01-14-33)
 
 Just finished listening to it. I like the first track since it has a catchy consistent beat. Initially I was going to give this a 1/5 since the second nearly bored me to death. But around the halfway point it turned into something that sounded like I was stuck in a rusty factory. Loud bangs from the machinery reverberating throghout the complex. It was long since thought to be out of commision. But, at night the machines still continue their work as normal. This album could be very cool to experience live. Don't think I'm going to listen to it again any time soon.
+
+- [Tailflamed](https://xoark.bandcamp.com/album/tailflamed)
+
+This shit had me incredibly locked in. I'm definitely revisiting this one soon.
+
+- [Nimnsk](https://xoark.bandcamp.com/album/nimnsk)
+
+Disharmony was the throughline on this one, in a good way. Though it didn't last through the second half.
+This one is also quite interesting, and I'm waiting to make up my mind until I've heard it at least a few more times.
