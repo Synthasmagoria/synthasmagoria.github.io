@@ -281,7 +281,18 @@ th, td {
             <td class="rating">00:57:02</td>
             <td class="rating">★★★☆☆</td>
             <td class="rating">Album</td>
-            <td>06</td>
+            <td>placement bar (0)</td>
+            <td class="rating">1</td>
+        </tr>
+        <tr>
+            <td class="rating">2026.08.09</td>
+            <td class="rating">2023.06.08</td>
+            <td><a href="https://xoark.bandcamp.com/album/satellits-descriptions">Satellits: Descriptions</a></td>
+            <td>IDM</td>
+            <td class="rating">01:31:18</td>
+            <td class="rating">★★★☆☆</td>
+            <td class="rating">Album</td>
+            <td>hshskhsk3</td>
             <td class="rating">1</td>
         </tr>
     </tbody>
