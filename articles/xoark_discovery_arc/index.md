@@ -370,3 +370,131 @@ There's a pattern in the album covers. You can use this to determine with relati
 - Does the cover have a low-res filter? Or does it consist of a few shapes + color combinations. Then it's gonna be somewhat chill experimental IDM or ambient.
 - Does the cover feature one of XoArK's notebook creatures? Then its most likely hectic IDM.
 - Does the cover feature a picture of an image file or file dialogue (like Windows Explorer)? Then I have no idea. Ask me in the future.
+
+### XoArK Cinematic Universe 2: Pattern recognition overload (2026.08.09)
+
+I didn't realize until now, but there are a lot of XoArK "series" / "groups" of albums. It would be immediately obvious if the catalogue of releases wasn't so huge. But, since it is its easy to miss. I'll be listing a few of the ones I've found. Note that there might be missing releases in these "series" since XoArK will sometimes put them on different labels. Additionally, since I haven't listened to most of these I won't try to describe them.
+
+<hr>
+<div style="display: flex; align-items: flex-start; gap: 20px;">
+<div style="flex: 1.3;">
+
+**Satellits**:
+
+1. Satellits: Placements (2023)
+2. Satellits: Descriptions (2023)
+3. Satellits: Descriptor (2025)
+
+</div>
+<div style="flex: 0.7;">
+<a href="https://xoark.bandcamp.com/album/satellits-descriptions">
+<img src="img/satellits descriptions.jpg" alt="Satellits: Descriptions album art" style="width: 100%; height: auto; display: block;">
+</a>
+</div>
+</div>
+
+<hr>
+<div style="display: flex; align-items: flex-start; gap: 20px;">
+<div style="flex: 1.3;">
+
+**The p/P()~()8\*n series**
+1) P()~()..8 (2021)
+2) P()~()..16 (2021)
+3) P()~()..24 (2022)
+4) P()~()..32 (2022) (this one is on the suicide.moe label)
+5) P()~()..40 (2023)
+6) P()~()..48 (2023)
+7) P()~()..56 (2025)
+
+</div>
+<div style="flex: 0.7;">
+<a href="https://xoark.bandcamp.com/album/p-56">
+<img src="img/p-56.jpg" alt="p56 album art" style="width: 100%; height: auto; display: block;">
+</a>
+</div>
+</div>
+
+<hr>
+<div style="display: flex; align-items: flex-start; gap: 20px;">
+<div style="flex: 1.3;">
+
+**praspis series**
+1) praspis1, "please mind the allocation of resources"
+2) praspis2, "inf:"
+3) praspis3, "it does lethal damage"
+
+Apparently praspis3 was a live set. Wish I was there man.
+
+</div>
+<div style="flex: 0.7;">
+<a href="https://xoark.bandcamp.com/album/praspis1-please-mind-the-allocation-of-resources">
+<img src="img/praspis1.jpg" alt="praspis1 album art" style="width: 100%; height: auto; display: block;">
+</a>
+</div>
+</div>
+
+<hr>
+<div style="display: flex; align-items: flex-start; gap: 20px;">
+<div style="flex: 1.3;">
+
+**missing / broken "series"**
+
+These are weird. They're a common pattern. The name of the work generally reflects some software failure. Like: "image could not be displayed successfully". Not entirely sure if they should be grouped together or if they should be seen as something else.
+I'd have trouble listing them all so I'll just give a few examples.
+- [Something went wrong in this section of the page](https://xoark.bandcamp.com/album/something-went-wrong-in-this-section-of-the-page)
+- [This item is no longer available. Items may be taken down for various reasons, including by decision of the uploader or due to a violation of our Terms of Use.](https://xoark.bandcamp.com/album/this-item-is-no-longer-available-items-may-be-taken-down-for-various-reasons-including-by-decision-of-the-uploader-or-due-to-a-violation-of-our-terms-of-use)
+- [\[internally suppressed reference\] \[explorer_2022-10-08_02.04.36\]](https://xoark.bandcamp.com/album/internally-suppressed-reference-explorer-2022-10-08-020436)
+
+</div>
+<div style="flex: 0.7;">
+<a href="https://xoark.bandcamp.com/album/this-item-is-no-longer-available-items-may-be-taken-down-for-various-reasons-including-by-decision-of-the-uploader-or-due-to-a-violation-of-our-terms-of-use">
+<img src="img/this item is no longer available.jpg" alt="this item is no longer available album art" style="width: 100%; height: auto; display: block;">
+</a>
+</div>
+</div>
+
+<hr>
+<div style="display: flex; align-items: flex-start; gap: 20px;">
+<div style="flex: 1.3;">
+
+**gnocchi series**
+
+According to the descriptions on BC it seems like these are all improv
+
+1) gnocchi-filereader
+2) gnocchi-seems_to_be_a_reference vector
+3) gnocchi baby kawm;lompy
+
+</div>
+<div style="flex: 0.7;">
+<a href="https://xoark.bandcamp.com/album/gnocchi-baby-kawm-lompy">
+<img src="img/gnocchi baby kawm lompy.jpg" alt="gnocchi baby kawm lompy album art" style="width: 100%; height: auto; display: block;">
+</a>
+</div>
+</div>
+
+<hr>
+
+**image hash series**
+
+These singles / two-song releases have titles that look like part of an image hash. Maybe its possible to combine them. Idk. There are so many of these I'm not gonna bother listing them.
+
+![](img/base64-series.png)
+
+Yes, I did try decoding. But to no avail.
+
+![](img/base64.png)
+
+<hr>
+
+**color hex series**
+
+Albums titled after hex colors
+
+![](img/color-hex-series.png)
+
+<hr>
+
+There's also the Screenshot_\[METADATA\] albums, and similarly there's the albums named X tracks, \[RUNTIME\].
+
+There are so many of these. At some point I might make a separate page with all of the ones I find so that I can map the territory better.
