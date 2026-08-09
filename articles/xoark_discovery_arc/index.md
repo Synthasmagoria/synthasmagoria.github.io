@@ -340,7 +340,7 @@ Next I figured out that XoArK's IDM is an extremely good accompaniment for progr
 <div style="display: flex; align-items: flex-start; gap: 20px;">
     <div style="flex: 1.3;">
         <p>
-            I didn't know that <a href="https://xoark.bandcamp.com/album/satellits-descriptor">Sattelits: Descriptor</a> is an entry in a series of albums. Today, after I finished my morning jog while listening to <a href="https://xoark.bandcamp.com/album/turphrwak">Turphrwak<a> - my life is completely inundated with XoArK by this point - I found <a href="https://xoark.bandcamp.com/album/satellits-placements">Satellits: Placements</a>, and <a href="https://xoark.bandcamp.com/album/satellits-descriptions">Satellits: Descriptions</a>. Guess what ya boi will listen to next.
+            I didn't know that <a href="https://xoark.bandcamp.com/album/satellits-descriptor">Satellits: Descriptor</a> is an entry in a series of albums. Today, after I finished my morning jog while listening to <a href="https://xoark.bandcamp.com/album/turphrwak">Turphrwak</a> - my life is completely inundated with XoArK by this point - I found <a href="https://xoark.bandcamp.com/album/satellits-placements">Satellits: Placements</a>, and <a href="https://xoark.bandcamp.com/album/satellits-descriptions">Satellits: Descriptions</a>. Guess what ya boi will listen to next.
             </br></br>
             Lil update; I'm at the point where I want to relisten to some of the albums. So I added a column for amount of listens to the album tracker table. Might remove it if I get too lazy to keep it up to date.
         </p>

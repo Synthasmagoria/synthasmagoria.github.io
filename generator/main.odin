@@ -136,6 +136,7 @@ delete_recursive_ignore := []string {
 	"highlightjs",
 	"style.css",
 	"graphics.js",
+	"favicon.ico",
 }
 
 delete_recursive :: proc(dir: string) -> os.Error {
@@ -172,6 +173,7 @@ HTML_HEADER_START ::
 HTML_HEADER_END ::
 "	<meta charset=\"UTF-8\" />\n" +
 "   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n" +
+"	<link rel=\"icon\" type=\"image/x-icon\" href=\"/favicon.ico\">\n" +
 "   <link href=\"/style.css\" rel=\"stylesheet\" />\n" +
 "	<link href=\"" + HIGHLIGHTJS_DIR + "styles/gml.min.css\" rel=\"stylesheet\" />\n" +
 "</head>\n" +
