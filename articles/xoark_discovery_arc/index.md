@@ -73,7 +73,7 @@ th, td {
             <td class="rating">★★★★☆</td>
             <td class="rating">V.A.</td>
             <td>y?</td>
-            <td>1</td>
+            <td class="rating">1</td>
         </tr>
         <tr>
             <td class="rating">2026.08.02</td>
@@ -84,7 +84,7 @@ th, td {
             <td class="rating">★★☆☆☆</td>
             <td class="rating">E.P.</td>
             <td></td>
-            <td>1</td>
+            <td class="rating">1</td>
         </tr>
         <tr>
             <td class="rating">2026.08.03</td>
@@ -95,7 +95,7 @@ th, td {
             <td class="rating">★★★★☆</td>
             <td class="rating">Album</td>
             <td>02</td>
-            <td>1</td>
+            <td class="rating">1</td>
         </tr>
         <tr>
             <td class="rating">2026.08.03</td>
@@ -106,7 +106,7 @@ th, td {
             <td class="rating">★★★★☆</td>
             <td class="rating">Album</td>
             <td>Morphedfeather</td>
-            <td>1</td>
+            <td class="rating">1</td>
         </tr>
         <tr>
             <td class="rating">2026.08.04</td>
@@ -117,7 +117,7 @@ th, td {
             <td class="rating">★★☆☆☆</td>
             <td class="rating">Album</td>
             <td></td>
-            <td>1</td>
+            <td class="rating">1</td>
         </tr>
         <tr>
             <td class="rating">2026.08.04</td>
@@ -128,7 +128,7 @@ th, td {
             <td class="rating">★★★★☆</td>
             <td class="rating">Split</td>
             <td>Pstch_n46</td>
-            <td>1</td>
+            <td class="rating">1</td>
         </tr>
         <tr>
             <td class="rating">2026.08.04</td>
@@ -139,7 +139,7 @@ th, td {
             <td class="rating">★★★☆☆</td>
             <td class="rating">Album</td>
             <td>Spacewire 02</td>
-            <td>1</td>
+            <td class="rating">1</td>
         </tr>
         <tr>
             <td class="rating">2026.08.04</td>
@@ -150,7 +150,7 @@ th, td {
             <td class="rating">★☆☆☆☆</td>
             <td class="rating">Journey</td>
             <td></td>
-            <td>1</td>
+            <td class="rating">1</td>
         </tr>
         <tr>
             <td class="rating">2026.08.05</td>
@@ -161,7 +161,7 @@ th, td {
             <td class="rating">★★★☆☆</td>
             <td class="rating">E.P.</td>
             <td>Submarine1</td>
-            <td>1</td>
+            <td class="rating">1</td>
         </tr>
         <tr>
             <td class="rating">2026.08.05</td>
@@ -172,7 +172,7 @@ th, td {
             <td class="rating">★★★★☆</td>
             <td class="rating">Album</td>
             <td>Navscr</td>
-            <td>1</td>
+            <td class="rating">1</td>
         </tr>
         <tr>
             <td class="rating">2026.08.05</td>
@@ -183,7 +183,7 @@ th, td {
             <td class="rating">★★★☆☆</td>
             <td class="rating">E.P.</td>
             <td></td>
-            <td>1</td>
+            <td class="rating">1</td>
         </tr>
         <tr>
             <td class="rating">2026.08.05</td>
@@ -194,7 +194,7 @@ th, td {
             <td class="rating">★★★★☆</td>
             <td class="rating">Album</td>
             <td>Nihsk</td>
-            <td>1</td>
+            <td class="rating">1</td>
         </tr>
         <tr>
             <td class="rating">2026.08.06</td>
@@ -205,7 +205,7 @@ th, td {
             <td class="rating">★★★☆☆</td>
             <td class="rating">Journey</td>
             <td></td>
-            <td>1</td>
+            <td class="rating">1</td>
         </tr>
         <tr>
             <td class="rating">2026.08.06</td>
@@ -216,7 +216,7 @@ th, td {
             <td class="rating">★★★★☆</td>
             <td class="rating">Album</td>
             <td>01</td>
-            <td>1</td>
+            <td class="rating">1</td>
         </tr>
         <tr>
             <td class="rating">2026.08.06</td>
@@ -227,7 +227,7 @@ th, td {
             <td class="rating">★★☆☆☆</td>
             <td class="rating">Album</td>
             <td>44428</td>
-            <td>1</td>
+            <td class="rating">1</td>
         </tr>
         <tr>
             <td class="rating">2026.08.06</td>
@@ -238,7 +238,7 @@ th, td {
             <td class="rating">★★☆☆☆</td>
             <td class="rating">Album</td>
             <td>21min01sec</td>
-            <td>1</td>
+            <td class="rating">1</td>
         </tr>
         <tr>
             <td class="rating">2026.08.07</td>
@@ -249,7 +249,7 @@ th, td {
             <td class="rating">★★★★☆</td>
             <td class="rating">Album</td>
             <td>Antennak</td>
-            <td>1</td>
+            <td class="rating">1</td>
         </tr>
         <tr>
             <td class="rating">2026.08.08</td>
@@ -260,7 +260,7 @@ th, td {
             <td class="rating">★★★★☆</td>
             <td class="rating">Album</td>
             <td>Macrhenkta</td>
-            <td>1</td>
+            <td class="rating">1</td>
         </tr>
         <tr>
             <td class="rating">2026.08.09</td>
@@ -271,7 +271,18 @@ th, td {
             <td class="rating">★★★☆☆</td>
             <td class="rating">Album</td>
             <td>06</td>
-            <td>1</td>
+            <td class="rating">1</td>
+        </tr>
+        <tr>
+            <td class="rating">2026.08.09</td>
+            <td class="rating">2023.05.27</td>
+            <td><a href="https://xoark.bandcamp.com/album/satellits-placements">Satellits: Placements</a></td>
+            <td>IDM</td>
+            <td class="rating">00:57:02</td>
+            <td class="rating">★★★☆☆</td>
+            <td class="rating">Album</td>
+            <td>06</td>
+            <td class="rating">1</td>
         </tr>
     </tbody>
 </table>
@@ -351,3 +362,11 @@ Next I figured out that XoArK's IDM is an extremely good accompaniment for progr
         <a/>
     </div>
 </div>
+
+### XoArK Cinematic Universe (2026.08.09)
+
+There's a pattern in the album covers. You can use this to determine with relative certainty what genre you're going to be listening to for the next hour.
+- Does the cover feature a loli (often superimposed on a fish or bird)? If yes, then it's breakcore or ["so called drum & bass"](https://bandcamp.com/discover/so-called-%22drum-bass%22)
+- Does the cover have a low-res filter? Or does it consist of a few shapes + color combinations. Then it's gonna be somewhat chill experimental IDM or ambient.
+- Does the cover feature one of XoArK's notebook creatures? Then its most likely hectic IDM.
+- Does the cover feature a picture of an image file or file dialogue (like Windows Explorer)? Then I have no idea. Ask me in the future.
