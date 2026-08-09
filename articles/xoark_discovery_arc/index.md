@@ -419,6 +419,7 @@ I didn't realize until now, but there are a lot of XoArK "series" / "groups" of 
 <div style="flex: 1.3;">
 
 **praspis series**
+1) praspis0, "Reset_All"
 1) praspis1, "please mind the allocation of resources"
 2) praspis2, "inf:"
 3) praspis3, "it does lethal damage"
