@@ -60,6 +60,7 @@ th, td {
     		<th>Like</th>
     		<th>Type</th>
     		<th>Favorite</th>
+            <th>f(x)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -72,6 +73,7 @@ th, td {
             <td class="rating">★★★★☆</td>
             <td class="rating">V.A.</td>
             <td>y?</td>
+            <td>1</td>
         </tr>
         <tr>
             <td class="rating">2026.08.02</td>
@@ -82,6 +84,7 @@ th, td {
             <td class="rating">★★☆☆☆</td>
             <td class="rating">E.P.</td>
             <td></td>
+            <td>1</td>
         </tr>
         <tr>
             <td class="rating">2026.08.03</td>
@@ -92,6 +95,7 @@ th, td {
             <td class="rating">★★★★☆</td>
             <td class="rating">Album</td>
             <td>02</td>
+            <td>1</td>
         </tr>
         <tr>
             <td class="rating">2026.08.03</td>
@@ -102,6 +106,7 @@ th, td {
             <td class="rating">★★★★☆</td>
             <td class="rating">Album</td>
             <td>Morphedfeather</td>
+            <td>1</td>
         </tr>
         <tr>
             <td class="rating">2026.08.04</td>
@@ -112,6 +117,7 @@ th, td {
             <td class="rating">★★☆☆☆</td>
             <td class="rating">Album</td>
             <td></td>
+            <td>1</td>
         </tr>
         <tr>
             <td class="rating">2026.08.04</td>
@@ -122,6 +128,7 @@ th, td {
             <td class="rating">★★★★☆</td>
             <td class="rating">Split</td>
             <td>Pstch_n46</td>
+            <td>1</td>
         </tr>
         <tr>
             <td class="rating">2026.08.04</td>
@@ -132,6 +139,7 @@ th, td {
             <td class="rating">★★★☆☆</td>
             <td class="rating">Album</td>
             <td>Spacewire 02</td>
+            <td>1</td>
         </tr>
         <tr>
             <td class="rating">2026.08.04</td>
@@ -142,6 +150,7 @@ th, td {
             <td class="rating">★☆☆☆☆</td>
             <td class="rating">Journey</td>
             <td></td>
+            <td>1</td>
         </tr>
         <tr>
             <td class="rating">2026.08.05</td>
@@ -152,6 +161,7 @@ th, td {
             <td class="rating">★★★☆☆</td>
             <td class="rating">E.P.</td>
             <td>Submarine1</td>
+            <td>1</td>
         </tr>
         <tr>
             <td class="rating">2026.08.05</td>
@@ -162,6 +172,7 @@ th, td {
             <td class="rating">★★★★☆</td>
             <td class="rating">Album</td>
             <td>Navscr</td>
+            <td>1</td>
         </tr>
         <tr>
             <td class="rating">2026.08.05</td>
@@ -172,6 +183,7 @@ th, td {
             <td class="rating">★★★☆☆</td>
             <td class="rating">E.P.</td>
             <td></td>
+            <td>1</td>
         </tr>
         <tr>
             <td class="rating">2026.08.05</td>
@@ -182,6 +194,7 @@ th, td {
             <td class="rating">★★★★☆</td>
             <td class="rating">Album</td>
             <td>Nihsk</td>
+            <td>1</td>
         </tr>
         <tr>
             <td class="rating">2026.08.06</td>
@@ -192,6 +205,7 @@ th, td {
             <td class="rating">★★★☆☆</td>
             <td class="rating">Journey</td>
             <td></td>
+            <td>1</td>
         </tr>
         <tr>
             <td class="rating">2026.08.06</td>
@@ -202,6 +216,7 @@ th, td {
             <td class="rating">★★★★☆</td>
             <td class="rating">Album</td>
             <td>01</td>
+            <td>1</td>
         </tr>
         <tr>
             <td class="rating">2026.08.06</td>
@@ -212,6 +227,7 @@ th, td {
             <td class="rating">★★☆☆☆</td>
             <td class="rating">Album</td>
             <td>44428</td>
+            <td>1</td>
         </tr>
         <tr>
             <td class="rating">2026.08.06</td>
@@ -222,9 +238,10 @@ th, td {
             <td class="rating">★★☆☆☆</td>
             <td class="rating">Album</td>
             <td>21min01sec</td>
+            <td>1</td>
         </tr>
         <tr>
-            <td class="rating">2026.08.06</td>
+            <td class="rating">2026.08.07</td>
             <td class="rating">2024.11.16</td>
             <td><a href="https://xoark.bandcamp.com/album/tailflamed">Tailflamed</a></td>
             <td>Breakcore</td>
@@ -232,9 +249,10 @@ th, td {
             <td class="rating">★★★★☆</td>
             <td class="rating">Album</td>
             <td>Antennak</td>
+            <td>1</td>
         </tr>
         <tr>
-            <td class="rating">2026.08.06</td>
+            <td class="rating">2026.08.08</td>
             <td class="rating">2024.11.16</td>
             <td><a href="https://xoark.bandcamp.com/album/nimnsk">Nimnsk</a></td>
             <td>Breakcore</td>
@@ -242,6 +260,18 @@ th, td {
             <td class="rating">★★★★☆</td>
             <td class="rating">Album</td>
             <td>Macrhenkta</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td class="rating">2026.08.09</td>
+            <td class="rating">2024.05.30</td>
+            <td><a href="https://xoark.bandcamp.com/album/turphrwak">Turphrwak</a></td>
+            <td>IDM</td>
+            <td class="rating">00:47:53</td>
+            <td class="rating">★★★☆☆</td>
+            <td class="rating">Album</td>
+            <td>06</td>
+            <td>1</td>
         </tr>
     </tbody>
 </table>
@@ -259,15 +289,65 @@ Next I figured out that XoArK's IDM is an extremely good accompaniment for progr
 
 ## Random thoughts (2026.08.06 - XXXX.XX.XX)
 
-- [2 tracks, 01:14:33](https://xoark.bandcamp.com/album/2-tracks-01-14-33)
+### 2 tracks, 01:14:33 (2026.08.06)
 
-Just finished listening to it. I like the first track since it has a catchy consistent beat. Initially I was going to give this a 1/5 since the second nearly bored me to death. But around the halfway point it turned into something that sounded like I was stuck in a rusty factory. Loud bangs from the machinery reverberating throghout the complex. It was long since thought to be out of commision. But, at night the machines still continue their work as normal. This album could be very cool to experience live. Don't think I'm going to listen to it again any time soon.
+<div style="display: flex; align-items: flex-start; gap: 20px;">
+    <div style="flex: 1.3;">
+        <p>
+            Just finished listening to it. I like the first track since it has a catchy consistent beat. Initially I was going to give this a 1/5 since the second nearly bored me to death. But around the halfway point it turned into something that sounded like I was stuck in a rusty factory. Loud bangs from the machinery reverberating throghout the complex. It was long since thought to be out of commision. But, at night the machines still continue their work as normal. This album could be very cool to experience live. Don't think I'm going to listen to it again any time soon.
+        </p>
+    </div>
+    <div style="flex: 0.7;">
+        <a href="https://xoark.bandcamp.com/album/2-tracks-01-14-33">
+            <img src="img/2 tracks 01-14-33.jpg" alt="2 tracks 01-14-33 album art" style="width: 100%; height: auto; display: block;">
+        </a>
+    </div>
+</div>
 
-- [Tailflamed](https://xoark.bandcamp.com/album/tailflamed)
+### Tailflamed (2026.08.07)
 
-This shit had me incredibly locked in. I'm definitely revisiting this one soon.
+<div style="display: flex; align-items: flex-start; gap: 20px;">
+    <div style="flex: 1.3;">
+        <p>
+            This shit had me incredibly locked in. I'm definitely revisiting this one soon.
+        </p>
+    </div>
+    <div style="flex: 0.7;">
+        <a href="https://xoark.bandcamp.com/album/tailflamed">
+            <img src="img/tailflamed.jpg" alt="Tailflamed album art" style="width: 100%; height: auto; display: block;">
+        </a>
+    </div>
+</div>
 
-- [Nimnsk](https://xoark.bandcamp.com/album/nimnsk)
+### Nimnsk (2026.08.08)
 
-Disharmony was the throughline on this one, in a good way. Though it didn't last through the second half.
-This one is also quite interesting, and I'm waiting to make up my mind until I've heard it at least a few more times.
+<div style="display: flex; align-items: flex-start; gap: 20px;">
+    <div style="flex: 1.3;">
+        <p>
+            Disharmony was the throughline on this one, in a good way. Though it didn't last through the second half.
+            This one is also quite interesting, and I'm waiting to make up my mind until I've heard it at least a few more times.
+        </p>
+    </div>
+    <div style="flex: 0.7;">
+        <a href="https://xoark.bandcamp.com/album/nimnsk">
+            <img src="img/nimnsk.jpg" alt="Nimnsk album art" style="width: 100%; height: auto; display: block;">
+        <a/>
+    </div>
+</div>
+
+### A frightening discovery (2026.08.09)
+
+<div style="display: flex; align-items: flex-start; gap: 20px;">
+    <div style="flex: 1.3;">
+        <p>
+            I didn't know that <a href="https://xoark.bandcamp.com/album/satellits-descriptor">Sattelits: Descriptor</a> is an entry in a series of albums. Today, after I finished my morning jog while listening to <a href="https://xoark.bandcamp.com/album/turphrwak">Turphrwak<a> - my life is completely inundated with XoArK by this point - I found <a href="https://xoark.bandcamp.com/album/satellits-placements">Satellits: Placements</a>, and <a href="https://xoark.bandcamp.com/album/satellits-descriptions">Satellits: Descriptions</a>. Guess what ya boi will listen to next.
+            </br></br>
+            Lil update; I'm at the point where I want to relisten to some of the albums. So I added a column for amount of listens to the album tracker table. Might remove it if I get too lazy to keep it up to date.
+        </p>
+    </div>
+    <div style="flex: 0.7;">
+        <a href="https://xoark.bandcamp.com/album/turphrwak">
+            <img src="img/turphrwak.jpg" alt="Turphrwak album art" style="width: 100%; height: auto; display: block;">
+        <a/>
+    </div>
+</div>
