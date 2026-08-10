@@ -260,3 +260,19 @@ Albums titled after hex colors
 There's also the Screenshot_\[METADATA\] albums, and similarly there's the albums named X tracks, \[RUNTIME\].
 
 There are so many of these. At some point I might make a separate page with all of the ones I find so that I can map the territory better.
+
+### XoArK Cinematic Universe 3: Database brain (2026.08.10)
+I found out that you can completely abuse the commonmark and static pages combination to make not-so-static pages. I started making the [XoArK Cinematic Universe](/xoark_cinematic_universe) page (WIP at the time of this writing) and realized I needed to share a lot of information between the two pages. I needed something that could act like a database. However at this point I was unsure if it would be possible to even run JavaScript code served by GitHub pages. Turns out that works perfectly.  
+
+So I got to work converting the table I had created on this page into a JavaScript file. When run, it writes a table containing all of my collected XoArK information to a global variable. I then run another script that has a function that can format the table data and insert it into the page. I then call this function directly in a script tag in the markdown document.  
+
+It ends up looking something like this:
+
+```
+<script src="/xoark_database.js"></script>
+<script src="tables.js"></script>
+<div id="satellits"></div>
+<script>createAndInsertTable("satellits", XoarkSeries.Satellits);</script>
+```
+
+Only time will tell Whether this approach will hold up for the remaining 400 releases in XoArK's catalogue. But for now this will take care of most of the redundancy I would have otherwise needed to handle manually.
