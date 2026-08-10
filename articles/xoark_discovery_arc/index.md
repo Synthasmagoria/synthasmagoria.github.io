@@ -1,4 +1,4 @@
-# XoArK
+# XoArK Discovery Arc
 
 I started digging through XoArK's discography, and decided to chronicle it.
 Sorry my descriptors are so vague. I haven't spent a lot of time with any of this music yet.
@@ -296,7 +296,7 @@ th, td {
             <td class="rating">1</td>
         </tr>
         <tr>
-            <td class="rating">2026.08.09</td>
+            <td class="rating">2026.08.10</td>
             <td class="rating">2026.04.15</td>
             <td><a href="https://xoark.bandcamp.com/album/teacake-dress-empire">Teacake Dress Empire </a></td>
             <td>Breakcore</td>
@@ -310,6 +310,17 @@ th, td {
                 </span>
                 </div>
             </td>
+            <td class="rating">1</td>
+        </tr>
+        <tr>
+            <td class="rating">2026.08.10</td>
+            <td class="rating">2021.06.01</td>
+            <td><a href="https://xoark.bandcamp.com/album/p-8">P()~()..8</a></td>
+            <td>Breakcore</td>
+            <td class="rating">XX:XX:XX</td>
+            <td class="rating">★★★☆☆</td>
+            <td class="rating">Album</td>
+            <td></td>
             <td class="rating">1</td>
         </tr>
     </tbody>

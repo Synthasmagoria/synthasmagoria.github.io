@@ -137,6 +137,7 @@ delete_recursive_ignore := []string {
 	"style.css",
 	"graphics.js",
 	"favicon.ico",
+	"xoark_database.js",
 }
 
 delete_recursive :: proc(dir: string) -> os.Error {

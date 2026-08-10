@@ -1,7 +1,14 @@
 {
-    "languages": {
-        "Odin": {
-            "format_on_save": "off",
-        },
-    },
+  "languages": {
+      "Odin": {
+          "format_on_save": "off",
+      },
+      "JavaScript": {
+        "format_on_save": "off",
+        "tab_size": 4,
+      },
+      "JSON": {
+        "tab_size": 4,
+      }
+  },
 }
