@@ -30,12 +30,12 @@ function createAndInsertTable(targetId, series) {
 <table style="border:1px solid gray; width:100%; position:relative;">
     <thead>
         <tr>
-              		<th>Title</th>
-              		<th>Released</th>
-              		<th>Genre</th>
-              		<th>Length</th>
-              		<th>Type</th>
-                    <th></th>
+      		<th>Title</th>
+      		<th>Released</th>
+      		<th>Genre</th>
+      		<th>Length</th>
+      		<th>Type</th>
+            <th></th>
     	</tr>
     </thead>
     <tbody>`];
