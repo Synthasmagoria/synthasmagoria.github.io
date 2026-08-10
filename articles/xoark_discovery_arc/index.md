@@ -295,6 +295,23 @@ th, td {
             <td>hshskhsk3</td>
             <td class="rating">1</td>
         </tr>
+        <tr>
+            <td class="rating">2026.08.09</td>
+            <td class="rating">2026.04.15</td>
+            <td><a href="https://xoark.bandcamp.com/album/teacake-dress-empire">Teacake Dress Empire </a></td>
+            <td>Breakcore</td>
+            <td class="rating">00:59:04</td>
+            <td class="rating">★★★☆☆</td>
+            <td class="rating">Album</td>
+            <td>
+                <div class="tooltip">
+                Orkticxiyhi
+                <span class="tooltiptext">Has the "creature scuttling up stairs" sound at 0:27. And Chitose on the album cover which is a +.
+                </span>
+                </div>
+            </td>
+            <td class="rating">1</td>
+        </tr>
     </tbody>
 </table>
 </div>
