@@ -5,7 +5,7 @@ package xoark_db
 		// source folder: #074374
 		genre    = {},
 		type     = .Single,
-		series   = .None,
+		series   = .Hex,
 		rating   = 0,
 		listened = {},
 		released = { year = 2022, month = 1, day = 1 },
@@ -21,7 +21,7 @@ package xoark_db
 		// source folder: #120f1a
 		genre    = {},
 		type     = .Single,
-		series   = .None,
+		series   = .Hex,
 		rating   = 0,
 		listened = {},
 		released = { year = 2021, month = 1, day = 1 },
@@ -37,7 +37,7 @@ package xoark_db
 		// source folder: #1b313a
 		genre    = {},
 		type     = .Single,
-		series   = .None,
+		series   = .Hex,
 		rating   = 0,
 		listened = {},
 		released = { year = 2020, month = 1, day = 1 },
@@ -53,7 +53,7 @@ package xoark_db
 		// source folder: #1d1138
 		genre    = {},
 		type     = .Single,
-		series   = .None,
+		series   = .Hex,
 		rating   = 0,
 		listened = {},
 		released = { year = 2021, month = 1, day = 1 },
@@ -69,7 +69,7 @@ package xoark_db
 		// source folder: #221e2b
 		genre    = {},
 		type     = .Journey,
-		series   = .None,
+		series   = .Hex,
 		rating   = 0,
 		listened = {},
 		released = { year = 2021, month = 1, day = 1 },
@@ -85,7 +85,7 @@ package xoark_db
 		// source folder: #268760
 		genre    = {},
 		type     = .Single,
-		series   = .None,
+		series   = .Hex,
 		rating   = 0,
 		listened = {},
 		released = { year = 2019, month = 1, day = 1 },
@@ -101,7 +101,7 @@ package xoark_db
 		// source folder: #3f335b
 		genre    = {},
 		type     = .Journey,
-		series   = .None,
+		series   = .Hex,
 		rating   = 0,
 		listened = {},
 		released = { year = 2021, month = 1, day = 1 },
@@ -117,7 +117,7 @@ package xoark_db
 		// source folder: #47526e
 		genre    = {},
 		type     = .Single,
-		series   = .None,
+		series   = .Hex,
 		rating   = 0,
 		listened = {},
 		released = { year = 2020, month = 1, day = 1 },
@@ -133,7 +133,7 @@ package xoark_db
 		// source folder: #480607
 		genre    = {},
 		type     = .Single,
-		series   = .None,
+		series   = .Hex,
 		rating   = 0,
 		listened = {},
 		released = { year = 2020, month = 1, day = 1 },
@@ -149,7 +149,7 @@ package xoark_db
 		// source folder: #49405c
 		genre    = {},
 		type     = .Single,
-		series   = .None,
+		series   = .Hex,
 		rating   = 0,
 		listened = {},
 		released = { year = 2021, month = 1, day = 1 },
@@ -165,7 +165,7 @@ package xoark_db
 		// source folder: #4f2e98
 		genre    = {},
 		type     = .Single,
-		series   = .None,
+		series   = .Hex,
 		rating   = 0,
 		listened = {},
 		released = { year = 2021, month = 1, day = 1 },
@@ -181,7 +181,7 @@ package xoark_db
 		// source folder: #517b78
 		genre    = {},
 		type     = .Single,
-		series   = .None,
+		series   = .Hex,
 		rating   = 0,
 		listened = {},
 		released = { year = 2021, month = 1, day = 1 },
@@ -197,7 +197,7 @@ package xoark_db
 		// source folder: #58477f
 		genre    = {},
 		type     = .Single,
-		series   = .None,
+		series   = .Hex,
 		rating   = 0,
 		listened = {},
 		released = { year = 2021, month = 1, day = 1 },
@@ -213,7 +213,7 @@ package xoark_db
 		// source folder: #6ac3bb
 		genre    = {},
 		type     = .Single,
-		series   = .None,
+		series   = .Hex,
 		rating   = 0,
 		listened = {},
 		released = { year = 2019, month = 1, day = 1 },
@@ -229,7 +229,7 @@ package xoark_db
 		// source folder: #6c461f
 		genre    = {},
 		type     = .Single,
-		series   = .None,
+		series   = .Hex,
 		rating   = 0,
 		listened = {},
 		released = { year = 2020, month = 1, day = 1 },
@@ -245,7 +245,7 @@ package xoark_db
 		// source folder: #6c9274
 		genre    = {},
 		type     = .Single,
-		series   = .None,
+		series   = .Hex,
 		rating   = 0,
 		listened = {},
 		released = { year = 2019, month = 1, day = 1 },
@@ -261,7 +261,7 @@ package xoark_db
 		// source folder: #786a97
 		genre    = {},
 		type     = .Journey,
-		series   = .None,
+		series   = .Hex,
 		rating   = 0,
 		listened = {},
 		released = { year = 2021, month = 1, day = 1 },
@@ -277,7 +277,7 @@ package xoark_db
 		// source folder: #7b5169
 		genre    = {},
 		type     = .Single,
-		series   = .None,
+		series   = .Hex,
 		rating   = 0,
 		listened = {},
 		released = { year = 2021, month = 1, day = 1 },
@@ -293,7 +293,7 @@ package xoark_db
 		// source folder: #878d7e
 		genre    = {},
 		type     = .Single,
-		series   = .None,
+		series   = .Hex,
 		rating   = 0,
 		listened = {},
 		released = { year = 2019, month = 1, day = 1 },
@@ -309,7 +309,7 @@ package xoark_db
 		// source folder: #929db8
 		genre    = {},
 		type     = .Single,
-		series   = .None,
+		series   = .Hex,
 		rating   = 0,
 		listened = {},
 		released = { year = 2019, month = 1, day = 1 },
@@ -325,7 +325,7 @@ package xoark_db
 		// source folder: #92b1e4
 		genre    = {},
 		type     = .Journey,
-		series   = .None,
+		series   = .Hex,
 		rating   = 0,
 		listened = {},
 		released = { year = 2025, month = 1, day = 1 },
@@ -341,7 +341,7 @@ package xoark_db
 		// source folder: #946c90
 		genre    = {},
 		type     = .Single,
-		series   = .None,
+		series   = .Hex,
 		rating   = 0,
 		listened = {},
 		released = { year = 2020, month = 1, day = 1 },
@@ -357,7 +357,7 @@ package xoark_db
 		// source folder: #959ba4
 		genre    = {},
 		type     = .Single,
-		series   = .None,
+		series   = .Hex,
 		rating   = 0,
 		listened = {},
 		released = { year = 2019, month = 1, day = 1 },
@@ -373,7 +373,7 @@ package xoark_db
 		// source folder: #97a49a
 		genre    = {},
 		type     = .Single,
-		series   = .None,
+		series   = .Hex,
 		rating   = 0,
 		listened = {},
 		released = { year = 2020, month = 1, day = 1 },
@@ -389,7 +389,7 @@ package xoark_db
 		// source folder: #FFFFFF white---
 		genre    = {},
 		type     = .Album,
-		series   = .None,
+		series   = .Hex,
 		rating   = 0,
 		listened = {},
 		released = { year = 2019, month = 1, day = 1 },
@@ -405,7 +405,7 @@ package xoark_db
 		// source folder: #a95798
 		genre    = {},
 		type     = .Single,
-		series   = .None,
+		series   = .Hex,
 		rating   = 0,
 		listened = {},
 		released = { year = 2019, month = 1, day = 1 },
@@ -421,7 +421,7 @@ package xoark_db
 		// source folder: #ae0454
 		genre    = {},
 		type     = .Single,
-		series   = .None,
+		series   = .Hex,
 		rating   = 0,
 		listened = {},
 		released = { year = 2020, month = 1, day = 1 },
@@ -437,7 +437,7 @@ package xoark_db
 		// source folder: #b08c44
 		genre    = {},
 		type     = .Single,
-		series   = .None,
+		series   = .Hex,
 		rating   = 0,
 		listened = {},
 		released = { year = 2019, month = 1, day = 1 },
@@ -453,7 +453,7 @@ package xoark_db
 		// source folder: #b5154f
 		genre    = {},
 		type     = .Single,
-		series   = .None,
+		series   = .Hex,
 		rating   = 0,
 		listened = {},
 		released = { year = 2019, month = 1, day = 1 },
@@ -469,7 +469,7 @@ package xoark_db
 		// source folder: #b6cbae
 		genre    = {},
 		type     = .Single,
-		series   = .None,
+		series   = .Hex,
 		rating   = 0,
 		listened = {},
 		released = { year = 2020, month = 1, day = 1 },
@@ -485,7 +485,7 @@ package xoark_db
 		// source folder: #c19f96
 		genre    = {},
 		type     = .Single,
-		series   = .None,
+		series   = .Hex,
 		rating   = 0,
 		listened = {},
 		released = { year = 2019, month = 1, day = 1 },
@@ -501,7 +501,7 @@ package xoark_db
 		// source folder: #c7bbc4
 		genre    = {},
 		type     = .Journey,
-		series   = .None,
+		series   = .Hex,
 		rating   = 0,
 		listened = {},
 		released = { year = 2019, month = 1, day = 1 },
@@ -517,7 +517,7 @@ package xoark_db
 		// source folder: #cdeadd
 		genre    = {},
 		type     = .Single,
-		series   = .None,
+		series   = .Hex,
 		rating   = 0,
 		listened = {},
 		released = { year = 2019, month = 1, day = 1 },
@@ -533,7 +533,7 @@ package xoark_db
 		// source folder: #ceb280
 		genre    = {},
 		type     = .Single,
-		series   = .None,
+		series   = .Hex,
 		rating   = 0,
 		listened = {},
 		released = { year = 2019, month = 1, day = 1 },
@@ -549,7 +549,7 @@ package xoark_db
 		// source folder: #d0d17b
 		genre    = {},
 		type     = .Single,
-		series   = .None,
+		series   = .Hex,
 		rating   = 0,
 		listened = {},
 		released = { year = 2019, month = 1, day = 1 },
@@ -565,7 +565,7 @@ package xoark_db
 		// source folder: #d3fc55
 		genre    = {},
 		type     = .Single,
-		series   = .None,
+		series   = .Hex,
 		rating   = 0,
 		listened = {},
 		released = { year = 2019, month = 1, day = 1 },
@@ -581,7 +581,7 @@ package xoark_db
 		// source folder: #d9eaf3
 		genre    = {},
 		type     = .Journey,
-		series   = .None,
+		series   = .Hex,
 		rating   = 0,
 		listened = {},
 		released = { year = 2023, month = 1, day = 1 },
@@ -597,7 +597,7 @@ package xoark_db
 		// source folder: #e95e98
 		genre    = {},
 		type     = .Single,
-		series   = .None,
+		series   = .Hex,
 		rating   = 0,
 		listened = {},
 		released = { year = 2019, month = 1, day = 1 },
@@ -613,7 +613,7 @@ package xoark_db
 		// source folder: #f35bf2
 		genre    = {},
 		type     = .Single,
-		series   = .None,
+		series   = .Hex,
 		rating   = 0,
 		listened = {},
 		released = { year = 2019, month = 1, day = 1 },
@@ -629,7 +629,7 @@ package xoark_db
 		// source folder: #fb7d5c
 		genre    = {},
 		type     = .Single,
-		series   = .None,
+		series   = .Hex,
 		rating   = 0,
 		listened = {},
 		released = { year = 2019, month = 1, day = 1 },
