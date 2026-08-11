@@ -1,6 +1,5 @@
 package main
 
-import "core:crypto/_edwards25519/tools"
 import cmark "vendor:commonmark"
 import "core:fmt"
 import "core:mem"
@@ -138,6 +137,7 @@ delete_recursive_ignore := []string {
 	"graphics.js",
 	"favicon.ico",
 	"xoark_database.js",
+	"xoark_db.bin",
 }
 
 delete_recursive :: proc(dir: string) -> os.Error {

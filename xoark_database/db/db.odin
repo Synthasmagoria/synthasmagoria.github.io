@@ -4181,7 +4181,7 @@ package xoark_db
 		// source folder: Satellits- Descriptions
 		genre    = {},
 		type     = .Album,
-		series   = .None,
+		series   = .Satellits,
 		rating   = 0,
 		listened = {},
 		released = { year = 2023, month = 1, day = 1 },
@@ -4197,7 +4197,7 @@ package xoark_db
 		// source folder: Satellits- Descriptor
 		genre    = {},
 		type     = .Album,
-		series   = .None,
+		series   = .Satellits,
 		rating   = 0,
 		listened = {},
 		released = { year = 2025, month = 1, day = 1 },
@@ -4213,7 +4213,7 @@ package xoark_db
 		// source folder: Satellits- Placements
 		genre    = {},
 		type     = .Album,
-		series   = .None,
+		series   = .Satellits,
 		rating   = 0,
 		listened = {},
 		released = { year = 2023, month = 1, day = 1 },
