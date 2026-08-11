@@ -1,6 +1,5 @@
 package xoark_db
 
-import "core:time"
 import dt "core:time/datetime"
 
 Genre :: enum u8 {
@@ -10,6 +9,22 @@ Genre :: enum u8 {
 	Breakcore,
 	SoCalledDnb,
 	Ambient,
+	Placeholder01,
+	Placeholder02,
+	Placeholder03,
+	Placeholder04,
+	Placeholder05,
+	Placeholder06,
+	Placeholder07,
+	Placeholder08,
+	Placeholder09,
+	Placeholder10,
+	Placeholder11,
+	Placeholder12,
+	Placeholder13,
+	Placeholder14,
+	Placeholder15,
+	Placeholder16,
 }
 
 Type :: enum u8 {

@@ -1,4 +1,4 @@
-package discography
+package database
 
 // Walks a folder of album subfolders, reads FLAC metadata out of each track,
 // and writes an .odin file containing one Album{} literal per album.
