@@ -1,29 +1,14 @@
-function createAndInsertTable(targetId) {
-    const table = [];
-    for (let i = 0; i < window.xoark_database.length; i++) {
-        const item = window.xoark_database[i];
-        if (item.listens > 0) {
-            item.listened_date = new Date(item.listened);
-            table.push(item);
-        }
-    }
-    table.sort(function (a, b) { return a.listened_date < b.listened_date ? -1 : 1; });
+function dateToString(date) {
+    return date.getFullYear() + "-" +
+        date.getMonth().toString().padStart(2, "0") + "-" +
+        date.getDate().toString().padStart(2, "0");
+}
 
+function createAndInsertTable(targetId, items) {
     const element = document.getElementById(targetId);
     if (element === undefined) {
         console.error(targetId + " did not point to a valid element id");
         return;
-    }
-
-    function ratingToStarString(rating) {
-        switch (rating) {
-            case 0: return "☆☆☆☆☆";
-            case 1: return "★☆☆☆☆";
-            case 2: return "★★☆☆☆";
-            case 3: return "★★★☆☆";
-            case 4: return "★★★★☆";
-            case 5: return "★★★★★";
-        }
     }
 
     html = [`
@@ -34,7 +19,7 @@ function createAndInsertTable(targetId) {
       		<th>Listened</th>
       		<th>Released</th>
       		<th>Genre</th>
-      		<th>Length</th>
+      		<th>Duration</th>
       		<th>Like</th>
       		<th>Type</th>
       		<th>Favorite</th>
@@ -42,18 +27,18 @@ function createAndInsertTable(targetId) {
        	</tr>
     </thead>
     <tbody>`];
-    for (let i = 0; i < table.length; i++) {
+    for (let i = 0; i < items.length; i++) {
         html.push(`
         <tr>
-            <td><a href="${table[i].url}">${table[i].title}</a></td>
-            <td>${table[i].listened}</td>
-            <td>${table[i].released}</td>
-            <td>${table[i].genre}</td>
-            <td>${table[i].duration}</td>
-            <td>${ratingToStarString(table[i].rating)}</td>
-            <td>${table[i].type}</td>
-            <td>${table[i].favorite}</td>
-            <td>${table[i].listens}</td>
+            <td><a href="${items[i].url}">${items[i].title}</a></td>
+            <td>${dateToString(items[i].listened)}</td>
+            <td>${items[i].released}</td>
+            <td>${genreToString(items[i].genre)}</td>
+            <td>${items[i].duration}</td>
+            <td>${ratingToStarString(items[i].rating)}</td>
+            <td>${TypeString[items[i].type]}</td>
+            <td>${items[i].favorite}</td>
+            <td>${items[i].listens}</td>
         </tr>`);
     }
     html.push(`
@@ -61,3 +46,25 @@ function createAndInsertTable(targetId) {
 </table>`);
     element.innerHTML = html.join("");
 }
+
+fetch("/xoark_shared/xoark_db.bin").then((response) => {
+    if (!response.ok) {
+        throw new Error(response.url + " response was not ok");
+    }
+    response.arrayBuffer().then((arrayBuffer) => {
+        const view = new DataView(arrayBuffer);
+        let cursor = 0;
+        const albums = [];
+        while (cursor < view.byteLength) {
+            const result = viewReadAlbum(view, cursor);
+            cursor = result.cursor;
+            const album = result.album;
+            if (album.listens > 0) {
+                album.listened = new Date(album.listened.year, album.listened.month, album.listened.day);
+                albums.push(album);
+            }
+        }
+        albums.sort(function (a, b) { return a.listened < b.listened ? 1 : -1; });
+        createAndInsertTable("table", albums);
+    });
+});
