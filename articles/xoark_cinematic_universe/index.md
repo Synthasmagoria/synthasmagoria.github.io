@@ -9,7 +9,19 @@ tr {text-align: center;}
 
 ## Satellits: (2022 - 2025)
 
+<div style="margin-bottom: 8px; display: flex; align-items: flex-start; gap: 20px;">
+<div style="flex: 1.3;">
+
+Interesting IDM ambient works.
+
+</div>
+<br/>
+<div style="flex: 0.7;">
+<img src="/xoark_shared/art/satellits-descriptions.webp"/>
+</div>
+</div>
 <div id="satellits"></div>
+
 
 ## Hex: (2019 - 2026)
 
