@@ -21,7 +21,47 @@ const Genre = Object.freeze({
     Placeholder14: 19,
     Placeholder15: 20,
     Placeholder16: 21,
+    _Count: 22,
 });
+
+const GenreString = [
+    "IDM",
+    "Noise",
+    "Glitch",
+    "Breakcore",
+    "SoCalledDnb",
+    "Ambient",
+    "Placeholder01",
+    "Placeholder02",
+    "Placeholder03",
+    "Placeholder04",
+    "Placeholder05",
+    "Placeholder06",
+    "Placeholder07",
+    "Placeholder08",
+    "Placeholder09",
+    "Placeholder10",
+    "Placeholder11",
+    "Placeholder12",
+    "Placeholder13",
+    "Placeholder14",
+    "Placeholder15",
+    "Placeholder16",
+];
+
+function genreToString(genre) {
+    let genres = "";
+    for (let i = 0; i < Genre._Count; i++) {
+        if ((genre >> i) & 1) {
+            if (genres.length == 0) {
+                genres += GenreString[i];
+            } else {
+                genres += ", " + GenreString[i];
+            }
+        }
+    }
+    return genres;
+}
 
 const Type = Object.freeze({
     Album: 0,
@@ -31,6 +71,15 @@ const Type = Object.freeze({
     Journey: 4,
     Single: 5,
 });
+
+const TypeString = [
+    "Album",
+    "E.P.",
+    "Split",
+    "V.A.",
+    "Journey",
+    "Single",
+];
 
 const Series = Object.freeze({
     None: 0,
@@ -51,6 +100,9 @@ class Date {
         this.month = month;
         this.day = day;
     }
+    toString() {
+        return this.year + "-" + this.month.toString().padStart(2, "0") + "-" + this.day.toString().padStart(2, "0");
+    }
 }
 
 class Time {
@@ -58,6 +110,9 @@ class Time {
         this.hours = hours;
         this.minutes = minutes;
         this.seconds = seconds;
+    }
+    toString() {
+        return this.hours.toString().padStart(2, "0") + ":" + this.minutes.toString().padStart(2, "0") + ":" + this.seconds.toString().padStart(2, "0");
     }
 }
 
@@ -164,9 +219,9 @@ function createAndInsertTable(targetId, items) {
         <tr>
             <td><a href="${items[i].url}">${items[i].title}</a></td>
             <td>${items[i].released}</td>
-            <td>${items[i].genre}</td>
+            <td>${genreToString(items[i].genre)}</td>
             <td>${items[i].duration}</td>
-            <td>${items[i].type}</td>
+            <td>${TypeString[items[i].type]}</td>
             <td>${items[i].listens > 0 ? "X" : "-"}</td>
         </tr>`);
     }

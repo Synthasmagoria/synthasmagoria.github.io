@@ -4179,7 +4179,7 @@ package xoark_db
 	},
 	{
 		// source folder: Satellits- Descriptions
-		genre    = {},
+		genre    = {.IDM},
 		type     = .Album,
 		series   = .Satellits,
 		rating   = 0,
@@ -4195,7 +4195,7 @@ package xoark_db
 	},
 	{
 		// source folder: Satellits- Descriptor
-		genre    = {},
+		genre    = {.IDM, .Breakcore},
 		type     = .Album,
 		series   = .Satellits,
 		rating   = 0,
@@ -4211,7 +4211,7 @@ package xoark_db
 	},
 	{
 		// source folder: Satellits- Placements
-		genre    = {},
+		genre    = {.IDM, .Breakcore, .SoCalledDnb},
 		type     = .Album,
 		series   = .Satellits,
 		rating   = 0,
