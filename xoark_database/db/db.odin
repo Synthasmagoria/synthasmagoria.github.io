@@ -328,7 +328,7 @@ package xoark_db
 		series   = .Hex,
 		rating   = 1,
 		listened = {2026, 8, 4},
-		released = {2025, 7, 25},
+		released = {2025, 7, 27},
 		duration = {0, 35, 32},
 		title    = "#92b1e4",
 		art      = "92b1e4.webp",
@@ -3679,7 +3679,7 @@ package xoark_db
 		url      = "https://xoark.bandcamp.com/album/p-24",
 		favorite = "",
 		comment  = "",
-		listens  = 0,
+		listens  = 1,
 	},
 	{
 		// source folder: P()~()..32
@@ -4239,7 +4239,7 @@ package xoark_db
 		url      = "https://xoark.bandcamp.com/album/satellits-placements",
 		favorite = "placement bar (0)",
 		comment  = "",
-		listens  = 0,
+		listens  = 1,
 	},
 	{
 		// source folder: Sciurus carolinensis
@@ -6469,7 +6469,7 @@ package xoark_db
 		// source folder: p()~()..56
 		genre    = {},
 		type     = .Album,
-		series   = .None,
+		series   = .P,
 		rating   = 0,
 		listened = {},
 		released = {2025, 1, 1},

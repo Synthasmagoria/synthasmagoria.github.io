@@ -1,3 +1,9 @@
+function dateToString(date) {
+    return date.getFullYear() + "-" +
+        date.getMonth().toString().padStart(2, "0") + "-" +
+        date.getDate().toString().padStart(2, "0");
+}
+
 const Genre = Object.freeze({
     IDM: 0,
     Noise: 1,

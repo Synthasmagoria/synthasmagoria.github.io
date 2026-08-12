@@ -12,7 +12,7 @@ function createAndInsertTable(targetId, items) {
       		<th>Title</th>
       		<th>Released</th>
       		<th>Genre</th>
-      		<th>Length</th>
+      		<th>Duration</th>
       		<th>Type</th>
             <th></th>
     	</tr>
@@ -22,7 +22,7 @@ function createAndInsertTable(targetId, items) {
         html.push(`
         <tr>
             <td><a href="${items[i].url}">${items[i].title}</a></td>
-            <td>${items[i].released}</td>
+            <td>${dateToString(items[i].released)}</td>
             <td>${genreToString(items[i].genre)}</td>
             <td>${items[i].duration}</td>
             <td>${TypeString[items[i].type]}</td>
@@ -49,7 +49,14 @@ fetch("/xoark_shared/xoark_db.bin").then((response) => {
         while (cursor < view.byteLength) {
             const result = viewReadAlbum(view, cursor);
             cursor = result.cursor;
-            albums[result.album.series].push(result.album);
+            const album = result.album;
+            if (album.series != Series.None) {
+                album.released = new Date(album.released.year, album.released.month, album.released.day);
+                albums[result.album.series].push(album);
+            }
+        }
+        for (let i = 0; i < albums.length; i++) {
+            albums[i].sort(function (a, b) { return a.released < b.released ? 1 : -1; });
         }
         console.log(albums[Series.Satellits].length);
         createAndInsertTable("satellits", albums[Series.Satellits]);
