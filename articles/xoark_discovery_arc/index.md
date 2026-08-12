@@ -8,24 +8,51 @@ The page and 3x3 will be updated for as long as I'm actively listening to XoArK.
 
 <div style="display:grid; grid-template-columns:repeat(3, 1fr); 
   grid-template-rows:repeat(3, 1fr); gap:8px; width:100%; height:100%;">
-    <div style="overflow:hidden; background:#222;"><a href="https://xoark.bandcamp.com/album/tiryclui"><img src="img/tiryclui.jpg" 
-  style="width:100%; height:100%; object-fit:cover; display:block;"></a></div>
-    <div style="overflow:hidden; background:#222;"><a href="https://xoark.bandcamp.com/album/parfait-retrieval"><img src="img/parfait retrieval.jpg" 
-  style="width:100%; height:100%; object-fit:cover; display:block;"></a></div>
-    <div style="overflow:hidden; background:#222;"><a href="https://lego6.bandcamp.com/album/1sky"><img src="img/1sky.jpg" 
-  style="width:100%; height:100%; object-fit:cover; display:block;"></a></div>
-    <div style="overflow:hidden; background:#222;"><a href="https://xoark.bandcamp.com/album/tailflamed"><img src="img/tailflamed.jpg" 
-  style="width:100%; height:100%; object-fit:cover; display:block;"></a></div>
-    <div style="overflow:hidden; background:#222;"><a href="https://suimoe.bandcamp.com/album/see2"><img src="img/see2.jpg" 
-  style="width:100%; height:100%; object-fit:cover; display:block;"></a></div>
-    <div style="overflow:hidden; background:#222;"><a href="https://xoark.bandcamp.com/album/satellits-descriptor"><img src="img/satellits descriptor.jpg" 
-  style="width:100%; height:100%; object-fit:cover; display:block;"></a></div>
-    <div style="overflow:hidden; background:#222;"><a href="https://xoark.bandcamp.com/album/nssrwnt"><img src="img/nssrwnt.jpg" 
-  style="width:100%; height:100%; object-fit:cover; display:block;"></a></div>
-    <div style="overflow:hidden; background:#222;"><a href="https://xoark.bandcamp.com/album/nemnge"><img src="img/nemnge.jpg" 
-  style="width:100%; height:100%; object-fit:cover; display:block;"></a></div>
-    <div style="overflow:hidden; background:#222;"><a href="https://xoark.bandcamp.com/album/talprcrii"><img src="img/talprcrii.jpg" 
-  style="width:100%; height:100%; object-fit:cover; display:block;"></a></div>
+    <div style="overflow:hidden; background:#222;">
+        <a href="https://xoark.bandcamp.com/album/tiryclui">
+            <img src="/xoark_shared/art/tiryclui.webp" style="width:100%; height:100%; object-fit:cover; display:block;">
+        </a>
+    </div>
+    <div style="overflow:hidden; background:#222;">
+        <a href="https://xoark.bandcamp.com/album/parfait-retrieval">
+            <img src="/xoark_shared/art/parfait-retrieval.webp" style="width:100%; height:100%; object-fit:cover; display:block;">
+        </a>
+    </div>
+    <div style="overflow:hidden; background:#222;">
+        <a href="https://lego6.bandcamp.com/album/1sky">
+            <img src="/xoark_shared/art/1sky.webp" style="width:100%; height:100%; object-fit:cover; display:block;">
+        </a>
+    </div>
+    <div style="overflow:hidden; background:#222;">
+        <a href="https://xoark.bandcamp.com/album/tailflamed">
+            <img src="/xoark_shared/art/tailflamed.webp" style="width:100%; height:100%; object-fit:cover; display:block;">
+        </a>
+    </div>
+    <div style="overflow:hidden; background:#222;">
+        <a href="https://suimoe.bandcamp.com/album/see2">
+            <img src="/xoark_shared/art/see2.webp" style="width:100%; height:100%; object-fit:cover; display:block;">
+        </a>
+    </div>
+    <div style="overflow:hidden; background:#222;">
+        <a href="https://xoark.bandcamp.com/album/satellits-descriptor">
+            <img src="/xoark_shared/art/satellits-descriptor.webp" style="width:100%; height:100%; object-fit:cover; display:block;">
+        </a>
+    </div>
+    <div style="overflow:hidden; background:#222;">
+        <a href="https://xoark.bandcamp.com/album/nssrwnt">
+            <img src="/xoark_shared/art/nssrwnt.webp" style="width:100%; height:100%; object-fit:cover; display:block;">
+        </a>
+    </div>
+    <div style="overflow:hidden; background:#222;">
+        <a href="https://xoark.bandcamp.com/album/nemnge">
+            <img src="/xoark_shared/art/nemnge.webp" style="width:100%; height:100%; object-fit:cover; display:block;">
+        </a>
+    </div>
+    <div style="overflow:hidden; background:#222;">
+        <a href="https://xoark.bandcamp.com/album/p-16">
+            <img src="/xoark_shared/art/p-16.webp" style="width:100%; height:100%; object-fit:cover; display:block;">
+        </a>
+    </div>
   </div>
 
 *albums not ordered by favorite. here's the albums on the 3x3 from left to right, top to bottom*
@@ -38,16 +65,15 @@ The page and 3x3 will be updated for as long as I'm actively listening to XoArK.
 6) [Satellits: Descriptor](https://xoark.bandcamp.com/album/satellits-descriptor) - Desolate IDM
 7) [Nssrwnt](https://xoark.bandcamp.com/album/nssrwnt) - Eerie ambient journey through a big dataplex.
 8) [nemnge](https://xoark.bandcamp.com/album/nemnge) - Cool IDM ambient
-9) [talprcrii](https://xoark.bandcamp.com/album/talprcrii) - Hectic IDM
+9) [P()~()..16](https://xoark.bandcamp.com/album/p-16) - Immersive. Goes from breakcore to noise / glitch. You're in transit.
 
 <style>
 th, td {border:1px solid gray;}
 td {text-align: center;}
 </style>
 <div id="table"></div>
-<script src="/xoark_database.js"></script>
+<script src="/xoark_shared/xoark_db.js"></script>
 <script src="tables.js"></script>
-<script>createAndInsertTable("table");</script>
 
 ## The initial discovery era. (2026.08.02 - 2026.08.06)
 I found out about XoArK because I'm following [Ilkae](https://bandcamp.com/ilkae)'s BC fan account. This means I'll see what music he buys, and every now and then I'll check some of it out. See2 was my first listen. It is a collaboration between several different artists. I thought it was a XoArK album. So my first impression was "damn, this guy has many styles". However, the variety came from the fact that there were different artists on each track. The album is on the [suicide.moe](https://suimoe.bandcamp.com/music) label. Which I believe is defunct now. Afterward I listened to Tiryclui. It had been in my BC wishlist for a long time prior, and it was my introduction to XoArK's IDM style. Which is probably what I enjoy most in their discography - even if I've come to learn that it can be a bit samey across their catalogue.

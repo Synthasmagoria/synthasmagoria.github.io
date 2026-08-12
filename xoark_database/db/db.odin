@@ -327,7 +327,7 @@ package xoark_db
 		type     = .Journey,
 		series   = .Hex,
 		rating   = 1,
-		listened = {},
+		listened = {2026, 8, 4},
 		released = {2025, 7, 25},
 		duration = {0, 35, 32},
 		title    = "#92b1e4",
@@ -2867,7 +2867,7 @@ package xoark_db
 	},
 	{
 		// source folder: Ice Aqautics
-		genre    = {},
+		genre    = {.IDM},
 		type     = .Journey,
 		series   = .None,
 		rating   = 3,
@@ -3718,7 +3718,7 @@ package xoark_db
 		genre    = {.Breakcore},
 		type     = .Album,
 		series   = .P,
-		rating   = 0,
+		rating   = 4,
 		listened = {2026, 8, 12},
 		released = {2023, 8, 13},
 		duration = {1, 14, 56},
@@ -6597,7 +6597,7 @@ package xoark_db
 		// source folder: praspis0- -Reset_All
 		genre    = {},
 		type     = .Album,
-		series   = .None,
+		series   = .Praspis,
 		rating   = 0,
 		listened = {},
 		released = {2023, 1, 1},
@@ -6613,7 +6613,7 @@ package xoark_db
 		// source folder: praspis1- -please mind the allocation of resources
 		genre    = {},
 		type     = .Album,
-		series   = .None,
+		series   = .Praspis,
 		rating   = 0,
 		listened = {},
 		released = {2023, 1, 1},
@@ -6629,7 +6629,7 @@ package xoark_db
 		// source folder: praspis2- -inf
 		genre    = {},
 		type     = .Journey,
-		series   = .None,
+		series   = .Praspis,
 		rating   = 0,
 		listened = {},
 		released = {2023, 1, 1},
@@ -6645,7 +6645,7 @@ package xoark_db
 		// source folder: praspis3- -it does lethal damage
 		genre    = {},
 		type     = .Album,
-		series   = .None,
+		series   = .Praspis,
 		rating   = 0,
 		listened = {},
 		released = {2023, 1, 1},

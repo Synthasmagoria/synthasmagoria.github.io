@@ -9,7 +9,7 @@ tr {text-align: center;}
 
 ## Satellits: (2022 - 2025)
 
-<div style="margin-bottom: 8px; display: flex; align-items: flex-start; gap: 20px;">
+<div style="margin-bottom: 16px; display: flex; align-items: flex-start; gap: 20px;">
 <div style="flex: 1.3;">
 
 Interesting IDM ambient works.
@@ -25,6 +25,50 @@ Interesting IDM ambient works.
 
 ## Hex: (2019 - 2026)
 
+<div style="margin-bottom: 16px; display: flex; align-items: flex-start; gap: 20px;">
+<div style="flex: 1.3;">
+
+Singles and "Journeys" named after color codes.
+
+</div>
+<br/>
+<div style="flex: 0.7;">
+<img src="/xoark_shared/art/268760.webp"/>
+</div>
+</div>
 <div id="hex"></div>
 
+
+## P()~()..X (2021 - 2026)
+
+<div style="margin-bottom: 16px; display: flex; align-items: flex-start; gap: 20px;">
+<div style="flex: 1.3;">
+
+These albums feature a really cool blend of noise, breakcore and IDM.
+Probably the series in XoArK's discography that has the most variety.
+
+</div>
+<br/>
+<div style="flex: 0.7;">
+<img src="/xoark_shared/art/p-16.webp"/>
+</div>
+</div>
+<div id="p"></div>
+
+## Praspis (2023)
+
+<div style="margin-bottom: 16px; display: flex; align-items: flex-start; gap: 20px;">
+<div style="flex: 1.3;">
+
+Haven't listened yet
+
+</div>
+<br/>
+<div style="flex: 0.7;">
+<img src="/xoark_shared/art/praspis3-it-does-lethal-damage.webp"/>
+</div>
+</div>
+<div id="praspis"></div>
+
+<script src="/xoark_shared/xoark_db.js"></script>
 <script src="tables.js"></script>
