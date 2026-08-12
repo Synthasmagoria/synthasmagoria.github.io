@@ -1,6 +1,16 @@
 package xoark_db
 
-import dt "core:time/datetime"
+Date :: struct {
+	year:   i16,
+	month:  i8,
+	day:    i8,
+}
+
+Time :: struct {
+	hour:   i8,
+	minute: i8,
+	second: i8,
+}
 
 Genre :: enum u8 {
 	IDM,
@@ -53,9 +63,9 @@ Album :: struct {
 	type:         Type,
 	series:       Series,
 	rating:       u8,
-	listened:     dt.Date,
-	released:     dt.Date,
-	duration:     dt.Time,
+	listened:     Date,
+	released:     Date,
+	duration:     Time,
 	title:        string,
 	art:          string,
 	url:          string,

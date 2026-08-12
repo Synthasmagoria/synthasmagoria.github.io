@@ -4,7 +4,6 @@ import "../db"
 import "core:fmt"
 import "core:os"
 import "core:io"
-import dt "core:time/datetime"
 
 main :: proc() {
 	switch len(os.args) {
@@ -31,7 +30,7 @@ write_string :: proc(w: io.Writer, str: string) {
 	io.write_string(w, str)
 }
 
-write_date :: proc(w: io.Writer, date: dt.Date) {
+write_date :: proc(w: io.Writer, date: db.Date) {
 	year := u16(date.year)
 	month := u8(date.month)
 	day := u8(date.day)
@@ -40,7 +39,7 @@ write_date :: proc(w: io.Writer, date: dt.Date) {
 	io.write_byte(w, day)
 }
 
-write_time :: proc(w: io.Writer, time: dt.Time) {
+write_time :: proc(w: io.Writer, time: db.Time) {
 	io.write_byte(w, u8(time.hour))
 	io.write_byte(w, u8(time.minute))
 	io.write_byte(w, u8(time.second))
