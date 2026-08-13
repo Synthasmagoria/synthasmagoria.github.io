@@ -31,7 +31,17 @@ function createAndInsertTable(targetId, items) {
             <td>${items[i].duration}</td>
             <td>${ratingToStarString(items[i].rating)}</td>
             <td>${TypeString[items[i].type]}</td>
-            <td>${items[i].favorite}</td>
+            <td>`);
+        if (items[i].comment.length > 0) {
+            html.push(`
+            <div class="tooltip">
+                ${items[i].favorite}
+            <span class="tooltiptext">${items[i].comment}</span>
+            </div>`);
+        } else {
+            html.push(`${items[i].favorite}`);
+        }
+        html.push(`</td>
             <td>${items[i].listens}</td>
         </tr>`);
     }

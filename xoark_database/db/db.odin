@@ -3699,11 +3699,11 @@ package xoark_db
 	},
 	{
 		// source folder: P()~()..40
-		genre    = {},
+		genre    = {.Breakcore},
 		type     = .Album,
 		series   = .P,
-		rating   = 0,
-		listened = {},
+		rating   = 2,
+		listened = {2026, 8, 13},
 		released = {2023, 1, 28},
 		duration = {1, 6, 16},
 		title    = "P\u200b\u200b\u200b(\u200b\u200b\u200b)\u200b\u200b\u200b~\u200b\u200b\u200b(\u200b\u200b\u200b)\u200b\u200b\u200b.\u200b\u200b\u200b.40",
@@ -3711,11 +3711,11 @@ package xoark_db
 		url      = "https://xoark.bandcamp.com/album/p-40",
 		favorite = "",
 		comment  = "",
-		listens  = 0,
+		listens  = 1,
 	},
 	{
 		// source folder: P()~()..48
-		genre    = {.Breakcore},
+		genre    = {.Breakcore, .IDM, .Ambient},
 		type     = .Album,
 		series   = .P,
 		rating   = 4,
@@ -3725,8 +3725,8 @@ package xoark_db
 		title    = "P\u200b(\u200b)\u200b~\u200b(\u200b)\u200b.\u200b.\u200b48",
 		art      = "p-48.webp",
 		url      = "https://xoark.bandcamp.com/album/p-48",
-		favorite = "",
-		comment  = "",
+		favorite = "SC_230609_002319",
+		comment  = "The middle section of the album has my fav breakcore IDM infusion to date",
 		listens  = 1,
 	},
 	{
