@@ -3663,7 +3663,7 @@ package xoark_db
 		url      = "https://xoark.bandcamp.com/album/p-16",
 		favorite = "",
 		comment  = "Love the journey",
-		listens  = 1,
+		listens  = 2,
 	},
 	{
 		// source folder: P()~()..24
@@ -6467,19 +6467,19 @@ package xoark_db
 	},
 	{
 		// source folder: p()~()..56
-		genre    = {},
+		genre    = {.Breakcore, .Ambient},
 		type     = .Album,
 		series   = .P,
-		rating   = 0,
-		listened = {},
-		released = {2025, 1, 1},
+		rating   = 3,
+		listened = {2026, 8, 13},
+		released = {2025, 4, 20},
 		duration = {1, 14, 51},
 		title    = "p()~()..56",
 		art      = "p-56.webp",
 		url      = "https://xoark.bandcamp.com/album/p-56",
 		favorite = "",
 		comment  = "",
-		listens  = 0,
+		listens  = 1,
 	},
 	{
 		// source folder: p;l-p.;'ZXCDLF-BNK-GFr

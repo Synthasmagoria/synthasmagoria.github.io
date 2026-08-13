@@ -302,3 +302,8 @@ It ends up looking something like this:
 ```
 
 Only time will tell Whether this approach will hold up for the remaining 400 releases in XoArK's catalogue. But for now this will take care of most of the redundancy I would have otherwise needed to handle manually.
+
+### XoArK Cinematic Universe 4: Perfect keikaku (2026.08.13)
+The infrastructure is all there now. I downloaded all XoArK 400+ releases using [Batchcamp](https://chromewebstore.google.com/detail/batchcamp-bulk-bandcamp-d/jfcffbaekgnenlohblfgpohgdhalgjeb?pli=1), then I wrote a program that scrapes the metadata I want from all of the files and places them into an [Odin](https://odin-lang.org/) file (see [this](https://github.com/Synthasmagoria/synthasmagoria.github.io/blob/master/xoark_database/db/db.odin) for how that looks). Then there is a program that writes the whole thing as a 60kb binary that gets served alongside the webpage whenever someone visits this page, or the [cinamatic universe page](https://synthasmagoria.github.io/xoark_cinematic_universe/). And then it is read and sorted before getting turned into HTML tables in whatever way I want. Is this overkill? Yes. But it works, and it is fun to work with (important for a hobby project).
+
+Now that I'm beginning to shift my attention to the various XoArK series I will be able to put more of my thoughts into writing on the cinematic universe page. So I will probably stop writing as frequently here.
