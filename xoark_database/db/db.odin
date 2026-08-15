@@ -2,7 +2,6 @@ package xoark_db
 
 @rodata discography := []Album{
 	{
-		// source folder: #074374
 		genre    = {},
 		type     = .Single,
 		series   = .Hex,
@@ -18,7 +17,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: #120f1a
 		genre    = {},
 		type     = .Single,
 		series   = .Hex,
@@ -34,7 +32,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: #1b313a
 		genre    = {},
 		type     = .Single,
 		series   = .Hex,
@@ -50,7 +47,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: #1d1138
 		genre    = {},
 		type     = .Single,
 		series   = .Hex,
@@ -66,7 +62,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: #221e2b
 		genre    = {},
 		type     = .Journey,
 		series   = .Hex,
@@ -82,7 +77,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: #268760
 		genre    = {},
 		type     = .Single,
 		series   = .Hex,
@@ -98,7 +92,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: #3f335b
 		genre    = {},
 		type     = .Journey,
 		series   = .Hex,
@@ -114,7 +107,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: #47526e
 		genre    = {},
 		type     = .Single,
 		series   = .Hex,
@@ -130,7 +122,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: #480607
 		genre    = {},
 		type     = .Single,
 		series   = .Hex,
@@ -146,7 +137,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: #49405c
 		genre    = {},
 		type     = .Single,
 		series   = .Hex,
@@ -162,7 +152,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: #4f2e98
 		genre    = {},
 		type     = .Single,
 		series   = .Hex,
@@ -178,7 +167,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: #517b78
 		genre    = {},
 		type     = .Single,
 		series   = .Hex,
@@ -194,7 +182,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: #58477f
 		genre    = {},
 		type     = .Single,
 		series   = .Hex,
@@ -210,7 +197,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: #6ac3bb
 		genre    = {},
 		type     = .Single,
 		series   = .Hex,
@@ -226,7 +212,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: #6c461f
 		genre    = {},
 		type     = .Single,
 		series   = .Hex,
@@ -242,7 +227,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: #6c9274
 		genre    = {},
 		type     = .Single,
 		series   = .Hex,
@@ -258,7 +242,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: #786a97
 		genre    = {},
 		type     = .Journey,
 		series   = .Hex,
@@ -274,7 +257,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: #7b5169
 		genre    = {},
 		type     = .Single,
 		series   = .Hex,
@@ -290,7 +272,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: #878d7e
 		genre    = {},
 		type     = .Single,
 		series   = .Hex,
@@ -306,7 +287,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: #929db8
 		genre    = {},
 		type     = .Single,
 		series   = .Hex,
@@ -322,7 +302,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: #92b1e4
 		genre    = {.Ambient},
 		type     = .Journey,
 		series   = .Hex,
@@ -338,7 +317,6 @@ package xoark_db
 		listens  = 1,
 	},
 	{
-		// source folder: #946c90
 		genre    = {},
 		type     = .Single,
 		series   = .Hex,
@@ -354,7 +332,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: #959ba4
 		genre    = {},
 		type     = .Single,
 		series   = .Hex,
@@ -370,7 +347,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: #97a49a
 		genre    = {},
 		type     = .Single,
 		series   = .Hex,
@@ -386,7 +362,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: #FFFFFF white---
 		genre    = {},
 		type     = .Album,
 		series   = .Hex,
@@ -402,7 +377,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: #a95798
 		genre    = {},
 		type     = .Single,
 		series   = .Hex,
@@ -418,7 +392,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: #ae0454
 		genre    = {},
 		type     = .Single,
 		series   = .Hex,
@@ -434,7 +407,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: #b08c44
 		genre    = {},
 		type     = .Single,
 		series   = .Hex,
@@ -450,7 +422,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: #b5154f
 		genre    = {},
 		type     = .Single,
 		series   = .Hex,
@@ -466,7 +437,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: #b6cbae
 		genre    = {},
 		type     = .Single,
 		series   = .Hex,
@@ -482,7 +452,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: #c19f96
 		genre    = {},
 		type     = .Single,
 		series   = .Hex,
@@ -498,7 +467,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: #c7bbc4
 		genre    = {},
 		type     = .Journey,
 		series   = .Hex,
@@ -514,7 +482,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: #cdeadd
 		genre    = {},
 		type     = .Single,
 		series   = .Hex,
@@ -530,7 +497,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: #ceb280
 		genre    = {},
 		type     = .Single,
 		series   = .Hex,
@@ -546,7 +512,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: #d0d17b
 		genre    = {},
 		type     = .Single,
 		series   = .Hex,
@@ -562,7 +527,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: #d3fc55
 		genre    = {},
 		type     = .Single,
 		series   = .Hex,
@@ -578,7 +542,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: #d9eaf3
 		genre    = {},
 		type     = .Journey,
 		series   = .Hex,
@@ -594,7 +557,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: #e95e98
 		genre    = {},
 		type     = .Single,
 		series   = .Hex,
@@ -610,7 +572,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: #f35bf2
 		genre    = {},
 		type     = .Single,
 		series   = .Hex,
@@ -626,7 +587,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: #fb7d5c
 		genre    = {},
 		type     = .Single,
 		series   = .Hex,
@@ -642,7 +602,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: &xoark
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -658,7 +617,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: '{¤-¤-¤}'
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -674,7 +632,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: (...)
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -690,7 +647,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: (20-47)- ()
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -706,7 +662,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: (Defer to Spaesip)
 		genre    = {},
 		type     = .Journey,
 		series   = .None,
@@ -722,7 +677,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: (Refer to image)
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -738,7 +692,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: (view replies)
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -754,7 +707,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: -
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -770,7 +722,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: --
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -786,7 +737,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: ---
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -802,7 +752,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: ----
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -818,7 +767,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: -72.508686-15.28z
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -834,7 +782,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 0 4.0 6.0 8.0 10.0 吸光度A
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -850,7 +797,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 0 4.0 6.0 8.0 10.0 吸光度A(1)
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -866,7 +812,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 0-14sdin
 		genre    = {},
 		type     = .Single,
 		series   = .None,
@@ -882,7 +827,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 0...00;0586
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -898,7 +842,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 000
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -914,7 +857,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 0159 -50214 -491 (Remote-controlled Razorbill in flight)
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -930,7 +872,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 02-5
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -946,7 +887,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 06c05fb7e12625e8dd84daf66b92
 		genre    = {},
 		type     = .Single,
 		series   = .None,
@@ -962,7 +902,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 1 track- 46-38
 		genre    = {},
 		type     = .Journey,
 		series   = .None,
@@ -978,7 +917,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 1-30-40
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -994,7 +932,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 1-36 Ice Frog (live) 1-37 - 01010114 0-00 - 010801
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -1010,7 +947,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 1.4009804008932223 + -0.02424472494834875i at zoom 5.3273878007e+10. jit-20190801113002
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -1026,7 +962,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 1000 - 1. 3
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -1042,7 +977,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 11 tracks- 36-16- Homuravsdodobird
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -1058,7 +992,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 110° 34' 55
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -1074,7 +1007,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 12 tracks- 35-14
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -1090,7 +1022,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 12 tracks- 54-02
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -1106,7 +1037,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 15 tracks- 45-07
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -1122,7 +1052,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 1701A961-xquri
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -1138,7 +1067,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 19 -{}- ^03
 		genre    = {},
 		type     = .Single,
 		series   = .None,
@@ -1154,7 +1082,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 1995d3490f576117e11eb3a9d4b5
 		genre    = {},
 		type     = .Single,
 		series   = .None,
@@ -1170,7 +1097,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 199d7cb5edc526b54a5188f0f466
 		genre    = {},
 		type     = .Single,
 		series   = .None,
@@ -1186,7 +1112,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 2 tracks from late 2016
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -1202,7 +1127,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 2 tracks- 01-14-33
 		genre    = {.IDM},
 		type     = .Album,
 		series   = .Runtime,
@@ -1218,7 +1142,6 @@ package xoark_db
 		listens  = 1,
 	},
 	{
-		// source folder: 2 tracks- 28-17
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -1234,7 +1157,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 2 tracks- 44-09
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -1250,7 +1172,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 2 tracks- 57-23
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -1266,7 +1187,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 2004
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -1282,7 +1202,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 20201115113756-BigDog
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -1298,7 +1217,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 203d037f7af956ec1805942e237d
 		genre    = {},
 		type     = .Journey,
 		series   = .None,
@@ -1314,7 +1232,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 21_05_59_shark
 		genre    = {},
 		type     = .Journey,
 		series   = .None,
@@ -1330,7 +1247,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 22- 10
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -1346,7 +1262,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 2505-5852
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -1362,7 +1277,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 27c411_7ddf6060287849368e2f1db7a6826fa5~mv2
 		genre    = {},
 		type     = .Journey,
 		series   = .None,
@@ -1378,7 +1292,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 28893b261238
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -1394,7 +1307,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 29 tracks- 47-51
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -1410,7 +1322,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 2C 061-10011
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -1426,7 +1337,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 3 tracks ()
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -1442,7 +1352,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 3 tracks- 51-24
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -1458,7 +1367,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 3-09
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -1474,7 +1382,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 3385856 - -204935805054
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -1490,7 +1397,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 380_misc_1-808288410 (...although they may have unexpected behaviors if not used in realtime)
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -1506,7 +1412,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 38510d0a3158f2d5122a519d361f
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -1522,7 +1427,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 3a3540660cd3777cffc5fe37a668
 		genre    = {},
 		type     = .Journey,
 		series   = .None,
@@ -1538,7 +1442,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 3a885ffed2a5b1b925e369190e7c
 		genre    = {},
 		type     = .Single,
 		series   = .None,
@@ -1554,7 +1457,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 4 tracks- 14-31
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -1570,7 +1472,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 4 tracks- 33-43
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -1586,7 +1487,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 48b1f13d53850cda675cac9e6f6c
 		genre    = {},
 		type     = .Single,
 		series   = .None,
@@ -1602,7 +1502,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 5 tracks- 32-02
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -1618,7 +1517,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 500
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -1634,7 +1532,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 543f3c2c7becc5d4b69d3d723fd4
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -1650,7 +1547,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 55587a52fd9424f494bf0eb6f6a8
 		genre    = {},
 		type     = .Single,
 		series   = .None,
@@ -1666,7 +1562,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 5646546466749847896 - 1agZOw-gQG0
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -1682,7 +1577,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 5d6cc825f260096f0335d91e44fc
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -1698,7 +1592,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 5y4e45rht
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -1714,7 +1607,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 6 tracks- 31-37
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -1730,7 +1622,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 6-03 - 1-00-54
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -1746,7 +1637,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 6-18 - 10-13 Cinema mode
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -1762,7 +1652,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 69.140.237.53.Gabe-ants
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -1778,7 +1667,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 6b3e1b593692c2e664cb766eea3d
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -1794,7 +1682,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 7 tracks- 35-55
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -1810,7 +1697,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 7 tracks- 54-11
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -1826,7 +1712,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 8 tracks- 01-29-40
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -1842,7 +1727,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 8 tracks- 56-06
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -1858,7 +1742,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: 952590
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -1874,7 +1757,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: ;
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -1890,7 +1772,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: @xoark
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -1906,7 +1787,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: About 8 results (0.98 seconds)
 		genre    = {},
 		type     = .Single,
 		series   = .None,
@@ -1922,7 +1802,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Accel Roueve - 776
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -1938,7 +1817,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Acid 8000
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -1954,7 +1832,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Acid Runna EP
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -1970,7 +1847,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Ambre Fossil (1)
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -1986,7 +1862,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Arale The Gunsteppa
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2002,7 +1877,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Automatic Ice Barrier
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2018,7 +1892,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Away
 		genre    = {},
 		type     = .Journey,
 		series   = .None,
@@ -2034,7 +1907,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Bad Metaphysics
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2050,7 +1922,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Balszieon
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2066,7 +1937,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Bathing Nurses (contextual)
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2082,7 +1952,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: BeepBox Compositions
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2098,7 +1967,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Bicscotliw
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2114,7 +1982,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: CJHadhnUYAA_e-C
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2130,7 +1997,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Chage - Reurft
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2146,7 +2012,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Cheating Is Not Good
 		genre    = {},
 		type     = .Single,
 		series   = .None,
@@ -2162,7 +2027,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Children's Ichthyostega - Children's Music
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2178,7 +2042,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Chocoluate Embryo (...)
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2194,7 +2057,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Chrlorl EP
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2210,7 +2072,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Chrolps - Nlockpyi
 		genre    = {.Breakcore},
 		type     = .Single,
 		series   = .None,
@@ -2226,7 +2087,6 @@ package xoark_db
 		listens  = 1,
 	},
 	{
-		// source folder: Cicoll Crc Yunetr
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2242,7 +2102,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Cims
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2258,7 +2117,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Collection Of Abstract & Experimental Works Pt. 1
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2274,7 +2132,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Collection Of Abstract & Experimental Works Pt. 2
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2290,7 +2147,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Conix With The Beach
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2306,7 +2162,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Conlurue- woodtheaftre
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2322,7 +2177,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Context 1 ... with cretatriacanthus guidottii ( fig. ... View in full-text (draft)
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2338,7 +2192,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Contributed ㅤㅤㅤ6-753 Images 7-498
 		genre    = {},
 		type     = .Journey,
 		series   = .None,
@@ -2354,7 +2207,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Coppy
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2370,7 +2222,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Copy(Copy)(Copy)(Copy)(Copy)
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2386,7 +2237,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Cordelia_Glauca_tabError
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2402,7 +2252,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Crowded Gray Sky - Quit 'n' Rag (XoArK Remix)
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2418,7 +2267,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Crystalpulsed
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2434,7 +2282,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Cy486 Concurrent Pascan-Monic
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2450,7 +2297,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Danger!
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2466,7 +2312,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Demo 1
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2482,7 +2327,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Description of entity
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2498,7 +2342,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Desert Nights EP
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2514,7 +2357,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Drum & Bass Demo
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2530,7 +2372,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: ERR_INVALID_ARG_TYPE
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2546,7 +2387,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Egg is signed and numbered- thus not creating directories
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2562,7 +2402,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Electric Blue (Interpolate Mix) - Strange Softness
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2578,7 +2417,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Exploring Thru Filespace
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2594,7 +2432,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Extracted (-75699)
 		genre    = {.IDM},
 		type     = .Album,
 		series   = .None,
@@ -2610,7 +2447,6 @@ package xoark_db
 		listens  = 1,
 	},
 	{
-		// source folder: F. scatia laurosus See f. scatia nigrosus F. stellatus See f. stellatus nigrocata
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2626,7 +2462,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: FbIVyBuVUAA2i8v
 		genre    = {},
 		type     = .Journey,
 		series   = .None,
@@ -2642,7 +2477,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Ferriuant Blue - Grnvil
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2658,7 +2492,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Fettomamander
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2674,7 +2507,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Frog flogpletuloid
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2690,7 +2522,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Frozen Castle at the End of an Open Building
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2706,7 +2537,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Further details about the fish and the figure are not provided in the given text
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2722,7 +2552,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Gloom Castle
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2738,7 +2567,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Glowobribc - Diomesis - Crean-Cyan Wave Mystery
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2754,7 +2582,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Gora EP
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2770,7 +2597,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Gothic Item_Generic Mammal_сентября 13- Tyhe Poerubgubsll
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2786,7 +2612,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Grayserpent - Choice
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2802,7 +2627,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Gregorygerorian_list
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2818,7 +2642,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: H-32804J2
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2834,7 +2657,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: HTB1OyVAaTjxK1Rjy0Fnq6yBaFXaA
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2850,7 +2672,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: How to Beat Wall Street.The community for exchanging Insider Information about the Publicly Traded Companies (Title Too Long To Fit Onto Here)
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2866,7 +2687,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Ice Aqautics
 		genre    = {.IDM},
 		type     = .Journey,
 		series   = .None,
@@ -2882,7 +2702,6 @@ package xoark_db
 		listens  = 1,
 	},
 	{
-		// source folder: Ice Cube War - Taiga Bar - Owl Grace
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2898,7 +2717,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Ice_Clasper.png (42 × 72 pixels- file size- 983 bytes- MIME type- image-png)
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2914,7 +2732,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Idijd No2i3
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2930,7 +2747,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: If 5 + 4 - 9- then 4 + 5 - ୧
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2946,7 +2762,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Impossibility State
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2962,7 +2777,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Improvisations 2-19-2019
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2978,7 +2792,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Improvisations 2-20-2019
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -2994,7 +2807,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: In 2000- a group of 7 greater rheas- consisting of 3 males and 4 females- escaped a private enclosure near Lübeck- Germany
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -3010,7 +2822,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: In Response to #623994
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -3026,7 +2837,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Inbilastes But Osconvulated
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -3042,7 +2852,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Invalid target language(s)- -w-sm64.m_jl.ss-rmb
 		genre    = {},
 		type     = .Journey,
 		series   = .None,
@@ -3058,7 +2867,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: JPEG-OXXXXX
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -3074,7 +2882,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: JPEG-OXXXXX(1)
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -3090,7 +2897,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Junglemon - Islands
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -3106,7 +2912,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Kasar4
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -3122,7 +2927,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Let's Return
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -3138,7 +2942,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Lieseli Ipasliam
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -3154,7 +2957,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Live Jam 4-23-2018 With Easykill And Various Others
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -3170,7 +2972,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Location- Sector 13-21
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -3186,7 +2987,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Loclkpie - Lilak
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -3202,7 +3002,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Loclkpie - Lilak(1)
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -3218,7 +3017,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Longer Live Performances + Some Selected Recordings
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -3234,7 +3032,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Lowaulwl1 - Notsowise
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -3250,7 +3047,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Lunard Custardlost
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -3266,7 +3062,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: MIDI Playaround
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -3282,7 +3077,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Magnifying Glass Cannon
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -3298,7 +3092,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Mallard Drum - Kosprent
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -3314,7 +3107,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Marble Bird Resistor EP
 		genre    = {.Breakcore, .SoCalledDnb},
 		type     = .Album,
 		series   = .None,
@@ -3330,7 +3122,6 @@ package xoark_db
 		listens  = 1,
 	},
 	{
-		// source folder: Min-Max Variations
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -3346,7 +3137,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Mirukurepu
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -3362,7 +3152,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Mix (10-3-2024)
 		genre    = {},
 		type     = .Journey,
 		series   = .None,
@@ -3378,7 +3167,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Mix (8-21-2025)
 		genre    = {},
 		type     = .Journey,
 		series   = .None,
@@ -3394,7 +3182,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: More Live Performances + Selected Recordings
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -3410,7 +3197,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Mouse Stattue
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -3426,7 +3212,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Mousechaimbre
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -3442,7 +3227,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Mousiak
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -3458,7 +3242,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Mystery
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -3474,7 +3257,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Narwhal reset - Nauwli
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -3490,7 +3272,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Neoukciru
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -3506,7 +3287,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Newborn_shrill (hash1)
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -3522,7 +3302,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Next
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -3538,7 +3317,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Nimnsk
 		genre    = {.Breakcore},
 		type     = .Album,
 		series   = .None,
@@ -3554,7 +3332,6 @@ package xoark_db
 		listens  = 1,
 	},
 	{
-		// source folder: No Object - 02 04
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -3570,7 +3347,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: NoiseBOX_1 - NoiseBOX_2
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -3586,7 +3362,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Noxw ԭ Xoark - Xplit
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -3602,7 +3377,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Nrto2 - Envo
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -3618,7 +3392,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Nssrwnt
 		genre    = {.Ambient},
 		type     = .Album,
 		series   = .None,
@@ -3634,7 +3407,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Ode to Mimus polyglottos (Northern Mockingbird)
 		genre    = {},
 		type     = .Journey,
 		series   = .None,
@@ -3650,7 +3422,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: P()~()..16
 		genre    = {.Breakcore, .Noise, .Ambient},
 		type     = .Album,
 		series   = .P,
@@ -3666,7 +3437,6 @@ package xoark_db
 		listens  = 2,
 	},
 	{
-		// source folder: P()~()..24
 		genre    = {.Breakcore, .Ambient},
 		type     = .Album,
 		series   = .P,
@@ -3674,31 +3444,29 @@ package xoark_db
 		listened = {2026, 8, 11},
 		released = {2022, 1, 9},
 		duration = {0, 54, 0},
-		title    = "P\u200b(\u200b)\u200b~\u200b(\u200b)\u200b.\u200b.\u200b24",
+		title    = "P()~()..24",
 		art      = "p-24.webp",
 		url      = "https://xoark.bandcamp.com/album/p-24",
-		favorite = "",
-		comment  = "",
-		listens  = 1,
+		favorite = "Fallen Ocean Princess",
+		comment  = "Always fun to see a feature on a XoArK album. Ikaruss44 is a banger.",
+		listens  = 2,
 	},
 	{
-		// source folder: P()~()..32
 		genre    = {.Breakcore, .IDM},
 		type     = .Album,
 		series   = .P,
 		rating   = 4,
 		listened = {2026, 8, 11},
 		released = {2022, 12, 9},
-		duration = {0, 0, 0},
+		duration = {1, 25, 9},
 		title    = "P()~()..32",
 		art      = "p-32.webp",
 		url      = "https://suimoe.bandcamp.com/album/p-32",
-		favorite = "",
+		favorite = "trelp3",
 		comment  = "",
-		listens  = 1,
+		listens  = 2,
 	},
 	{
-		// source folder: P()~()..40
 		genre    = {.Breakcore},
 		type     = .Album,
 		series   = .P,
@@ -3706,31 +3474,29 @@ package xoark_db
 		listened = {2026, 8, 13},
 		released = {2023, 1, 28},
 		duration = {1, 6, 16},
-		title    = "P\u200b\u200b\u200b(\u200b\u200b\u200b)\u200b\u200b\u200b~\u200b\u200b\u200b(\u200b\u200b\u200b)\u200b\u200b\u200b.\u200b\u200b\u200b.40",
+		title    = "P()~()..40",
 		art      = "p-40.webp",
 		url      = "https://xoark.bandcamp.com/album/p-40",
 		favorite = "",
 		comment  = "",
-		listens  = 1,
+		listens  = 2,
 	},
 	{
-		// source folder: P()~()..48
 		genre    = {.Breakcore, .IDM, .Ambient},
 		type     = .Album,
 		series   = .P,
-		rating   = 4,
+		rating   = 5,
 		listened = {2026, 8, 12},
 		released = {2023, 8, 13},
 		duration = {1, 14, 56},
-		title    = "P\u200b(\u200b)\u200b~\u200b(\u200b)\u200b.\u200b.\u200b48",
+		title    = "P()~()..48",
 		art      = "p-48.webp",
 		url      = "https://xoark.bandcamp.com/album/p-48",
 		favorite = "SC_230609_002319",
-		comment  = "The middle section of the album has my fav breakcore IDM infusion to date",
-		listens  = 1,
+		comment  = "The middle section of the album has my fav XoArK IDM-glitch infusion to date",
+		listens  = 2,
 	},
 	{
-		// source folder: P()~()..8
 		genre    = {.Breakcore, .Ambient},
 		type     = .Album,
 		series   = .P,
@@ -3746,7 +3512,6 @@ package xoark_db
 		listens  = 1,
 	},
 	{
-		// source folder: Parenthesis Mute
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -3762,7 +3527,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Parfait Retrieval
 		genre    = {.Breakcore, .SoCalledDnb},
 		type     = .Album,
 		series   = .None,
@@ -3778,7 +3542,6 @@ package xoark_db
 		listens  = 1,
 	},
 	{
-		// source folder: Particle Mute
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -3794,7 +3557,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Patch
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -3810,7 +3572,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Pck () ia
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -3826,7 +3587,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Pentex - XoArK - Pentex - XoArK
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -3842,7 +3602,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Petroarlic N.212
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -3858,7 +3617,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Playback unavailable
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -3874,7 +3632,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Please enter an album name
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -3890,7 +3647,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Plifal
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -3906,7 +3662,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Plight of the wingless bird
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -3922,7 +3677,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Prevents entities from receiving shadows on themselves
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -3938,7 +3692,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Printkc - Nimosk
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -3954,7 +3707,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Proxess - Frog . . . . Artist
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -3970,7 +3722,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Prwx - Nilwrask
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -3986,7 +3737,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Psychedelic Acid Tea Shop
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4002,7 +3752,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Rainwhile
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4018,7 +3767,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Random Track Selection #1
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4034,7 +3782,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Random Track Selection #2
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4050,7 +3797,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Random Track Selection #3
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4066,7 +3812,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Reccital - Cleurivank
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4082,7 +3827,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Recieved- about 14 hours ago
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4098,7 +3842,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Rilwrisk
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4114,7 +3857,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Royal Rocyiac
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4130,7 +3872,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Ryseg EP
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4146,7 +3887,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: S223
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4162,7 +3902,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Sandnetted
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4178,7 +3917,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Sardine Line EP
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4194,7 +3932,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Satellits- Descriptions
 		genre    = {.IDM, .Ambient},
 		type     = .Album,
 		series   = .Satellits,
@@ -4210,7 +3947,6 @@ package xoark_db
 		listens  = 1,
 	},
 	{
-		// source folder: Satellits- Descriptor
 		genre    = {.IDM},
 		type     = .Album,
 		series   = .Satellits,
@@ -4226,7 +3962,6 @@ package xoark_db
 		listens  = 1,
 	},
 	{
-		// source folder: Satellits- Placements
 		genre    = {.IDM},
 		type     = .Album,
 		series   = .Satellits,
@@ -4242,7 +3977,6 @@ package xoark_db
 		listens  = 1,
 	},
 	{
-		// source folder: Sciurus carolinensis
 		genre    = {},
 		type     = .Single,
 		series   = .None,
@@ -4258,7 +3992,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: ScreenCapture 11 5 2011 8 41 14 PM
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4274,7 +4007,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Screenshot 2023-10-20 at 20-17-01
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4290,7 +4022,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Screenshot 2025-01-12 at 19-51-24 05Miko4.png (PNG Image 1129 × 1185 pixels) — Scaled (58-)
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4306,7 +4037,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Screenshot_2021-02-08 f-q7chtAzN3nvACYSfHWfybrbKZIoPWUfU-0aGGV_3jMy-5ak4WyPp5XqBeD7J4DoANJwQM7r8O5oIaYx1dk4Y3oi-YE9knxJgNg
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4322,7 +4052,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Screenshot_20230524_101915_Firefox
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4338,7 +4067,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Sea-ch
 		genre    = {},
 		type     = .Journey,
 		series   = .None,
@@ -4354,7 +4082,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Second Trichel
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4370,7 +4097,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Seemingly red snowtimes (-1)
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4386,7 +4112,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Seemingly red snowtimes (-2)
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4402,7 +4127,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Serialsceptre01
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4418,7 +4142,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Setonix brachyurus
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4434,7 +4157,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Short Pieces (2.2.2022)
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4450,7 +4172,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Sibfence - The Butterfly
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4466,7 +4187,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Sickle ver. 2.049844686784
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4482,7 +4202,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Silkbuffer EP
 		genre    = {.Breakcore},
 		type     = .EP,
 		series   = .None,
@@ -4498,7 +4217,6 @@ package xoark_db
 		listens  = 1,
 	},
 	{
-		// source folder: Silverduck Rain - Egg of Yarn
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4514,7 +4232,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Silverfish Scaling- (≠)
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4530,7 +4247,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Skybox (Metallic)
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4546,7 +4262,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Something went wrong in this section of the page
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4562,7 +4277,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: SoundCloud Downloadables- Collection 1
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4578,7 +4292,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: SoundCloud Downloadables- Collection 2
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4594,7 +4307,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: SoundCloud Downloadables- Collection 3
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4610,7 +4322,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: SoundCloud Downloadables- Collection 4
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4626,7 +4337,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Spent Galaxy - Galaxy Not Spent
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4642,7 +4352,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Spygod
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4658,7 +4367,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Stack- Rigid
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4674,7 +4382,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Star Swallowed By A Wormhole
 		genre    = {},
 		type     = .Single,
 		series   = .None,
@@ -4690,7 +4397,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Stealblue_01
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4706,7 +4412,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Strokstein_09
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4722,7 +4427,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Stupid Color Squad 5.25.2018
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4738,7 +4442,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Submarine-eating Humanoid (Carp 1.0)
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4754,7 +4457,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Submerged forest - specialNautilus
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4770,7 +4472,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Suction Ice Tea
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4786,7 +4487,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: T-t TTowa . -o-o .-3 1T.TT.-.3aT
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4802,7 +4502,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: TAPR_0.1
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4818,7 +4517,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Tailflamed
 		genre    = {.Breakcore},
 		type     = .Album,
 		series   = .None,
@@ -4834,7 +4532,6 @@ package xoark_db
 		listens  = 1,
 	},
 	{
-		// source folder: Talprcrii
 		genre    = {.IDM},
 		type     = .Album,
 		series   = .None,
@@ -4850,7 +4547,6 @@ package xoark_db
 		listens  = 1,
 	},
 	{
-		// source folder: Tcurire
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4866,7 +4562,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Tea Flange
 		genre    = {.Breakcore, .SoCalledDnb},
 		type     = .Album,
 		series   = .None,
@@ -4882,7 +4577,6 @@ package xoark_db
 		listens  = 1,
 	},
 	{
-		// source folder: Teacake Dress Empire
 		genre    = {.Breakcore},
 		type     = .Album,
 		series   = .None,
@@ -4898,7 +4592,6 @@ package xoark_db
 		listens  = 1,
 	},
 	{
-		// source folder: TeapotChangeSource
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4914,7 +4607,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: The Pollpun Dog Incident
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4930,7 +4622,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: The Secret - This Sound
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4946,7 +4637,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: The hexadecimal color #fcf4d0 has RGB values of R-252- G-244- B-208 and CMYK values of C-0- M-0.03- Y-0.17- K-0.01. Its decimal value is 16577744
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4962,7 +4652,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: This can happen if the input dictionary contains some digraphs that only appear at the end of a word- such as -fy- and -qs-. (generates passwords locally)
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -4978,7 +4667,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: This item is no longer available. Items may be taken down for various reasons- including by decision of the uploader or due to a violation of our Terms of Use
 		genre    = {},
 		type     = .Journey,
 		series   = .None,
@@ -4994,7 +4682,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Tiirwulk
 		genre    = {},
 		type     = .Journey,
 		series   = .None,
@@ -5010,7 +4697,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Tiludiak
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5026,7 +4712,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Tinchirynv
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5042,7 +4727,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Tiryclui
 		genre    = {.IDM, .Glitch},
 		type     = .Album,
 		series   = .None,
@@ -5058,7 +4742,6 @@ package xoark_db
 		listens  = 1,
 	},
 	{
-		// source folder: Tiualg
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5074,7 +4757,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Tiuwaulk
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5090,7 +4772,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Tnchwoul
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5106,7 +4787,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Trago-gnomism
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5122,7 +4802,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Turphrwak
 		genre    = {.IDM},
 		type     = .Album,
 		series   = .None,
@@ -5138,7 +4817,6 @@ package xoark_db
 		listens  = 1,
 	},
 	{
-		// source folder: Turquoise Stoat EP
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5154,7 +4832,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Type Error- SC_210904_042314.aiff is not an image file
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5170,7 +4847,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Vcdisic29 - Geoksp
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5186,7 +4862,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Verbarstreptococcus
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5202,7 +4877,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Vermona Random Select
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5218,7 +4892,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Volatile Block Compass - piyok4
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5234,7 +4907,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: WARNING- You should reduce source level to avoid clipping- use gain of - 0.858625
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5250,7 +4922,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: What's in a set of descriptions- or a set of metaphors for that matter- Quite a bit or very little- depending on whether or not you are
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5266,7 +4937,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Wool of Matchereik
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5282,7 +4952,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Worst Breakcore Ever
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5298,7 +4967,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: XoArK Soundcloud Collection
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5314,7 +4982,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Yakitori Songs
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5330,7 +4997,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Yevaunk
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5346,7 +5012,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Yifan 1 - Nrvak - Parrotvalley
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5362,7 +5027,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Yuouruauk - Rolucuuco
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5378,7 +5042,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Znisk
 		genre    = {},
 		type     = .Journey,
 		series   = .None,
@@ -5394,7 +5057,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: _ - - _ - - - -_ -_. _ - -
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5410,7 +5072,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: _)
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5426,7 +5087,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: _142836 -x5
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5442,7 +5102,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: a_0-c_limit-f_auto-h_1024-q_auto-w_1024-v1457540288
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5458,7 +5117,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: assistance for xuue
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5474,7 +5132,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: audio for later in the night
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5490,7 +5147,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: avatars-N35Y4EkCpGJ4qJND-acahYg-original
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5506,7 +5162,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: a~
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5522,7 +5177,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: b3c547e7df03f40504f4458f9c44
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5538,7 +5192,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: b7d4d32bc999f73a347b83938be6
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5554,7 +5207,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: backup 12282022
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5570,7 +5222,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: backup 7282022
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5586,7 +5237,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: batmarlch 01-03
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5602,7 +5252,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: bird
 		genre    = {},
 		type     = .Single,
 		series   = .None,
@@ -5618,7 +5267,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: brackel49
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5634,7 +5282,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: chitose pfp-032618_1
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5650,7 +5297,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: cinnab21.1
 		genre    = {},
 		type     = .Journey,
 		series   = .None,
@@ -5666,7 +5312,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: combs
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5682,7 +5327,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: corianth sigal
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5698,7 +5342,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: courdier -trebicant
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5714,7 +5357,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: d-M560.31-160.63l5.86-24.12s7.37-6.15-5.2-14.54S560.31-160.63-560.31-160.63Z
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5730,7 +5372,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: d0cFtecERG9H8-dr-G80~o62Shaq
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5746,7 +5387,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: d8a0e5faec187e1ea2adbbf9bbd2
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5762,7 +5402,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: de0th -Submitter- -Jun 27 2022- 01-25 CST- title shouldn't be unclickable
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5778,7 +5417,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: default
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5794,7 +5432,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: dustpartition_01
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5810,7 +5447,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: e2abfe775587d55a0c1d6d3a5a4c
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5826,7 +5462,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: eggs (count- 0)
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5842,7 +5477,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: env 783969
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5858,7 +5492,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: f4gh6ulp5kgo4jhu7
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5874,7 +5507,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: f5e4a7cd3a78b65a9a0d64d26476
 		genre    = {},
 		type     = .Single,
 		series   = .None,
@@ -5890,7 +5522,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: f64cd5273e3d391f453e4599789e
 		genre    = {},
 		type     = .Single,
 		series   = .None,
@@ -5906,7 +5537,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: false_-p-;lllllllllllllllllllll
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5922,7 +5552,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: false_00078'ij
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5938,7 +5567,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: figehrtlmkhhryjtuh
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5954,7 +5582,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: firefox_2022-03-01_23.54.55
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5970,7 +5597,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: firefox_2022-03-02_03.51.34
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -5986,7 +5612,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: for every(-)
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -6002,7 +5627,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: fourteen
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -6018,7 +5642,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: from - or '-'
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -6034,7 +5657,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: g(i(}ty-.cRyZ-i)(etLarP-j g-Jj;arofj-e- .i- 8. 10-g7.-a-.-11r-TZ4lJ. KKEj - ■ Mh-. O ZK-x4-yJ-a (i- dp4z2 l-a6. 1-15. 5-a-6-rz
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -6050,7 +5672,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: gebyum biny
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -6066,10 +5687,9 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: gnocchi baby kawm;lompy
 		genre    = {},
 		type     = .Album,
-		series   = .None,
+		series   = .Gnocchi,
 		rating   = 0,
 		listened = {},
 		released = {2018, 1, 1},
@@ -6082,10 +5702,9 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: gnocchi-filereader
 		genre    = {},
 		type     = .Album,
-		series   = .None,
+		series   = .Gnocchi,
 		rating   = 0,
 		listened = {},
 		released = {2021, 1, 1},
@@ -6098,10 +5717,9 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: gnocchi-seems_to_be_a_reference vector
 		genre    = {},
 		type     = .Album,
-		series   = .None,
+		series   = .Gnocchi,
 		rating   = 0,
 		listened = {},
 		released = {2021, 1, 1},
@@ -6114,7 +5732,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: gwel29_null
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -6130,7 +5747,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: has.;'
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -6146,7 +5762,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: ichstrate
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -6162,7 +5777,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: internally suppressed reference- -explorer_2022-10-08_02.04.36
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -6178,7 +5792,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: it sometimes jumped {-}
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -6194,7 +5807,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: jellyfishspike (count- 8)
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -6210,7 +5822,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: kaidai4.2
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -6226,7 +5837,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: koai (10x)
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -6242,7 +5852,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: lnops-1
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -6258,7 +5867,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: lokaal cat
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -6274,7 +5882,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: maintenance
 		genre    = {},
 		type     = .Journey,
 		series   = .None,
@@ -6290,7 +5897,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: maintenance 2
 		genre    = {},
 		type     = .Journey,
 		series   = .None,
@@ -6306,7 +5912,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: meez-if album
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -6322,7 +5927,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: melancholy in design
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -6338,7 +5942,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: mino
 		genre    = {},
 		type     = .Journey,
 		series   = .None,
@@ -6354,7 +5957,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: narlps2
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -6370,7 +5972,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: nemnge
 		genre    = {.Breakcore, .IDM},
 		type     = .Album,
 		series   = .None,
@@ -6386,7 +5987,6 @@ package xoark_db
 		listens  = 1,
 	},
 	{
-		// source folder: no longer available
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -6402,7 +6002,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: nothex
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -6418,7 +6017,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: o -p~(jkl)-$(-jkl-+)-.((-jkl-)-jkl-+)-.(()-^(2)-.-jkl-+)-.((0-1)-)-(-jkl-)-.(((+2-1-2-)-({^0-}))-(-jkl-)-()(+2-n-(-jkl-)-^9-(2-4)-&))-.(_-1)-(4~3)-3((()-(-jkl-+)-x)(-jk
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -6434,7 +6032,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: output title e0 0000300
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -6450,7 +6047,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: over 17 years ago View Revert
 		genre    = {},
 		type     = .Journey,
 		series   = .None,
@@ -6466,7 +6062,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: p()~()..56
 		genre    = {.Breakcore, .Ambient},
 		type     = .Album,
 		series   = .P,
@@ -6479,10 +6074,9 @@ package xoark_db
 		url      = "https://xoark.bandcamp.com/album/p-56",
 		favorite = "",
 		comment  = "",
-		listens  = 1,
+		listens  = 2,
 	},
 	{
-		// source folder: p;l-p.;'ZXCDLF-BNK-GFr
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -6498,7 +6092,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: p_F-1¤
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -6514,7 +6107,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: partial_3284 - sivver.176
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -6530,7 +6122,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: photo_2024-04-20_11-12-46
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -6546,7 +6137,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: poiudhxyrtguiojpkl
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -6562,7 +6152,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: poiulopkl 249 (7x)
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -6578,7 +6167,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: posted a review that has since been deleted
 		genre    = {},
 		type     = .Journey,
 		series   = .None,
@@ -6594,7 +6182,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: praspis0- -Reset_All
 		genre    = {},
 		type     = .Album,
 		series   = .Praspis,
@@ -6610,7 +6197,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: praspis1- -please mind the allocation of resources
 		genre    = {},
 		type     = .Album,
 		series   = .Praspis,
@@ -6626,7 +6212,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: praspis2- -inf
 		genre    = {},
 		type     = .Journey,
 		series   = .Praspis,
@@ -6642,7 +6227,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: praspis3- -it does lethal damage
 		genre    = {},
 		type     = .Album,
 		series   = .Praspis,
@@ -6658,7 +6242,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: range 0 4.66 0.9 0 29 1.00 1138 Adjective
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -6674,7 +6257,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: rave on~! EP
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -6690,7 +6272,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: rchIndexes0.1 ▼
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -6706,7 +6287,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: rgto
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -6722,7 +6302,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: rodack.22
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -6738,7 +6317,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: rulon1
 		genre    = {},
 		type     = .Journey,
 		series   = .None,
@@ -6754,7 +6332,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: s42924p-LoggedFiles
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -6770,7 +6347,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: scotoplanes4
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -6786,7 +6362,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: shitwiz - shitwiz - Sources (XoArK RMX)
 		genre    = {},
 		type     = .Single,
 		series   = .None,
@@ -6802,7 +6377,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: spider.widget.edit0248
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -6818,7 +6392,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: stwwm
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -6834,7 +6407,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: subsequently;
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -6850,7 +6422,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: t is paused becau
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -6866,7 +6437,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: t is paused becau(1)
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -6882,7 +6452,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: temp02
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -6898,7 +6467,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: tfngtfgn
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -6914,7 +6482,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: there is an anti-spam filter
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -6930,7 +6497,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: time continues
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -6946,7 +6512,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: tisk-1
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -6962,7 +6527,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: tisk-2 (-)
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -6978,7 +6542,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: titel 0
 		genre    = {},
 		type     = .Journey,
 		series   = .None,
@@ -6994,7 +6557,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: titel 1
 		genre    = {},
 		type     = .Journey,
 		series   = .None,
@@ -7010,7 +6572,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: titel 2
 		genre    = {},
 		type     = .Journey,
 		series   = .None,
@@ -7026,7 +6587,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: tlaenge
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -7042,7 +6602,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: today 3-30-2019
 		genre    = {},
 		type     = .Journey,
 		series   = .None,
@@ -7058,7 +6617,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: tusitukot - ivziarokvo
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -7074,7 +6632,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: type 719f2a871f50db2175b33b5c7de1 Eternal. Eternal. Eternal -0.0.27
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -7090,7 +6647,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: untitled
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -7106,7 +6662,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: untitled(1)
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -7122,7 +6677,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: untitled(2)
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -7138,7 +6692,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: untitled(3)
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -7154,7 +6707,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: untitled(4)
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -7170,7 +6722,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: untitled(5)
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -7186,7 +6737,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: untitled(6)
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -7202,7 +6752,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: untitled(7)
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -7218,7 +6767,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: untitled(8)
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -7234,7 +6782,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: v_~~~-~l
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -7250,7 +6797,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: varying; multipleKeris
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -7266,7 +6812,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: vxtr31-1
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -7282,7 +6827,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: windsail~0.01
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -7298,7 +6842,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: x
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -7314,7 +6857,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: x- BrIbTqA
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -7330,7 +6872,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: x- prior
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -7346,7 +6887,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: x.Xl.3kj4i Lfia;duiajozbz
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -7362,7 +6902,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: xt3Ebg3Jea3a
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -7378,7 +6917,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: yrhag
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -7394,7 +6932,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: yurp
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -7410,7 +6947,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: {VideoAuthor} - {Title} - {UploadDate} - {PlaylistTitle}
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -7426,7 +6962,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: ½³uq - 6X§cI¸-¬²³ ¦²Éµ-S¼-¢£µKD¼HPm4-x .HP.RuUÉHSuHC$¾j(r-t
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -7442,7 +6977,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: œßþú8733æżçvņłø-$
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -7458,7 +6992,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: Рис.24-25-26-27-28-29. Объекты МАФ в Царицыно (после реконструкции 2008 года)
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -7474,7 +7007,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: بطيء جدا في التحميل والرفع
 		genre    = {},
 		type     = .Album,
 		series   = .None,
@@ -7490,7 +7022,6 @@ package xoark_db
 		listens  = 0,
 	},
 	{
-		// source folder: “When I use a word-” Humpty Dumpty said- in rather a scornful tone- “it means just what I choose it to mean — neither more nor less.”
 		genre    = {},
 		type     = .Album,
 		series   = .None,

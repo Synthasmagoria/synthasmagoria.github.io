@@ -1,10 +1,14 @@
-# XoArK Discovery Arc
+# XoArK Discovery Arc (started 2026.08.02)
 
-I started digging through XoArK's discography, and decided to chronicle it.
-Sorry my descriptors are so vague. I haven't spent a lot of time with any of this music yet.
-The page and 3x3 will be updated for as long as I'm actively listening to XoArK.
+I started digging through XoArK's discography, and decided to chronicle it.  
+The page and 3x3 will be updated for as long as I'm actively listening to XoArK.  
+Update: I have discovered the [XoArK Cinematic Universe](/xoark_cinematic_universe/)  
+I haven't documented it extensively, but in the future it might become a good introduction to their work.  
 
 [Check out this absolutely photogenic bandcamp page](https://xoark.bandcamp.com/music)
+
+## 3x3
+The folling are 9 albums by XoArK that I like in no particular order.
 
 <div style="display:grid; grid-template-columns:repeat(3, 1fr); 
   grid-template-rows:repeat(3, 1fr); gap:8px; width:100%; height:100%;">
@@ -14,8 +18,8 @@ The page and 3x3 will be updated for as long as I'm actively listening to XoArK.
         </a>
     </div>
     <div style="overflow:hidden; background:#222;">
-        <a href="https://xoark.bandcamp.com/album/parfait-retrieval">
-            <img src="/xoark_shared/art/parfait-retrieval.webp" style="width:100%; height:100%; object-fit:cover; display:block;">
+        <a href="https://xoark.bandcamp.com/album/p-48">
+            <img src="/xoark_shared/art/p-48.webp" style="width:100%; height:100%; object-fit:cover; display:block;">
         </a>
     </div>
     <div style="overflow:hidden; background:#222;">
@@ -44,8 +48,8 @@ The page and 3x3 will be updated for as long as I'm actively listening to XoArK.
         </a>
     </div>
     <div style="overflow:hidden; background:#222;">
-        <a href="https://xoark.bandcamp.com/album/nemnge">
-            <img src="/xoark_shared/art/nemnge.webp" style="width:100%; height:100%; object-fit:cover; display:block;">
+        <a href="https://suimoe.bandcamp.com/album/p-32">
+            <img src="/xoark_shared/art/p-32.webp" style="width:100%; height:100%; object-fit:cover; display:block;">
         </a>
     </div>
     <div style="overflow:hidden; background:#222;">
@@ -55,16 +59,16 @@ The page and 3x3 will be updated for as long as I'm actively listening to XoArK.
     </div>
   </div>
 
-*albums not ordered by favorite. here's the albums on the 3x3 from left to right, top to bottom*
+Albums on the 3x3 left to right, top to bottom:
 
-1) [Tiryclui](https://xoark.bandcamp.com/album/tiryclui) - Interesting IDM. Second track has a cool sound. And it seemlessly morphs hecticism.
-2) [Parfait Retrieval](https://xoark.bandcamp.com/album/parfait-retrieval) - Mostly DnB. Has some interesting sound design and satisfying track progressions.
+1) [Tiryclui](https://xoark.bandcamp.com/album/tiryclui) - Interesting glitch journey. Second track has a cool sound. And it seemlessly morphs hecticism.
+2) [P()~()..48](https://xoark.bandcamp.com/album/p-48) - If you don't listen to IDM while working with databases you lose 20% efficiency (at least)
 3) [1sky](https://lego6.bandcamp.com/album/1sky) - Variety. Never heard offbeat piano turn into a DnB track before.
 4) [Tailflamed](https://xoark.bandcamp.com/album/tailflamed) - Most consistently energetic breakcore / dnb album I've heard from XoArK to date. A vibe all throughout.
 5) [See2](https://suimoe.bandcamp.com/album/see2) - V.A. with a bunch of interesting artists. Ends up being pretty experimental.
-6) [Satellits: Descriptor](https://xoark.bandcamp.com/album/satellits-descriptor) - Desolate IDM
+6) [Satellits: Descriptor](https://xoark.bandcamp.com/album/satellits-descriptor) - Desolate spacey ambient
 7) [Nssrwnt](https://xoark.bandcamp.com/album/nssrwnt) - Eerie ambient journey through a big dataplex.
-8) [nemnge](https://xoark.bandcamp.com/album/nemnge) - Cool IDM ambient
+8) [P()~()..32](https://suimoe.bandcamp.com/album/p-32) - Some of XoArK's most satisfying breaks to date.
 9) [P()~()..16](https://xoark.bandcamp.com/album/p-16) - Immersive. Goes from breakcore to noise / glitch. You're in transit.
 
 <style>
@@ -97,7 +101,7 @@ Next I figured out that XoArK's IDM is an extremely good accompaniment for progr
     </div>
     <div style="flex: 0.7;">
         <a href="https://xoark.bandcamp.com/album/2-tracks-01-14-33">
-            <img src="img/2 tracks 01-14-33.jpg" alt="2 tracks 01-14-33 album art" style="width: 100%; height: auto; display: block;">
+            <img src="/xoark_shared/art/2-tracks-01-14-33.webp" alt="2 tracks 01-14-33 album art" style="width: 100%; height: auto; display: block;">
         </a>
     </div>
 </div>
@@ -112,7 +116,7 @@ Next I figured out that XoArK's IDM is an extremely good accompaniment for progr
     </div>
     <div style="flex: 0.7;">
         <a href="https://xoark.bandcamp.com/album/tailflamed">
-            <img src="img/tailflamed.jpg" alt="Tailflamed album art" style="width: 100%; height: auto; display: block;">
+            <img src="/xoark_shared/art/tailflamed.webp" alt="Tailflamed album art" style="width: 100%; height: auto; display: block;">
         </a>
     </div>
 </div>
@@ -128,7 +132,7 @@ Next I figured out that XoArK's IDM is an extremely good accompaniment for progr
     </div>
     <div style="flex: 0.7;">
         <a href="https://xoark.bandcamp.com/album/nimnsk">
-            <img src="img/nimnsk.jpg" alt="Nimnsk album art" style="width: 100%; height: auto; display: block;">
+            <img src="/xoark_shared/art/nimnsk.webp" alt="Nimnsk album art" style="width: 100%; height: auto; display: block;">
         <a/>
     </div>
 </div>
@@ -145,7 +149,7 @@ Next I figured out that XoArK's IDM is an extremely good accompaniment for progr
     </div>
     <div style="flex: 0.7;">
         <a href="https://xoark.bandcamp.com/album/turphrwak">
-            <img src="img/turphrwak.jpg" alt="Turphrwak album art" style="width: 100%; height: auto; display: block;">
+            <img src="/xoark_shared/art/turphrwak.webp" alt="Turphrwak album art" style="width: 100%; height: auto; display: block;">
         <a/>
     </div>
 </div>
@@ -175,7 +179,7 @@ I didn't realize until now, but there are a lot of XoArK "series" / "groups" of 
 </div>
 <div style="flex: 0.7;">
 <a href="https://xoark.bandcamp.com/album/satellits-descriptions">
-<img src="img/satellits descriptions.jpg" alt="Satellits: Descriptions album art" style="width: 100%; height: auto; display: block;">
+<img src="/xoark_shared/art/satellits-descriptions.webp" alt="Satellits: Descriptions album art" style="width: 100%; height: auto; display: block;">
 </a>
 </div>
 </div>
@@ -196,7 +200,7 @@ I didn't realize until now, but there are a lot of XoArK "series" / "groups" of 
 </div>
 <div style="flex: 0.7;">
 <a href="https://xoark.bandcamp.com/album/p-56">
-<img src="img/p-56.jpg" alt="p56 album art" style="width: 100%; height: auto; display: block;">
+<img src="/xoark_shared/art/p-56.webp" alt="p56 album art" style="width: 100%; height: auto; display: block;">
 </a>
 </div>
 </div>
@@ -216,7 +220,7 @@ Apparently praspis3 was a live set. Wish I was there man.
 </div>
 <div style="flex: 0.7;">
 <a href="https://xoark.bandcamp.com/album/praspis1-please-mind-the-allocation-of-resources">
-<img src="img/praspis1.jpg" alt="praspis1 album art" style="width: 100%; height: auto; display: block;">
+<img src="/xoark_shared/art/praspis1-please-mind-the-allocation-of-resources.webp" alt="praspis1 album art" style="width: 100%; height: auto; display: block;">
 </a>
 </div>
 </div>
@@ -236,7 +240,7 @@ I'd have trouble listing them all so I'll just give a few examples.
 </div>
 <div style="flex: 0.7;">
 <a href="https://xoark.bandcamp.com/album/this-item-is-no-longer-available-items-may-be-taken-down-for-various-reasons-including-by-decision-of-the-uploader-or-due-to-a-violation-of-our-terms-of-use">
-<img src="img/this item is no longer available.jpg" alt="this item is no longer available album art" style="width: 100%; height: auto; display: block;">
+<img src="/xoark_shared/art/this-item-is-no-longer-available-items-may-be-taken-down-for-various-reasons-including-by-decision-of-the-uploader-or-due-to-a-violation-of-our-terms-of-use.webp" alt="this item is no longer available album art" style="width: 100%; height: auto; display: block;">
 </a>
 </div>
 </div>
@@ -256,7 +260,7 @@ According to the descriptions on BC it seems like these are all improv
 </div>
 <div style="flex: 0.7;">
 <a href="https://xoark.bandcamp.com/album/gnocchi-baby-kawm-lompy">
-<img src="img/gnocchi baby kawm lompy.jpg" alt="gnocchi baby kawm lompy album art" style="width: 100%; height: auto; display: block;">
+<img src="/xoark_shared/art/gnocchi-baby-kawm-lompy.webp" alt="gnocchi baby kawm lompy album art" style="width: 100%; height: auto; display: block;">
 </a>
 </div>
 </div>
