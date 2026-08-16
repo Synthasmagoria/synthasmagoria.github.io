@@ -58,8 +58,20 @@ Series :: enum u8 {
     Runtime,
 };
 
+Group :: enum u8 {
+	ThreeByThree,
+	Placeholder0,
+	Placeholder1,
+	Placeholder2,
+	Placeholder3,
+	Placeholder4,
+	Placeholder5,
+	Placeholder6,
+}
+
 Album :: struct {
 	genre:        bit_set[Genre],
+	group:        bit_set[Group],
 	type:         Type,
 	series:       Series,
 	rating:       u8,

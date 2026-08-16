@@ -51,6 +51,7 @@ program :: proc(path: string) -> Error {
 	w := io.to_writer(io.Stream(os.to_stream(f)))
 	for &album in db.discography {
 		io.write_ptr(w, &album.genre, 4)
+		io.write_ptr(w, &album.group, 4)
 		io.write_byte(w, u8(album.type))
 		io.write_byte(w, u8(album.series))
 		io.write_byte(w, album.rating)

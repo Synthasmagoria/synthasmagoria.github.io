@@ -3,6 +3,7 @@ package xoark_db
 @rodata discography := []Album{
 	{
 		genre    = {},
+		group    = {},
 		type     = .Single,
 		series   = .Hex,
 		rating   = 0,
@@ -18,6 +19,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Single,
 		series   = .Hex,
 		rating   = 0,
@@ -33,6 +35,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Single,
 		series   = .Hex,
 		rating   = 0,
@@ -48,6 +51,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Single,
 		series   = .Hex,
 		rating   = 0,
@@ -63,6 +67,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Journey,
 		series   = .Hex,
 		rating   = 0,
@@ -78,6 +83,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Single,
 		series   = .Hex,
 		rating   = 0,
@@ -93,6 +99,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Journey,
 		series   = .Hex,
 		rating   = 0,
@@ -108,6 +115,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Single,
 		series   = .Hex,
 		rating   = 0,
@@ -123,6 +131,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Single,
 		series   = .Hex,
 		rating   = 0,
@@ -138,6 +147,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Single,
 		series   = .Hex,
 		rating   = 0,
@@ -153,6 +163,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Single,
 		series   = .Hex,
 		rating   = 0,
@@ -168,6 +179,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Single,
 		series   = .Hex,
 		rating   = 0,
@@ -183,6 +195,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Single,
 		series   = .Hex,
 		rating   = 0,
@@ -198,6 +211,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Single,
 		series   = .Hex,
 		rating   = 0,
@@ -213,6 +227,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Single,
 		series   = .Hex,
 		rating   = 0,
@@ -228,6 +243,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Single,
 		series   = .Hex,
 		rating   = 0,
@@ -243,6 +259,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Journey,
 		series   = .Hex,
 		rating   = 0,
@@ -258,6 +275,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Single,
 		series   = .Hex,
 		rating   = 0,
@@ -273,6 +291,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Single,
 		series   = .Hex,
 		rating   = 0,
@@ -288,6 +307,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Single,
 		series   = .Hex,
 		rating   = 0,
@@ -303,6 +323,7 @@ package xoark_db
 	},
 	{
 		genre    = {.Ambient},
+		group    = {},
 		type     = .Journey,
 		series   = .Hex,
 		rating   = 1,
@@ -318,6 +339,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Single,
 		series   = .Hex,
 		rating   = 0,
@@ -333,6 +355,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Single,
 		series   = .Hex,
 		rating   = 0,
@@ -348,6 +371,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Single,
 		series   = .Hex,
 		rating   = 0,
@@ -363,6 +387,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .Hex,
 		rating   = 0,
@@ -378,6 +403,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Single,
 		series   = .Hex,
 		rating   = 0,
@@ -393,6 +419,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Single,
 		series   = .Hex,
 		rating   = 0,
@@ -408,6 +435,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Single,
 		series   = .Hex,
 		rating   = 0,
@@ -423,6 +451,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Single,
 		series   = .Hex,
 		rating   = 0,
@@ -438,6 +467,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Single,
 		series   = .Hex,
 		rating   = 0,
@@ -453,6 +483,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Single,
 		series   = .Hex,
 		rating   = 0,
@@ -468,6 +499,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Journey,
 		series   = .Hex,
 		rating   = 0,
@@ -483,6 +515,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Single,
 		series   = .Hex,
 		rating   = 0,
@@ -498,6 +531,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Single,
 		series   = .Hex,
 		rating   = 0,
@@ -513,6 +547,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Single,
 		series   = .Hex,
 		rating   = 0,
@@ -528,6 +563,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Single,
 		series   = .Hex,
 		rating   = 0,
@@ -543,6 +579,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Journey,
 		series   = .Hex,
 		rating   = 0,
@@ -558,6 +595,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Single,
 		series   = .Hex,
 		rating   = 0,
@@ -573,6 +611,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Single,
 		series   = .Hex,
 		rating   = 0,
@@ -588,6 +627,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Single,
 		series   = .Hex,
 		rating   = 0,
@@ -603,6 +643,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -618,6 +659,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -633,6 +675,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -648,6 +691,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -663,6 +707,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Journey,
 		series   = .None,
 		rating   = 0,
@@ -678,6 +723,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -693,6 +739,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -708,6 +755,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -723,6 +771,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -738,6 +787,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -753,6 +803,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -768,6 +819,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -783,6 +835,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -798,6 +851,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -813,6 +867,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Single,
 		series   = .None,
 		rating   = 0,
@@ -828,6 +883,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -843,6 +899,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -858,6 +915,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -873,6 +931,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -888,6 +947,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Single,
 		series   = .None,
 		rating   = 0,
@@ -903,6 +963,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Journey,
 		series   = .None,
 		rating   = 0,
@@ -918,6 +979,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -933,6 +995,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -948,6 +1011,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -963,6 +1027,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -978,6 +1043,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -993,6 +1059,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1008,6 +1075,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1023,6 +1091,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1038,6 +1107,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1053,6 +1123,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1068,6 +1139,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Single,
 		series   = .None,
 		rating   = 0,
@@ -1083,6 +1155,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Single,
 		series   = .None,
 		rating   = 0,
@@ -1098,6 +1171,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Single,
 		series   = .None,
 		rating   = 0,
@@ -1113,6 +1187,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1128,6 +1203,7 @@ package xoark_db
 	},
 	{
 		genre    = {.IDM},
+		group    = {},
 		type     = .Album,
 		series   = .Runtime,
 		rating   = 2,
@@ -1143,6 +1219,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1158,6 +1235,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1173,6 +1251,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1188,6 +1267,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1203,6 +1283,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1218,6 +1299,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Journey,
 		series   = .None,
 		rating   = 0,
@@ -1233,6 +1315,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Journey,
 		series   = .None,
 		rating   = 0,
@@ -1248,6 +1331,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1263,6 +1347,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1278,6 +1363,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Journey,
 		series   = .None,
 		rating   = 0,
@@ -1293,6 +1379,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1308,6 +1395,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1323,6 +1411,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1338,6 +1427,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1353,6 +1443,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1368,6 +1459,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1383,6 +1475,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1398,6 +1491,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1413,6 +1507,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1428,6 +1523,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Journey,
 		series   = .None,
 		rating   = 0,
@@ -1443,6 +1539,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Single,
 		series   = .None,
 		rating   = 0,
@@ -1458,6 +1555,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1473,6 +1571,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1488,6 +1587,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Single,
 		series   = .None,
 		rating   = 0,
@@ -1503,6 +1603,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1518,6 +1619,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1533,6 +1635,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1548,6 +1651,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Single,
 		series   = .None,
 		rating   = 0,
@@ -1563,6 +1667,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1578,6 +1683,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1593,6 +1699,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1608,6 +1715,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1623,6 +1731,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1638,6 +1747,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1653,6 +1763,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1668,6 +1779,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1683,6 +1795,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1698,6 +1811,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1713,6 +1827,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1728,6 +1843,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1743,6 +1859,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1758,6 +1875,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1773,6 +1891,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1788,6 +1907,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Single,
 		series   = .None,
 		rating   = 0,
@@ -1803,6 +1923,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1818,6 +1939,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1833,6 +1955,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1848,6 +1971,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1863,6 +1987,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1878,6 +2003,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1893,6 +2019,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Journey,
 		series   = .None,
 		rating   = 0,
@@ -1908,6 +2035,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1923,6 +2051,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1938,6 +2067,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1953,6 +2083,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1968,6 +2099,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1983,6 +2115,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -1998,6 +2131,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2013,6 +2147,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Single,
 		series   = .None,
 		rating   = 0,
@@ -2028,6 +2163,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2043,6 +2179,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2058,6 +2195,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2073,6 +2211,7 @@ package xoark_db
 	},
 	{
 		genre    = {.Breakcore},
+		group    = {},
 		type     = .Single,
 		series   = .None,
 		rating   = 2,
@@ -2088,6 +2227,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2103,6 +2243,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2118,6 +2259,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2133,6 +2275,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2148,6 +2291,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2163,6 +2307,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2178,6 +2323,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2193,6 +2339,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Journey,
 		series   = .None,
 		rating   = 0,
@@ -2208,6 +2355,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2223,6 +2371,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2238,6 +2387,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2253,6 +2403,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2268,6 +2419,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2283,6 +2435,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2298,6 +2451,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2313,6 +2467,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2328,6 +2483,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2343,6 +2499,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2358,6 +2515,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2373,6 +2531,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2388,6 +2547,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2403,6 +2563,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2418,6 +2579,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2433,6 +2595,7 @@ package xoark_db
 	},
 	{
 		genre    = {.IDM},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 2,
@@ -2448,6 +2611,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2463,6 +2627,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Journey,
 		series   = .None,
 		rating   = 0,
@@ -2478,6 +2643,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2493,6 +2659,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2508,6 +2675,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2523,6 +2691,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2538,6 +2707,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2553,6 +2723,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2568,6 +2739,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2583,6 +2755,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2598,6 +2771,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2613,6 +2787,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2628,6 +2803,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2643,6 +2819,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2658,6 +2835,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2673,6 +2851,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2688,6 +2867,7 @@ package xoark_db
 	},
 	{
 		genre    = {.IDM},
+		group    = {},
 		type     = .Journey,
 		series   = .None,
 		rating   = 3,
@@ -2703,6 +2883,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2718,6 +2899,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2733,6 +2915,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2748,6 +2931,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2763,6 +2947,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2778,6 +2963,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2793,6 +2979,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2808,6 +2995,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2823,6 +3011,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2838,6 +3027,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2853,6 +3043,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Journey,
 		series   = .None,
 		rating   = 0,
@@ -2868,6 +3059,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2883,6 +3075,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2898,6 +3091,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2913,6 +3107,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2928,6 +3123,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2943,6 +3139,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2958,6 +3155,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2973,6 +3171,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -2988,6 +3187,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -3003,6 +3203,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -3018,6 +3219,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -3033,6 +3235,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -3048,6 +3251,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -3063,6 +3267,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -3078,6 +3283,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -3093,6 +3299,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -3108,6 +3315,7 @@ package xoark_db
 	},
 	{
 		genre    = {.Breakcore, .SoCalledDnb},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 3,
@@ -3123,6 +3331,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -3138,6 +3347,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -3153,6 +3363,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Journey,
 		series   = .None,
 		rating   = 0,
@@ -3168,6 +3379,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Journey,
 		series   = .None,
 		rating   = 0,
@@ -3183,6 +3395,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -3198,6 +3411,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -3213,6 +3427,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -3228,6 +3443,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -3243,6 +3459,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -3258,6 +3475,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -3273,6 +3491,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -3288,6 +3507,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -3303,6 +3523,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -3318,6 +3539,7 @@ package xoark_db
 	},
 	{
 		genre    = {.Breakcore},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 4,
@@ -3333,6 +3555,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -3348,6 +3571,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -3363,6 +3587,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -3378,6 +3603,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -3393,6 +3619,7 @@ package xoark_db
 	},
 	{
 		genre    = {.Ambient},
+		group    = {.ThreeByThree},
 		type     = .Album,
 		series   = .None,
 		rating   = 4,
@@ -3403,11 +3630,12 @@ package xoark_db
 		art      = "nssrwnt.webp",
 		url      = "https://xoark.bandcamp.com/album/nssrwnt",
 		favorite = "Navscr",
-		comment  = "",
+		comment  = "Eerie ambient journey through a big dataplex.",
 		listens  = 0,
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Journey,
 		series   = .None,
 		rating   = 0,
@@ -3423,6 +3651,7 @@ package xoark_db
 	},
 	{
 		genre    = {.Breakcore, .Noise, .Ambient},
+		group    = {.ThreeByThree},
 		type     = .Album,
 		series   = .P,
 		rating   = 5,
@@ -3433,11 +3662,12 @@ package xoark_db
 		art      = "p-16.webp",
 		url      = "https://xoark.bandcamp.com/album/p-16",
 		favorite = "",
-		comment  = "Love the journey",
+		comment  = "Immersive. Goes from breakcore to noise / glitch. You're in transit.",
 		listens  = 2,
 	},
 	{
 		genre    = {.Breakcore, .Ambient},
+		group    = {},
 		type     = .Album,
 		series   = .P,
 		rating   = 4,
@@ -3453,6 +3683,7 @@ package xoark_db
 	},
 	{
 		genre    = {.Breakcore, .IDM},
+		group    = {.ThreeByThree},
 		type     = .Album,
 		series   = .P,
 		rating   = 4,
@@ -3463,11 +3694,12 @@ package xoark_db
 		art      = "p-32.webp",
 		url      = "https://suimoe.bandcamp.com/album/p-32",
 		favorite = "trelp3",
-		comment  = "",
+		comment  = "Some of XoArK's most satisfying breaks to date.",
 		listens  = 2,
 	},
 	{
 		genre    = {.Breakcore},
+		group    = {},
 		type     = .Album,
 		series   = .P,
 		rating   = 2,
@@ -3483,6 +3715,7 @@ package xoark_db
 	},
 	{
 		genre    = {.Breakcore, .IDM, .Ambient},
+		group    = {.ThreeByThree},
 		type     = .Album,
 		series   = .P,
 		rating   = 5,
@@ -3498,6 +3731,7 @@ package xoark_db
 	},
 	{
 		genre    = {.Breakcore, .Ambient},
+		group    = {},
 		type     = .Album,
 		series   = .P,
 		rating   = 3,
@@ -3513,6 +3747,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -3528,6 +3763,7 @@ package xoark_db
 	},
 	{
 		genre    = {.Breakcore, .SoCalledDnb},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 4,
@@ -3543,6 +3779,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -3558,6 +3795,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -3573,6 +3811,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -3588,6 +3827,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -3603,6 +3843,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -3618,6 +3859,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -3633,6 +3875,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -3648,6 +3891,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -3663,6 +3907,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -3678,6 +3923,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -3693,6 +3939,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -3708,6 +3955,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -3723,6 +3971,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -3738,6 +3987,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -3753,6 +4003,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -3768,6 +4019,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -3783,6 +4035,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -3798,6 +4051,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -3813,6 +4067,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -3828,6 +4083,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -3843,6 +4099,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -3858,6 +4115,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -3873,6 +4131,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -3888,6 +4147,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -3903,6 +4163,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -3918,6 +4179,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -3933,6 +4195,7 @@ package xoark_db
 	},
 	{
 		genre    = {.IDM, .Ambient},
+		group    = {},
 		type     = .Album,
 		series   = .Satellits,
 		rating   = 3,
@@ -3948,6 +4211,7 @@ package xoark_db
 	},
 	{
 		genre    = {.IDM},
+		group    = {.ThreeByThree},
 		type     = .Album,
 		series   = .Satellits,
 		rating   = 3,
@@ -3958,11 +4222,12 @@ package xoark_db
 		art      = "satellits-descriptor.webp",
 		url      = "https://xoark.bandcamp.com/album/satellits-descriptor",
 		favorite = "Spacewire 02",
-		comment  = "",
+		comment  = "Desolate spacey ambient",
 		listens  = 1,
 	},
 	{
 		genre    = {.IDM},
+		group    = {},
 		type     = .Album,
 		series   = .Satellits,
 		rating   = 3,
@@ -3978,6 +4243,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Single,
 		series   = .None,
 		rating   = 0,
@@ -3993,6 +4259,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4008,6 +4275,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4023,6 +4291,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4038,6 +4307,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4053,6 +4323,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4068,6 +4339,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Journey,
 		series   = .None,
 		rating   = 0,
@@ -4083,6 +4355,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4098,6 +4371,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4113,6 +4387,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4128,6 +4403,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4143,6 +4419,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4158,6 +4435,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4173,6 +4451,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4188,6 +4467,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4203,6 +4483,7 @@ package xoark_db
 	},
 	{
 		genre    = {.Breakcore},
+		group    = {},
 		type     = .EP,
 		series   = .None,
 		rating   = 3,
@@ -4218,6 +4499,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4233,6 +4515,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4248,6 +4531,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4263,6 +4547,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4278,6 +4563,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4293,6 +4579,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4308,6 +4595,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4323,6 +4611,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4338,6 +4627,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4353,6 +4643,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4368,6 +4659,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4383,6 +4675,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Single,
 		series   = .None,
 		rating   = 0,
@@ -4398,6 +4691,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4413,6 +4707,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4428,6 +4723,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4443,6 +4739,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4458,6 +4755,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4473,6 +4771,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4488,6 +4787,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4503,6 +4803,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4518,6 +4819,7 @@ package xoark_db
 	},
 	{
 		genre    = {.Breakcore},
+		group    = {.ThreeByThree},
 		type     = .Album,
 		series   = .None,
 		rating   = 4,
@@ -4528,11 +4830,12 @@ package xoark_db
 		art      = "tailflamed.webp",
 		url      = "https://xoark.bandcamp.com/album/tailflamed",
 		favorite = "Antennak",
-		comment  = "",
+		comment  = "Most consistently energetic breakcore / dnb album I've heard from XoArK to date. A vibe all throughout.",
 		listens  = 1,
 	},
 	{
 		genre    = {.IDM},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 4,
@@ -4548,6 +4851,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4563,6 +4867,7 @@ package xoark_db
 	},
 	{
 		genre    = {.Breakcore, .SoCalledDnb},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 2,
@@ -4578,6 +4883,7 @@ package xoark_db
 	},
 	{
 		genre    = {.Breakcore},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 3,
@@ -4593,6 +4899,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4608,6 +4915,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4623,6 +4931,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4638,6 +4947,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4653,6 +4963,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4668,6 +4979,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Journey,
 		series   = .None,
 		rating   = 0,
@@ -4683,6 +4995,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Journey,
 		series   = .None,
 		rating   = 0,
@@ -4698,6 +5011,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4713,6 +5027,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4728,6 +5043,7 @@ package xoark_db
 	},
 	{
 		genre    = {.IDM, .Glitch},
+		group    = {.ThreeByThree},
 		type     = .Album,
 		series   = .None,
 		rating   = 4,
@@ -4738,11 +5054,12 @@ package xoark_db
 		art      = "tiryclui.webp",
 		url      = "https://xoark.bandcamp.com/album/tiryclui",
 		favorite = "",
-		comment  = "",
+		comment  = "Glitch journey. Second track has a cool sound. Seemlessly morphs from calm to hectic.",
 		listens  = 1,
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4758,6 +5075,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4773,6 +5091,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4788,6 +5107,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4803,6 +5123,7 @@ package xoark_db
 	},
 	{
 		genre    = {.IDM},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 3,
@@ -4818,6 +5139,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4833,6 +5155,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4848,6 +5171,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4863,6 +5187,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4878,6 +5203,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4893,6 +5219,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4908,6 +5235,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4923,6 +5251,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4938,6 +5267,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4953,6 +5283,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4968,6 +5299,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4983,6 +5315,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -4998,6 +5331,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5013,6 +5347,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5028,6 +5363,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5043,6 +5379,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Journey,
 		series   = .None,
 		rating   = 0,
@@ -5058,6 +5395,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5073,6 +5411,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5088,6 +5427,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5103,6 +5443,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5118,6 +5459,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5133,6 +5475,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5148,6 +5491,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5163,6 +5507,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5178,6 +5523,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5193,6 +5539,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5208,6 +5555,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5223,6 +5571,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5238,6 +5587,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5253,6 +5603,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Single,
 		series   = .None,
 		rating   = 0,
@@ -5268,6 +5619,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5283,6 +5635,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5298,6 +5651,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Journey,
 		series   = .None,
 		rating   = 0,
@@ -5313,6 +5667,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5328,6 +5683,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5343,6 +5699,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5358,6 +5715,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5373,6 +5731,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5388,6 +5747,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5403,6 +5763,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5418,6 +5779,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5433,6 +5795,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5448,6 +5811,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5463,6 +5827,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5478,6 +5843,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5493,6 +5859,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5508,6 +5875,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Single,
 		series   = .None,
 		rating   = 0,
@@ -5523,6 +5891,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Single,
 		series   = .None,
 		rating   = 0,
@@ -5538,6 +5907,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5553,6 +5923,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5568,6 +5939,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5583,6 +5955,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5598,6 +5971,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5613,6 +5987,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5628,6 +6003,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5643,6 +6019,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5658,6 +6035,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5673,6 +6051,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5688,6 +6067,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .Gnocchi,
 		rating   = 0,
@@ -5703,6 +6083,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .Gnocchi,
 		rating   = 0,
@@ -5718,6 +6099,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .Gnocchi,
 		rating   = 0,
@@ -5733,6 +6115,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5748,6 +6131,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5763,6 +6147,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5778,6 +6163,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5793,6 +6179,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5808,6 +6195,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5823,6 +6211,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5838,6 +6227,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5853,6 +6243,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5868,6 +6259,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5883,6 +6275,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Journey,
 		series   = .None,
 		rating   = 0,
@@ -5898,6 +6291,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Journey,
 		series   = .None,
 		rating   = 0,
@@ -5913,6 +6307,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5928,6 +6323,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5943,6 +6339,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Journey,
 		series   = .None,
 		rating   = 0,
@@ -5958,6 +6355,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5973,6 +6371,7 @@ package xoark_db
 	},
 	{
 		genre    = {.Breakcore, .IDM},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -5988,6 +6387,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6003,6 +6403,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6018,6 +6419,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6033,6 +6435,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6048,6 +6451,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Journey,
 		series   = .None,
 		rating   = 0,
@@ -6063,6 +6467,7 @@ package xoark_db
 	},
 	{
 		genre    = {.Breakcore, .Ambient},
+		group    = {},
 		type     = .Album,
 		series   = .P,
 		rating   = 3,
@@ -6078,6 +6483,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6093,6 +6499,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6108,6 +6515,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6123,6 +6531,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6138,6 +6547,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6153,6 +6563,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6168,6 +6579,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Journey,
 		series   = .None,
 		rating   = 0,
@@ -6183,6 +6595,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .Praspis,
 		rating   = 0,
@@ -6198,6 +6611,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .Praspis,
 		rating   = 0,
@@ -6213,6 +6627,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Journey,
 		series   = .Praspis,
 		rating   = 0,
@@ -6228,6 +6643,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .Praspis,
 		rating   = 0,
@@ -6243,6 +6659,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6258,6 +6675,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6273,6 +6691,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6288,6 +6707,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6303,6 +6723,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6318,6 +6739,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Journey,
 		series   = .None,
 		rating   = 0,
@@ -6333,6 +6755,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6348,6 +6771,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6363,6 +6787,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Single,
 		series   = .None,
 		rating   = 0,
@@ -6378,6 +6803,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6393,6 +6819,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6408,6 +6835,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6423,6 +6851,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6438,6 +6867,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6453,6 +6883,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6468,6 +6899,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6483,6 +6915,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6498,6 +6931,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6513,6 +6947,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6528,6 +6963,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6543,6 +6979,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Journey,
 		series   = .None,
 		rating   = 0,
@@ -6558,6 +6995,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Journey,
 		series   = .None,
 		rating   = 0,
@@ -6573,6 +7011,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Journey,
 		series   = .None,
 		rating   = 0,
@@ -6588,6 +7027,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6603,6 +7043,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Journey,
 		series   = .None,
 		rating   = 0,
@@ -6618,6 +7059,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6633,6 +7075,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6648,6 +7091,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6663,6 +7107,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6678,6 +7123,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6693,6 +7139,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6708,6 +7155,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6723,6 +7171,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6738,6 +7187,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6753,6 +7203,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6768,6 +7219,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6783,6 +7235,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6798,6 +7251,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6813,6 +7267,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6828,6 +7283,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6843,6 +7299,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6858,6 +7315,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6873,6 +7331,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6888,6 +7347,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6903,6 +7363,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6918,6 +7379,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6933,6 +7395,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6948,6 +7411,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6963,6 +7427,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6978,6 +7443,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -6993,6 +7459,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -7008,6 +7475,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -7023,6 +7491,7 @@ package xoark_db
 	},
 	{
 		genre    = {},
+		group    = {},
 		type     = .Album,
 		series   = .None,
 		rating   = 0,
@@ -7038,6 +7507,7 @@ package xoark_db
 	},
 	{
 		genre    = {.Breakcore},
+		group    = {.ThreeByThree},
 		type     = .VA,
 		series   = .None,
 		rating   = 4,
@@ -7048,11 +7518,12 @@ package xoark_db
 		art      = "see2.webp",
 		url      = "https://suimoe.bandcamp.com/album/see2",
 		favorite = "y?",
-		comment  = "",
+		comment  = "V.A. with a bunch of interesting artists. Ends up being pretty experimental.",
 		listens  = 1,
 	},
 	{
 		genre    = {.Breakcore},
+		group    = {.ThreeByThree},
 		type     = .Split,
 		series   = .None,
 		rating   = 4,
@@ -7063,7 +7534,7 @@ package xoark_db
 		art      = "1sky.webp",
 		url      = "https://lego6.bandcamp.com/album/1sky",
 		favorite = "Pstch_n46",
-		comment  = "",
+		comment  = "Cool split. Never heard offbeat piano turn into a DnB track before.",
 		listens  = 1,
 	},
 }

@@ -69,6 +69,10 @@ function genreToString(genre) {
     return genres;
 }
 
+function isInGroup(group, groupIndex) {
+    return (group >> groupIndex) & 1;
+}
+
 function ratingToStarString(rating) {
     switch (rating) {
         case 0: return "☆☆☆☆☆";
@@ -111,6 +115,17 @@ const Series = Object.freeze({
     _Count: 9,
 });
 
+const XoarkGroup = Object.freeze({
+    ThreeByThree: 0,
+    Placeholder0: 1,
+    Placeholder1: 2,
+    Placeholder2: 3,
+    Placeholder3: 4,
+    Placeholder4: 5,
+    Placeholder5: 6,
+    Placeholder6: 7,
+});
+
 class XoarkDate {
     constructor(year, month, day) {
         this.year = year;
@@ -138,10 +153,11 @@ class Time {
 }
 
 class Album {
-	genre = 0;                // bit_set[Genre],
+    genre = 0;                // bit_set[Genre],
+    group = 0;                // bit_set[Group],
 	type = 0;                 // Type,
 	series = 0;               // Series,
-	rating = 0;               // u8,
+    rating = 0;               // u8,
 	listened = null;          // Date,
 	released = null;          // Date,
 	duration = null;          // Time,
@@ -157,12 +173,14 @@ function viewReadAlbum(view, cursor) {
     const album = new Album();
     album.genre = view.getUint32(cursor, true);
     cursor += 4;
+    album.group = view.getUint32(cursor, true);
+    cursor += 4;
     album.type = view.getUint8(cursor);
     cursor += 1;
     album.series = view.getUint8(cursor);
     cursor += 1;
     album.rating = view.getUint8(cursor);
-    cursor += 1
+    cursor += 1;
     album.listened = viewGetDate(view, cursor);
     cursor += 4;
     album.released = viewGetDate(view, cursor);

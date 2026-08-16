@@ -1,75 +1,17 @@
 # XoArK Discovery Arc (started 2026.08.02)
 
-I started digging through XoArK's discography, and decided to chronicle it.  
-The page and 3x3 will be updated for as long as I'm actively listening to XoArK.  
-Update: I have discovered the [XoArK Cinematic Universe](/xoark_cinematic_universe/)  
-I haven't documented it extensively, but in the future it might become a good introduction to their work.  
+I started digging through XoArK's discography, and decided to chronicle it. The page and 3x3 will be updated for as long as I'm actively listening to XoArK. Update: I have discovered the [XoArK Cinematic Universe](/xoark_cinematic_universe/). I haven't documented it extensively, but in the future it might become a good introduction to their work.  
 
 [Check out this absolutely photogenic bandcamp page](https://xoark.bandcamp.com/music)
 
 ## 3x3
-The folling are 9 albums by XoArK that I like in no particular order.
+The following are 9 albums by XoArK that I like in no particular order.
 
-<div style="display:grid; grid-template-columns:repeat(3, 1fr); 
-  grid-template-rows:repeat(3, 1fr); gap:8px; width:100%; height:100%;">
-    <div style="overflow:hidden; background:#222;">
-        <a href="https://xoark.bandcamp.com/album/tiryclui">
-            <img src="/xoark_shared/art/tiryclui.webp" style="width:100%; height:100%; object-fit:cover; display:block;">
-        </a>
-    </div>
-    <div style="overflow:hidden; background:#222;">
-        <a href="https://xoark.bandcamp.com/album/p-48">
-            <img src="/xoark_shared/art/p-48.webp" style="width:100%; height:100%; object-fit:cover; display:block;">
-        </a>
-    </div>
-    <div style="overflow:hidden; background:#222;">
-        <a href="https://lego6.bandcamp.com/album/1sky">
-            <img src="/xoark_shared/art/1sky.webp" style="width:100%; height:100%; object-fit:cover; display:block;">
-        </a>
-    </div>
-    <div style="overflow:hidden; background:#222;">
-        <a href="https://xoark.bandcamp.com/album/tailflamed">
-            <img src="/xoark_shared/art/tailflamed.webp" style="width:100%; height:100%; object-fit:cover; display:block;">
-        </a>
-    </div>
-    <div style="overflow:hidden; background:#222;">
-        <a href="https://suimoe.bandcamp.com/album/see2">
-            <img src="/xoark_shared/art/see2.webp" style="width:100%; height:100%; object-fit:cover; display:block;">
-        </a>
-    </div>
-    <div style="overflow:hidden; background:#222;">
-        <a href="https://xoark.bandcamp.com/album/satellits-descriptor">
-            <img src="/xoark_shared/art/satellits-descriptor.webp" style="width:100%; height:100%; object-fit:cover; display:block;">
-        </a>
-    </div>
-    <div style="overflow:hidden; background:#222;">
-        <a href="https://xoark.bandcamp.com/album/nssrwnt">
-            <img src="/xoark_shared/art/nssrwnt.webp" style="width:100%; height:100%; object-fit:cover; display:block;">
-        </a>
-    </div>
-    <div style="overflow:hidden; background:#222;">
-        <a href="https://suimoe.bandcamp.com/album/p-32">
-            <img src="/xoark_shared/art/p-32.webp" style="width:100%; height:100%; object-fit:cover; display:block;">
-        </a>
-    </div>
-    <div style="overflow:hidden; background:#222;">
-        <a href="https://xoark.bandcamp.com/album/p-16">
-            <img src="/xoark_shared/art/p-16.webp" style="width:100%; height:100%; object-fit:cover; display:block;">
-        </a>
-    </div>
-  </div>
+<div id="threeByThree" style="display:grid; grid-template-columns:repeat(3, 1fr); grid-template-rows:repeat(3, 1fr); gap:8px; width:100%; height:100%;"></div>
 
 Albums on the 3x3 left to right, top to bottom:
 
-1) [Tiryclui](https://xoark.bandcamp.com/album/tiryclui) - Interesting glitch journey. Second track has a cool sound. And it seemlessly morphs hecticism.
-2) [P()~()..48](https://xoark.bandcamp.com/album/p-48) - If you don't listen to IDM while working with databases you lose 20% efficiency (at least)
-3) [1sky](https://lego6.bandcamp.com/album/1sky) - Variety. Never heard offbeat piano turn into a DnB track before.
-4) [Tailflamed](https://xoark.bandcamp.com/album/tailflamed) - Most consistently energetic breakcore / dnb album I've heard from XoArK to date. A vibe all throughout.
-5) [See2](https://suimoe.bandcamp.com/album/see2) - V.A. with a bunch of interesting artists. Ends up being pretty experimental.
-6) [Satellits: Descriptor](https://xoark.bandcamp.com/album/satellits-descriptor) - Desolate spacey ambient
-7) [Nssrwnt](https://xoark.bandcamp.com/album/nssrwnt) - Eerie ambient journey through a big dataplex.
-8) [P()~()..32](https://suimoe.bandcamp.com/album/p-32) - Some of XoArK's most satisfying breaks to date.
-9) [P()~()..16](https://xoark.bandcamp.com/album/p-16) - Immersive. Goes from breakcore to noise / glitch. You're in transit.
+<ol id="threeByThreeDescription"></ol>
 
 <style>
 th, td {border:1px solid gray;}
