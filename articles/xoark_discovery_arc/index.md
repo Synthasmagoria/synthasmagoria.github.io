@@ -13,10 +13,6 @@ Albums on the 3x3 left to right, top to bottom:
 
 <ol id="threeByThreeDescription"></ol>
 
-<style>
-th, td {border:1px solid gray;}
-td {text-align: center;}
-</style>
 <div id="table"></div>
 <script src="/xoark_shared/xoark_db.js"></script>
 <script src="tables.js"></script>
