@@ -61,7 +61,7 @@ package xoark_db
 		title    = "#1d1138",
 		art      = "1d1138.webp",
 		url      = "https://xoark.bandcamp.com/album/1d1138",
-		favorite = "",
+		favorite = "N/A",
 		comment  = "WAO! WAO!",
 		listens  = 2,
 	},
