@@ -112,7 +112,8 @@ const Series = Object.freeze({
     Praspis: 6,
     Gnocchi: 7,
     Runtime: 8,
-    _Count: 9,
+    X: 9,
+    _Count: 10,
 });
 
 const XoarkGroup = Object.freeze({
