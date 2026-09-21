@@ -24,25 +24,20 @@ function createAndInsertTable(targetId, items) {
     for (let i = 0; i < items.length; i++) {
         html.push(`
         <tr>
-            <td><a href="${items[i].url}">${items[i].title}</a></td>
-            <td>${dateToString(items[i].listened)}</td>
-            <td>${items[i].released}</td>
-            <td>${genreToString(items[i].genre)}</td>
-            <td>${items[i].duration}</td>
-            <td>${ratingToStarString(items[i].rating)}</td>
-            <td>${TypeString[items[i].type]}</td>
-            <td>`);
+            <td style="width:20%" class="flex"><a href="${items[i].url}">${items[i].title}</a></td>
+            <td class=\"fit\">${dateToString(items[i].listened)}</td>
+            <td class=\"fit\">${items[i].released}</td>
+            <td class=\"flex\">${genreToString(items[i].genre)}</td>
+            <td class=\"fit\">${items[i].duration}</td>
+            <td class=\"fit\">${ratingToStarString(items[i].rating)}</td>
+            <td class=\"fit\">${TypeString[items[i].type]}</td>`);
         if (items[i].comment.length > 0) {
-            html.push(`
-            <div class="tooltip">
-                ${items[i].favorite}
-            <span class="tooltiptext">${items[i].comment}</span>
-            </div>`);
+            html.push(`<td style="text-decoration:underline #ddd wavy 1px;" class="flex" title="${items[i].comment}">${items[i].favorite}</td>`);
         } else {
-            html.push(`${items[i].favorite}`);
+            html.push(`<td class="flex">${items[i].favorite}</td>`);
         }
-        html.push(`</td>
-            <td>${items[i].listens}</td>
+        html.push(`
+            <td class=\"fit\">${items[i].listens}</td>
         </tr>`);
     }
     html.push(`

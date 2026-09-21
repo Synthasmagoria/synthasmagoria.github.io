@@ -2,11 +2,6 @@
 
 In a blog post from the 2026.08.10 I detailed the XoArK cinematic universe. I made bold claims such as: creatures indicate the style of the music, and that there's is a secret hash hidden in the titles of the 1-3 single releases. I wont be able to prove any of this yet, however I will try to create a somewhat comprehensive map of the album groups in XoArK's discography and my understanding of them.
 
-<style>
-th, td {border:1px solid gray;}
-tr {text-align: center;}
-</style>
-
 ## P()~()..X (2021 - XXXX)
 
 This series of albums acts as a great introduction to XoArK's main styles. The focus is mostly on breakcore or IDM, and the albums flow nicely due to the inclusion of ambient and noise interludes. While these works aren't particularly conceptual (excluding P()~()..16) they feature some of XoArK's choppiest breaks and most trance-inducing rhythms. A bit of XoArK's evolution as an artist is also encapsulated in each release. So, whichever sound you end up liking you're sure to find more by perusing their other works from the same time.
@@ -115,6 +110,25 @@ WIP
 </div>
 </div>
 <div id="gnocchi"></div>
+
+<script src="/xoark_shared/xoark_db.js"></script>
+<script src="tables.js"></script>
+
+
+## Base64 (2019 - 2022)
+
+<div style="margin-bottom: 16px; display: flex; align-items: flex-start; gap: 20px;">
+<div style="flex: 1.3;">
+
+WIP
+
+</div>
+<br/>
+<div style="flex: 0.7;">
+<img src="/xoark_shared/art/6b3e1b593692c2e664cb766eea3d.webp"/>
+</div>
+</div>
+<div id="base64"></div>
 
 <script src="/xoark_shared/xoark_db.js"></script>
 <script src="tables.js"></script>
