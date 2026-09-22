@@ -65,6 +65,5 @@ fetch("/xoark_shared/xoark_db.bin").then((response) => {
         createAndInsertTable("praspis", albums[Series.Praspis]);
         createAndInsertTable("gnocchi", albums[Series.Gnocchi]);
         createAndInsertTable("base64", albums[Series.Base64]);
-        createAndInsertTable("x", albums[Series.X]);
     });
 });
