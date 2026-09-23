@@ -15,9 +15,10 @@
 		<ul class="menu">
 			<li><a href="/">Home</a></li>
 			<li><a href="/articles/">Articles</a></li>
+			<li><a href="/tools_and_libraries/">Tools & Libraries</a></li>
 			<li><a href="https://synthasmagoria.itch.io/">Games</a></li>
 			<li><a href="https://github.com/Synthasmagoria">GitHub</a></li>
-			<li><a href="https://offgrd.xyz/git/Synthasmagoria/">Offgrd (Source forge)</a></li>
+			<li><a href="https://offgrd.xyz/git/Synthasmagoria/">Offgrd</a></li>
 		</ul>
 <h1 id="header-0"><a href="#header-0">Extensions and Complexity</a></h1><h2 id="header-1"><a href="#header-1">The case for and against TweenGMS</a></h2><p>I have used TweenGMS for a decently long time. It's a really cool extension that does exactly what I need it to. It turns making animations such as these into quick one-liners:</p><p><img src="tweens.gif"></img></p><p><em>This is pseudocode</em></p><pre><code class="language-gml">TweenFire(square, EaseInOutBounce, TweenMode.Repeat, true, 0, 2, &#34;image_angle&#34;, 0, 360);
 TweenFire(circle, EaseInOutSine, TweenMode.Repeat, true, 0, 2, &#34;y&#34;, ystart + 64, ystart - 64);
