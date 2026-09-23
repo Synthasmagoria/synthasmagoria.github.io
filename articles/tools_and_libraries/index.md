@@ -1,6 +1,6 @@
 # Tools and Libraries
 
-I have not listed pre-2023 things. They're mostly games and you can find them on my Itch.io.
+I have not listed pre-2023 things as they're mostly games and you can find them on my Itch.io.
 
 ### [GMCollage](https://github.com/Synthasmagoria/GMCollage) (<span style="color: gray;">C</span>) - 2023.08.10
 Allows you to modularize your GameMaker Studio 1.4 projects to speed up compile time<br>
@@ -8,7 +8,7 @@ Video: [https://youtu.be/9xO-IdB6qrk](https://youtu.be/9xO-IdB6qrk)<br>
 [https://github.com/Synthasmagoria/GMCollage](https://github.com/Synthasmagoria/GMCollage)
 
 ### [LDtk-GMS](https://github.com/Synthasmagoria/LDtk-GMS) (<span style="color: lime;">GML</span>) - 2024.04.31
-LDT file loading and integration for GameMaker Studio 1.4<br>
+[LDTK](https://ldtk.io/) file loading and integration for GameMaker Studio 1.4<br>
 [https://github.com/Synthasmagoria/LDtk-GMS](https://github.com/Synthasmagoria/LDtk-GMS)
 
 ### [GameMaker Signals / GameMaker 8.2 Signals](https://github.com/Synthasmagoria/gm-signals) (<span style="color: lime;">GML</span>) - 2025.06.19
@@ -42,17 +42,24 @@ Single script implementation of materials for GameMaker<br>
 Blog post: [https://synthasmagoria.github.io/materials_in_gm/](https://synthasmagoria.github.io/materials_in_gm/)<br>
 [https://offgrd.xyz/git/Synthasmagoria/gamemaker_material](https://offgrd.xyz/git/Synthasmagoria/gamemaker_material)
 
+### [gamemaker_regenerate_extension](https://offgrd.xyz/git/Synthasmagoria/gamemaker_regenerate_extension) (<span style="color: #60AFFE;">Odin</span>) - 2026.04.06
+Tool that generates binding code for Odin GameMaker extensions by looking at the AST of the package<br>
+[https://offgrd.xyz/git/Synthasmagoria/gamemaker_regenerate_extension](https://offgrd.xyz/git/Synthasmagoria/gamemaker_regenerate_extension)
+
+### [static_website_generator](https://github.com/Synthasmagoria/synthasmagoria.github.io/blob/master/generator/main.odin) - - (<span style="color: #60AFFE;">Odin</span>) 2026.05.13
+Generates static websites from markdown files to make it nicer to make blogs (like this one).<br>
+Inspired by [GingerBill's video](https://youtu.be/YvnTsiIFXeI)<br>
+Also used in [this game development blog](https://redbatnick.github.io/Rosie_Times_Ahead/)<br>
+[https://github.com/Synthasmagoria/synthasmagoria.github.io/blob/master/generator/main.odin](https://github.com/Synthasmagoria/synthasmagoria.github.io/blob/master/generator/main.odin)
+
 ### [gamemaker_enum_reflection_gen](https://offgrd.xyz/git/Synthasmagoria/gamemaker_enum_reflection_gen) (<span style="color: #60AFFE;">Odin</span>) - 2026.05.28
 Tool that generates a GML script containing enum reflection data. Useful for error messages.<br>
 Blog post: [https://synthasmagoria.github.io/error_handling_in_gm/](https://synthasmagoria.github.io/error_handling_in_gm/)<br>
 [https://offgrd.xyz/git/Synthasmagoria/gamemaker_enum_reflection_gen](https://offgrd.xyz/git/Synthasmagoria/gamemaker_enum_reflection_gen)
 
-### [gamemaker_regenerate_extension](https://offgrd.xyz/git/Synthasmagoria/gamemaker_regenerate_extension) (<span style="color: #60AFFE;">Odin</span>) - 2025.04.06
-Tool that generates binding code for Odin GameMaker extensions by looking at the AST of the package<br>
-[https://offgrd.xyz/git/Synthasmagoria/gamemaker_regenerate_extension](https://offgrd.xyz/git/Synthasmagoria/gamemaker_regenerate_extension)
-
 ### [looping_intrusive_list](https://offgrd.xyz/git/Synthasmagoria/looping_intrusive_list) (<span style="color: #60AFFE;">Odin</span>) - 2026.07.17
-A custom implementation of Odin's core:container/list/intrusive that loops at the end instead of stopping<br>
+A custom implementation of Odin's [core:container/intrusive/list](https://pkg.odin-lang.org/core/container/intrusive/list/) that loops at the end instead of stopping<br>
+Inspired by this [hearwarming live coding session](https://youtu.be/ShSGHb65f3M) on the Wookash podcast by Anton Mikhailov<br>
 [https://offgrd.xyz/git/Synthasmagoria/looping_intrusive_list](https://offgrd.xyz/git/Synthasmagoria/looping_intrusive_list)
 
 ### [odin_js_enum_gen](https://offgrd.xyz/git/Synthasmagoria/odin_js_enum_gen) (<span style="color: #60AFFE;">Odin</span>) - 2026.08.16
