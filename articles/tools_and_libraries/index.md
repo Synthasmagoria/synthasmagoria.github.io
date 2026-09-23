@@ -4,6 +4,7 @@ I have not listed pre-2023 things. They're mostly games and you can find them on
 
 ### [GMCollage](https://github.com/Synthasmagoria/GMCollage) (<span style="color: gray;">C</span>) - 2023.08.10
 Allows you to modularize your GameMaker Studio 1.4 projects to speed up compile time<br>
+Video: [https://youtu.be/9xO-IdB6qrk](https://youtu.be/9xO-IdB6qrk)<br>
 [https://github.com/Synthasmagoria/GMCollage](https://github.com/Synthasmagoria/GMCollage)
 
 ### [LDtk-GMS](https://github.com/Synthasmagoria/LDtk-GMS) (<span style="color: lime;">GML</span>) - 2024.04.31
@@ -12,6 +13,7 @@ LDT file loading and integration for GameMaker Studio 1.4<br>
 
 ### [GameMaker Signals / GameMaker 8.2 Signals](https://github.com/Synthasmagoria/gm-signals) (<span style="color: lime;">GML</span>) - 2025.06.19
 A simple single script signal pattern implementation<br>
+Video: [https://youtu.be/B_rbNxNllgA](https://youtu.be/B_rbNxNllgA)<br>
 GameMaker version: [https://github.com/Synthasmagoria/gm-signals](https://github.com/Synthasmagoria/gm-signals)<br>
 GameMaker 8.2 version: [https://github.com/Synthasmagoria/gm8.2-signals](https://github.com/Synthasmagoria/gm8.2-signals)
 
