@@ -69,5 +69,5 @@ Blog post: [Cross Compiling for web](/cross_compiling_for_web/)<br>
 Try online: [https://synthasmagoria.itch.io/transformation-visualizer](https://synthasmagoria.itch.io/transformation-visualizer)
 
 ### [projectile_effect_manager](https://offgrd.xyz/git/Synthasmagoria/projectile_effect_manager) (<span style="color: #60AFFE;">Odin</span> / <span style="color: lime;">GML</span>) - 2026.09.23
-Custom particle system for GameMaker for quicker particle types, 3d rotation, and better color control.
+Custom particle system for GameMaker for quicker particle types, 3d rotation, and better color control.<br>
 [https://offgrd.xyz/git/Synthasmagoria/projectile_effect_manager](https://offgrd.xyz/git/Synthasmagoria/projectile_effect_manager)
