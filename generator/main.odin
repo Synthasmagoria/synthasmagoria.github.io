@@ -185,9 +185,10 @@ HTML_HEADER_END ::
 "		<ul class=\"menu\">\n" +
 "			<li><a href=\"/\">Home</a></li>\n" +
 "			<li><a href=\"/articles/\">Articles</a></li>\n" +
+"			<li><a href=\"/tools_and_libraries/\">Tools & Libraries</a></li>\n" +
 "			<li><a href=\"https://synthasmagoria.itch.io/\">Games</a></li>\n" +
 "			<li><a href=\"https://github.com/Synthasmagoria\">GitHub</a></li>\n" +
-"			<li><a href=\"https://offgrd.xyz/git/Synthasmagoria/\">Offgrd (Source forge)</a></li>\n" +
+"			<li><a href=\"https://offgrd.xyz/git/Synthasmagoria/\">Offgrd</a></li>\n" +
 "		</ul>\n"
 
 HTML_FOOTER ::
