@@ -65,7 +65,7 @@ Immediate mode UI layout library<br>
 
 ### [transformation_visualizer](https://synthasmagoria.itch.io/transformation-visualizer) (<span style="color: #60AFFE;">Odin</span>) - 2026.09.21
 Matrix math visualization tool. Inspired by 3blue1brown's linear algebra series.<br>
-Blog post: [https://synthasmagoria.itch.io/transformation-visualizer](https://synthasmagoria.itch.io/transformation-visualizer)<br>
+Blog post: [Cross Compiling for web](/cross_compiling_for_web/)<br>
 Try online: [https://synthasmagoria.itch.io/transformation-visualizer](https://synthasmagoria.itch.io/transformation-visualizer)
 
 ### [projectile_effect_manager](https://offgrd.xyz/git/Synthasmagoria/projectile_effect_manager) (<span style="color: #60AFFE;">Odin</span> / <span style="color: lime;">GML</span>) - 2026.09.23
