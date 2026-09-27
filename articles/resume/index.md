@@ -20,7 +20,7 @@ Online multiplayer game focusing on community building and social interactions. 
 
 ### [EPIC-WE Unity VR support](https://www.linkedin.com/feed/update/urn:li:activity:7358769646952488962/)
 Freelance work. Helping students make VR games in Unity. Projects showcased at [AROS Aarhus](https://www.aros.dk/en)<br>
-[https://www.linkedin.com/feed/update/urn:li:activity:7358769646952488962/](https://www.linkedin.com/feed/update/urn:li:activity:7358769646952488962/)
+[https://www.linkedin.com/feed/update/urn:li:activity:7358769646952488962/](https://www.linkedin.com/feed/update/urn:li:activity:7358769646952488962/)<br>
 *skills: Teaching, C#*
 
 ### [Transformation Visualizer](https://synthasmagoria.itch.io/transformation-visualizer)
