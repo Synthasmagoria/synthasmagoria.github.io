@@ -14,7 +14,7 @@ I have many projects: [tools](/tools_and_libraries/), [games](https://synthasmag
 
 ## Experience
 ### [Muller Village](https://megabytemagician.itch.io/muller-village)
-Online multiplayer game focusing on community building and social interactions. Steam page coming in a week. <br>
+Online multiplayer 3d game focusing on community building and social interactions. Steam page coming in a week. <br>
 *skills: SQLite, TypeScript (language), Websockets*<br>
 [Play game](https://megabytemagician.itch.io/muller-village)
 
