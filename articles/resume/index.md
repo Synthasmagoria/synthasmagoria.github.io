@@ -1,8 +1,11 @@
 # Resume
 
+## Contact
+email: jarklu@protonmail.com
+
 <hr>
-    
-## The person
+
+## Person
 Realtime software and tools programmer with a background in game engine programming.<br>
 Been programming very actively for 10 years+. Self taught.<br>
 I have many projects: [tools](/tools_and_libraries/), [games](https://synthasmagoria.itch.io/) and [game engine plugins](https://offgrd.xyz/git/Synthasmagoria/projectile_effect_manager), [fragment art shaders for fun](https://www.shadertoy.com/user/Synthasmagoria). Almost all of them are open source, either on [github](https://github.com/Synthasmagoria?tab=repositories), or on my [personal source forge](https://offgrd.xyz/git/Synthasmagoria).
