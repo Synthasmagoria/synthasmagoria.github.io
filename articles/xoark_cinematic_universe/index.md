@@ -92,10 +92,6 @@ WIP
 </div>
 <div id="praspis"></div>
 
-<script src="/xoark_shared/xoark_db.js"></script>
-<script src="tables.js"></script>
-
-
 ## Gnocchi (2018 - 2021)
 
 <div style="margin-bottom: 16px; display: flex; align-items: flex-start; gap: 20px;">
@@ -111,10 +107,6 @@ WIP
 </div>
 <div id="gnocchi"></div>
 
-<script src="/xoark_shared/xoark_db.js"></script>
-<script src="tables.js"></script>
-
-
 ## Base64 (2019 - 2022)
 
 <div style="margin-bottom: 16px; display: flex; align-items: flex-start; gap: 20px;">
@@ -129,6 +121,23 @@ WIP
 </div>
 </div>
 <div id="base64"></div>
+
+## Missing / broken (2019 - ongoing)
+
+<div style="margin-bottom: 16px; display: flex; align-items: flex-start; gap: 20px;">
+<div style="flex: 1.3;">
+
+WIP
+
+</div>
+<br/>
+<div style="flex: 0.7;">
+<img src="/xoark_shared/art/warning-you-should-reduce-source-level-to-avoid-clipping-use-gain-of-0858625.avif"/>
+</div>
+</div>
+<div id="missing-broken"></div>
+
+
 
 <script src="/xoark_shared/xoark_db.js"></script>
 <script src="tables.js"></script>

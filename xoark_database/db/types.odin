@@ -19,7 +19,7 @@ Genre :: enum u8 {
 	Breakcore,
 	SoCalledDnb,
 	Ambient,
-	Placeholder01,
+	Rave,
 	Placeholder02,
 	Placeholder03,
 	Placeholder04,
