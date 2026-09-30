@@ -11,7 +11,7 @@ const Genre = Object.freeze({
     Breakcore: 3,
     SoCalledDnb: 4,
     Ambient: 5,
-    Placeholder01: 6,
+    Rave: 6,
     Placeholder02: 7,
     Placeholder03: 8,
     Placeholder04: 9,
