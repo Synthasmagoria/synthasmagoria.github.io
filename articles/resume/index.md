@@ -14,10 +14,10 @@ I have many projects: [tools](/tools_and_libraries/), [games](https://synthasmag
 <hr>
 
 ## Experience
-### [Muller Village](https://megabytemagician.itch.io/muller-village)
+### [Muller Village](https://store.steampowered.com/app/5254090/Muller_Village)
 Online multiplayer 3d game focusing on community building and social interactions. Steam page coming in a week. <br>
 *skills: SQLite, TypeScript (language), Websockets*<br>
-[Play game](https://megabytemagician.itch.io/muller-village)
+[Steam](https://store.steampowered.com/app/5254090/Muller_Village)
 
 ### [EPIC-WE Unity VR support](https://www.linkedin.com/feed/update/urn:li:activity:7358769646952488962/)
 Freelance work. Helping students make VR games in Unity. Projects showcased at [AROS Aarhus](https://www.aros.dk/en)<br>
