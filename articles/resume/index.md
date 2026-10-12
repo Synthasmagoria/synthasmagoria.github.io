@@ -19,9 +19,9 @@ Online multiplayer 3d game focusing on community building and social interaction
 *skills: SQLite, TypeScript (language), Websockets*<br>
 [Steam](https://store.steampowered.com/app/5254090/Muller_Village)
 
-### [EPIC-WE Unity VR support](https://www.linkedin.com/feed/update/urn:li:activity:7358769646952488962/)
-Freelance work. Helping students make VR games in Unity. Projects showcased at [AROS Aarhus](https://www.aros.dk/en)<br>
-*skills: Teaching, C# (language)*<br>
+### [EPIC-WE Unity VR & P5.js support](https://www.linkedin.com/feed/update/urn:li:activity:7358769646952488962/)
+Freelance work. Helping students make VR games in Unity, and 2d games in P5.js. Projects were showcased at [AROS Aarhus](https://www.aros.dk/en)<br>
+*skills: Teaching, C# (language), JavaScript (language), Unity (Game engine), P5 (Game framework)*<br>
 [https://www.linkedin.com/feed/update/urn:li:activity:7358769646952488962/](https://www.linkedin.com/feed/update/urn:li:activity:7358769646952488962/)
 
 ### [Transformation Visualizer](https://synthasmagoria.itch.io/transformation-visualizer)
