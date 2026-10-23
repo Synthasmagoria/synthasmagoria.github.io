@@ -14,22 +14,22 @@ I have many projects: [tools](/tools_and_libraries/), [games](https://synthasmag
 <hr>
 
 ## Experience
-### [Muller Village](https://store.steampowered.com/app/5254090/Muller_Village)
+### [Muller Village (2026.08 - Ongoing)](https://store.steampowered.com/app/5254090/Muller_Village)
 Online multiplayer 3d game focusing on community building and social interactions.<br>
 *skills: SQLite, TypeScript (language), Websockets*<br>
 [Steam](https://store.steampowered.com/app/5254090/Muller_Village)
 
-### [EPIC-WE Unity VR & P5.js support](https://www.linkedin.com/feed/update/urn:li:activity:7358769646952488962/)
+### [EPIC-WE Unity VR & P5.js support (2025.03)](https://www.linkedin.com/feed/update/urn:li:activity:7358769646952488962/)
 Freelance work. Helping students make VR games in Unity, and 2d games in P5.js. Projects were showcased at [AROS Aarhus](https://www.aros.dk/en)<br>
 *skills: Teaching, C# (language), JavaScript (language), Unity (Game engine), P5 (Game framework)*<br>
 [https://www.linkedin.com/feed/update/urn:li:activity:7358769646952488962/](https://www.linkedin.com/feed/update/urn:li:activity:7358769646952488962/)
 
-### [Transformation Visualizer](https://synthasmagoria.itch.io/transformation-visualizer)
+### [Transformation Visualizer (2026.09)](https://synthasmagoria.itch.io/transformation-visualizer)
 Matrix/linear algebra visualization tool. Built for web and native.<br>
 *skills: memory management, manual web/native compilation, Odin (language), C (language)*<br>
 [Try Online](https://synthasmagoria.itch.io/transformation-visualizer)
 
-### [GMCollage](https://youtu.be/9xO-IdB6qrk)
+### [GMCollage (2023.08)](https://youtu.be/9xO-IdB6qrk)
 A compiler "hack" that allows for modularization of GameMaker Studio 1 projects.<br>
 *skills: game engine architecture, Python (language), C (language)*<br>
 [Video Presentation / talk](https://youtu.be/9xO-IdB6qrk)
